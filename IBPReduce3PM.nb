@@ -23651,7 +23651,7 @@ Cell[BoxData[
 },
 Evaluator->"M0",
 WindowSize->{1004, 795},
-WindowMargins->{{Automatic, 160}, {Automatic, 0}},
+WindowMargins->{{126, Automatic}, {Automatic, 0}},
 PrivateNotebookOptions->{"VersionedStylesheet"->{"Default.nb"[8.] -> False}},
 TaggingRules->Association["TryRealOnly" -> False],
 Magnification:>1.25 Inherited,
