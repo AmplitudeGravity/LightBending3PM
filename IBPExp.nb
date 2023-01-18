@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[    521517,      13559]
-NotebookOptionsPosition[    503713,      13318]
-NotebookOutlinePosition[    504356,      13339]
-CellTagsIndexPosition[    504313,      13336]
+NotebookDataLength[    524341,      13563]
+NotebookOptionsPosition[    506551,      13322]
+NotebookOutlinePosition[    507194,      13343]
+CellTagsIndexPosition[    507151,      13340]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -2593,17 +2593,18 @@ Cell[BoxData[
        RowBox[{"Length", "@", "dotIBPlist"}]}], "}"}]}], "]"}], ",", "jj"}], 
   "]"}]], "Input",
  CellChangeTimes->{3.883001601027252*^9, 3.8830018186687*^9},
- CellLabel->"In[98]:=",ExpressionUUID->"808ece2e-e7b6-41a6-bdfa-5435b925f73c"],
+ CellLabel->
+  "In[117]:=",ExpressionUUID->"808ece2e-e7b6-41a6-bdfa-5435b925f73c"],
 
 Cell[CellGroupData[{
 
 Cell[BoxData["\<\"Executing nothing. Everything was already set?\"\>"], \
 "Print",
  CellChangeTimes->{3.8830016218449574`*^9, 3.883001819527059*^9, 
-  3.8830022103513803`*^9},
+  3.8830022103513803`*^9, 3.88304530260007*^9},
  CellLabel->
   "During evaluation of \
-In[98]:=",ExpressionUUID->"da59ffe0-0739-42a9-8293-7dc5642bfb20"],
+In[117]:=",ExpressionUUID->"9b9d56f4-c328-42e3-8461-bf1544171f82"],
 
 Cell[BoxData[
  RowBox[{"{", 
@@ -2630,37 +2631,38 @@ Cell[BoxData[
    RowBox[{"l1", "\[CenterDot]", "q1"}], ",", 
    RowBox[{"l2", "\[CenterDot]", "q1"}]}], "}"}]], "Print",
  CellChangeTimes->{3.8830016218449574`*^9, 3.883001819527059*^9, 
-  3.883002210353936*^9},
+  3.8830022103513803`*^9, 3.883045302602902*^9},
  CellLabel->
   "During evaluation of \
-In[98]:=",ExpressionUUID->"a788c2bf-e5a7-4b19-8cb1-9a02d2c35185"]
+In[117]:=",ExpressionUUID->"83b73fb7-be12-4e0e-818a-3161cb379c2b"]
 }, Open  ]],
 
 Cell[BoxData[
  TemplateBox[{
   "LiteRed`Private`WarnSet", "warn", 
    "\"Use \\!\\(\\*RowBox[{\\\"NewDsBasis\\\"}]\\) instead of \
-\\!\\(\\*RowBox[{\\\"NewDsBasis\\\"}]\\).\"", 2, 98, 26, 33353475058390769569,
-    "IBP1", "LiteRed`Private`WarnSet"},
+\\!\\(\\*RowBox[{\\\"NewDsBasis\\\"}]\\).\"", 2, 117, 34, 
+   33353475058390769569, "IBP1", "LiteRed`Private`WarnSet"},
   "MessageTemplate2"]], "Message", "MSG",
  CellChangeTimes->{3.883001621850072*^9, 3.883001819531164*^9, 
-  3.883002210355466*^9},
+  3.883002210355466*^9, 3.883045302604465*^9},
  CellLabel->
   "During evaluation of \
-In[98]:=",ExpressionUUID->"7d7c6f1d-89f0-4b72-bcbe-49fc2bba1b15"],
+In[117]:=",ExpressionUUID->"8559039a-ae6d-4932-84ed-2ab5c5efbea8"],
 
 Cell[BoxData[
  TemplateBox[{
   "NewDsBasis", "ovrw", 
    "\"Warning: definitions for \\!\\(\\*RowBox[{\\\"gr1\\\"}]\\) has been \
 found. They may interfere with the upcoming definitions. Clearing definitions\
-\[Ellipsis]\"", 2, 98, 27, 33353475058390769569, "IBP1", "LiteRed`NewDsBasis"},
+\[Ellipsis]\"", 2, 117, 35, 33353475058390769569, "IBP1", 
+   "LiteRed`NewDsBasis"},
   "MessageTemplate2"]], "Message", "MSG",
  CellChangeTimes->{3.883001621850072*^9, 3.883001819531164*^9, 
-  3.883002210362028*^9},
+  3.883002210355466*^9, 3.8830453026113443`*^9},
  CellLabel->
   "During evaluation of \
-In[98]:=",ExpressionUUID->"b848b5e4-9511-4335-9d7e-511aea86e688"],
+In[117]:=",ExpressionUUID->"8e3c6bc5-494c-4c6e-bebe-b2281ed641a1"],
 
 Cell[CellGroupData[{
 
@@ -2673,35 +2675,35 @@ masses, dimension),\\n    Toj[gr1] \[LongDash] rules to transform scalar \
 products to denominators,\\n    CutDs[gr1] \[LongDash] flag vector of cut \
 denominators.\"\>"], "Print",
  CellChangeTimes->{3.8830016218449574`*^9, 3.883001819527059*^9, 
-  3.8830022103671007`*^9},
+  3.8830022103513803`*^9, 3.883045302615966*^9},
  CellLabel->
   "During evaluation of \
-In[98]:=",ExpressionUUID->"475cfb45-c674-44ee-9606-670753b64445"],
+In[117]:=",ExpressionUUID->"4d81466e-5d2f-4595-b769-86034fc72ec7"],
 
 Cell[BoxData["\<\"Identities are generated.\\n    IBP[gr1] \[LongDash] \
 integration-by-part identities,\\n    LI[gr1] \[LongDash] Lorentz invariance \
 identities.\"\>"], "Print",
  CellChangeTimes->{3.8830016218449574`*^9, 3.883001819527059*^9, 
-  3.88300221038869*^9},
+  3.8830022103513803`*^9, 3.883045302640539*^9},
  CellLabel->
   "During evaluation of \
-In[98]:=",ExpressionUUID->"3c011fa0-0eec-45ae-b6d1-4f1ed2873db2"],
+In[117]:=",ExpressionUUID->"7fc9c390-1b67-45d3-8a84-78464f2f4737"],
 
 Cell[BoxData["\<\"Updated SectorsPattern[gr1] \[LongDash] pattern for all \
 relevant sectors of the basis gr1.\"\>"], "Print",
  CellChangeTimes->{3.8830016218449574`*^9, 3.883001819527059*^9, 
-  3.88300221044691*^9},
+  3.8830022103513803`*^9, 3.883045302730872*^9},
  CellLabel->
   "During evaluation of \
-In[98]:=",ExpressionUUID->"405815d2-c718-4539-9201-71d37f7e9f6d"],
+In[117]:=",ExpressionUUID->"35058d3f-eb47-437c-b2e3-224bffa3b1a8"],
 
 Cell[BoxData["\<\"Updated CutDs[gr1] \[LongDash] cut denominators of the \
 basis gr1.\"\>"], "Print",
  CellChangeTimes->{3.8830016218449574`*^9, 3.883001819527059*^9, 
-  3.883002210448189*^9},
+  3.8830022103513803`*^9, 3.883045302732223*^9},
  CellLabel->
   "During evaluation of \
-In[98]:=",ExpressionUUID->"5aaa9764-bcdc-4850-a64e-598f94c74efe"],
+In[117]:=",ExpressionUUID->"f6585093-bb46-4cc2-aba1-32e926892a8e"],
 
 Cell[BoxData["\<\"Found 124(4) zero(nonzero) sectors out of 128.\\n    \
 ZeroSectors[gr1] \[LongDash] zero sectors,\\n    NonZeroSectors[gr1] \
@@ -2711,10 +2713,10 @@ sectors (at least one immediate subsector is zero),\\n    ZerojRule[gr1] \
 \[LongDash] a rule to nullify all zero j[gr1\[Ellipsis]],\\n    CutDs[gr1] \
 \[LongDash] a flag list of cut denominators (1=cut).\"\>"], "Print",
  CellChangeTimes->{3.8830016218449574`*^9, 3.883001819527059*^9, 
-  3.8830022104492693`*^9},
+  3.8830022103513803`*^9, 3.883045302733357*^9},
  CellLabel->
   "During evaluation of \
-In[98]:=",ExpressionUUID->"bf29284a-75fd-431d-bb4e-77a37a02e8ea"],
+In[117]:=",ExpressionUUID->"a874f396-2d42-4abb-82d6-b73e5ac37c43"],
 
 Cell[BoxData["\<\"Found 0 mapped sectors and 4 unique sectors.\\n    \
 UniqueSectors[gr1] \[LongDash] unique sectors.\\n    MappedSectors[gr1] \
@@ -2726,24 +2728,24 @@ js[gr1,\[Ellipsis]] in UniqueSectors[gr1].\\n    jRules[gr1,\[Ellipsis]] \
 MappedSectors[gr1].\\n    SectorsMappings[gr1] gives the list of mappings of \
 all sectors from MappedSectors[gr1] to UniqueSectors[gr1].\"\>"], "Print",
  CellChangeTimes->{3.8830016218449574`*^9, 3.883001819527059*^9, 
-  3.8830022109803133`*^9},
+  3.8830022103513803`*^9, 3.883045304002599*^9},
  CellLabel->
   "During evaluation of \
-In[98]:=",ExpressionUUID->"76c4ad5c-9c16-4e4d-af3d-13762cbb19ef"],
+In[117]:=",ExpressionUUID->"2bb4ae97-87a8-4e3e-b1ca-98430f9eea17"],
 
 Cell[BoxData["4"], "Print",
  CellChangeTimes->{3.8830016218449574`*^9, 3.883001819527059*^9, 
-  3.883002210981792*^9},
+  3.8830022103513803`*^9, 3.8830453040044394`*^9},
  CellLabel->
   "During evaluation of \
-In[98]:=",ExpressionUUID->"ffdbec0f-2a20-4228-a713-f82c31fb6e6f"],
+In[117]:=",ExpressionUUID->"3476313b-fbc7-4a8f-9b2c-a074d578e623"],
 
 Cell[BoxData["1"], "Print",
  CellChangeTimes->{3.8830016218449574`*^9, 3.883001819527059*^9, 
-  3.88300221098278*^9},
+  3.8830022103513803`*^9, 3.8830453040056067`*^9},
  CellLabel->
   "During evaluation of \
-In[98]:=",ExpressionUUID->"2e30dad2-3db3-4daa-ac52-a1f942ae3f41"],
+In[117]:=",ExpressionUUID->"536fbad7-a49b-426a-b71f-b7adf00f861d"],
 
 Cell[BoxData[
  InterpretationBox[
@@ -2756,27 +2758,27 @@ Cell[BoxData[
    LiteRed`js[$CellContext`gr1, 1, 1, 1, 1, 1, 0, 0, 0, 0]],
   Editable->False]], "Print",
  CellChangeTimes->{3.8830016218449574`*^9, 3.883001819527059*^9, 
-  3.88300221098676*^9},
+  3.8830022103513803`*^9, 3.883045304006921*^9},
  CellLabel->
   "During evaluation of \
-In[98]:=",ExpressionUUID->"64217f01-8d7c-476b-8096-d8ed7f2a0857"],
+In[117]:=",ExpressionUUID->"e3059b4b-b3da-4929-89dc-bfa88840e689"],
 
 Cell[BoxData["\<\"    jRules[gr1, 1, 1, 1, 1, 1, 0, 0, 0, 0] \[LongDash] \
 reduction rules for the sector.\\n    MIs[gr1] \[LongDash] list of master \
 integrals appended with 1 integrals (j[gr1, 1, 1, 1, 1, 1, 0, 0, 0, \
 0]).\"\>"], "Print",
  CellChangeTimes->{3.8830016218449574`*^9, 3.883001819527059*^9, 
-  3.8830022150078707`*^9},
+  3.8830022103513803`*^9, 3.883045308480714*^9},
  CellLabel->
   "During evaluation of \
-In[98]:=",ExpressionUUID->"6f5433b3-b1fb-43b2-b4a2-ca8049c408dd"],
+In[117]:=",ExpressionUUID->"624e0356-d2f9-4cce-9b2b-ca696ff4f3ca"],
 
 Cell[BoxData["2"], "Print",
  CellChangeTimes->{3.8830016218449574`*^9, 3.883001819527059*^9, 
-  3.883002215009282*^9},
+  3.8830022103513803`*^9, 3.883045308485085*^9},
  CellLabel->
   "During evaluation of \
-In[98]:=",ExpressionUUID->"ab3e2d79-91e1-4b63-86eb-aa7400ac3deb"],
+In[117]:=",ExpressionUUID->"e83fd6e1-bb83-45b3-bec1-fd8fe09a41bb"],
 
 Cell[BoxData[
  InterpretationBox[
@@ -2789,27 +2791,27 @@ Cell[BoxData[
    LiteRed`js[$CellContext`gr1, 1, 1, 1, 1, 1, 0, 1, 0, 0]],
   Editable->False]], "Print",
  CellChangeTimes->{3.8830016218449574`*^9, 3.883001819527059*^9, 
-  3.8830022150312233`*^9},
+  3.8830022103513803`*^9, 3.883045308506196*^9},
  CellLabel->
   "During evaluation of \
-In[98]:=",ExpressionUUID->"19a55d7b-b1c9-44d1-a19e-4850376000a1"],
+In[117]:=",ExpressionUUID->"b109dfa5-a385-4f3c-bf2e-d72f2db4a966"],
 
 Cell[BoxData["\<\"    jRules[gr1, 1, 1, 1, 1, 1, 0, 1, 0, 0] \[LongDash] \
 reduction rules for the sector.\\n    MIs[gr1] \[LongDash] list of master \
 integrals appended with 2 integrals (j[gr1, 1, 1, 1, 1, 1, 0, 1, 0, 0], \
 j[gr1, 1, 1, 1, 1, 1, 0, 2, 0, 0]).\"\>"], "Print",
  CellChangeTimes->{3.8830016218449574`*^9, 3.883001819527059*^9, 
-  3.883002220888762*^9},
+  3.8830022103513803`*^9, 3.883045314711529*^9},
  CellLabel->
   "During evaluation of \
-In[98]:=",ExpressionUUID->"d94b7231-1539-4548-bdbd-53b38a05f021"],
+In[117]:=",ExpressionUUID->"15d4a365-972d-4df4-ac1c-c51617676b83"],
 
 Cell[BoxData["3"], "Print",
  CellChangeTimes->{3.8830016218449574`*^9, 3.883001819527059*^9, 
-  3.883002220909689*^9},
+  3.8830022103513803`*^9, 3.883045314716508*^9},
  CellLabel->
   "During evaluation of \
-In[98]:=",ExpressionUUID->"99d94c9e-2f49-4206-abcb-cd417dc5c12f"],
+In[117]:=",ExpressionUUID->"f9618a76-0323-467e-a289-a6c73566f618"],
 
 Cell[BoxData[
  InterpretationBox[
@@ -2822,27 +2824,27 @@ Cell[BoxData[
    LiteRed`js[$CellContext`gr1, 1, 1, 1, 1, 1, 1, 0, 0, 0]],
   Editable->False]], "Print",
  CellChangeTimes->{3.8830016218449574`*^9, 3.883001819527059*^9, 
-  3.8830022209300613`*^9},
+  3.8830022103513803`*^9, 3.883045314739471*^9},
  CellLabel->
   "During evaluation of \
-In[98]:=",ExpressionUUID->"ac06c997-6f52-4c4a-8a5f-d7474be97c7d"],
+In[117]:=",ExpressionUUID->"8ad5e899-58ff-4210-bf6b-675ac3ef74e5"],
 
 Cell[BoxData["\<\"    jRules[gr1, 1, 1, 1, 1, 1, 1, 0, 0, 0] \[LongDash] \
 reduction rules for the sector.\\n    MIs[gr1] \[LongDash] list of master \
 integrals appended with 1 integrals (j[gr1, 1, 1, 1, 1, 1, 1, 0, 0, \
 0]).\"\>"], "Print",
  CellChangeTimes->{3.8830016218449574`*^9, 3.883001819527059*^9, 
-  3.883002226402862*^9},
+  3.8830022103513803`*^9, 3.88304532047456*^9},
  CellLabel->
   "During evaluation of \
-In[98]:=",ExpressionUUID->"392518b0-bf28-4d21-866d-fda0d736c274"],
+In[117]:=",ExpressionUUID->"823579a2-967a-4491-801f-5397b271d00a"],
 
 Cell[BoxData["4"], "Print",
  CellChangeTimes->{3.8830016218449574`*^9, 3.883001819527059*^9, 
-  3.883002226404304*^9},
+  3.8830022103513803`*^9, 3.883045320476164*^9},
  CellLabel->
   "During evaluation of \
-In[98]:=",ExpressionUUID->"eb4901e6-029a-4038-8b2d-14de65adb552"],
+In[117]:=",ExpressionUUID->"cee6e4ee-94fa-4b3a-ab63-61a59bd59b99"],
 
 Cell[BoxData[
  InterpretationBox[
@@ -2855,28 +2857,28 @@ Cell[BoxData[
    LiteRed`js[$CellContext`gr1, 1, 1, 1, 1, 1, 1, 1, 0, 0]],
   Editable->False]], "Print",
  CellChangeTimes->{3.8830016218449574`*^9, 3.883001819527059*^9, 
-  3.883002226425599*^9},
+  3.8830022103513803`*^9, 3.883045320495873*^9},
  CellLabel->
   "During evaluation of \
-In[98]:=",ExpressionUUID->"19e53b62-b9f9-459f-ae97-2f5ce57e97e1"],
+In[117]:=",ExpressionUUID->"dc864cd8-52c5-4da8-bfec-ede4a5e06ee8"],
 
 Cell[BoxData["\<\"    jRules[gr1, 1, 1, 1, 1, 1, 1, 1, 0, 0] \[LongDash] \
 reduction rules for the sector.\\n    MIs[gr1] \[LongDash] list of master \
 integrals appended with 2 integrals (j[gr1, 1, 1, 1, 1, 1, 1, 1, 0, 0], \
 j[gr1, 1, 1, 1, 1, 1, 1, 2, 0, 0]).\"\>"], "Print",
  CellChangeTimes->{3.8830016218449574`*^9, 3.883001819527059*^9, 
-  3.883002231177519*^9},
+  3.8830022103513803`*^9, 3.88304532553395*^9},
  CellLabel->
   "During evaluation of \
-In[98]:=",ExpressionUUID->"609db75e-f5b5-428d-9580-8a4d9436c177"],
+In[117]:=",ExpressionUUID->"d7eb470f-0202-4d06-bec6-2cd0b978603b"],
 
 Cell[BoxData["\<\"Executing nothing. Everything was already set?\"\>"], \
 "Print",
  CellChangeTimes->{3.8830016218449574`*^9, 3.883001819527059*^9, 
-  3.8830022311985397`*^9},
+  3.8830022103513803`*^9, 3.8830453255355253`*^9},
  CellLabel->
   "During evaluation of \
-In[98]:=",ExpressionUUID->"570cf9e7-0d35-479f-bbe9-8cc9885e59c8"],
+In[117]:=",ExpressionUUID->"2e9f93d4-f24d-4d57-82d7-5e8477a866ce"],
 
 Cell[BoxData[
  RowBox[{"{", 
@@ -2904,37 +2906,38 @@ Cell[BoxData[
    RowBox[{"l1", "\[CenterDot]", "q1"}], ",", 
    RowBox[{"l2", "\[CenterDot]", "q1"}]}], "}"}]], "Print",
  CellChangeTimes->{3.8830016218449574`*^9, 3.883001819527059*^9, 
-  3.88300223120002*^9},
+  3.8830022103513803`*^9, 3.883045325536886*^9},
  CellLabel->
   "During evaluation of \
-In[98]:=",ExpressionUUID->"100900b2-f7f9-4029-bde2-13f333447998"]
+In[117]:=",ExpressionUUID->"ab233ef4-fd86-4499-92f6-3adb6e437ad6"]
 }, Open  ]],
 
 Cell[BoxData[
  TemplateBox[{
   "LiteRed`Private`WarnSet", "warn", 
    "\"Use \\!\\(\\*RowBox[{\\\"NewDsBasis\\\"}]\\) instead of \
-\\!\\(\\*RowBox[{\\\"NewDsBasis\\\"}]\\).\"", 2, 98, 28, 33353475058390769569,
-    "IBP1", "LiteRed`Private`WarnSet"},
+\\!\\(\\*RowBox[{\\\"NewDsBasis\\\"}]\\).\"", 2, 117, 36, 
+   33353475058390769569, "IBP1", "LiteRed`Private`WarnSet"},
   "MessageTemplate2"]], "Message", "MSG",
  CellChangeTimes->{3.883001621850072*^9, 3.883001819531164*^9, 
-  3.8830022312011843`*^9},
+  3.883002210355466*^9, 3.883045325538191*^9},
  CellLabel->
   "During evaluation of \
-In[98]:=",ExpressionUUID->"df7059e4-d5cd-465c-b447-0a8c07087a7f"],
+In[117]:=",ExpressionUUID->"75cc0378-5c12-4b69-89a5-a15e23c94622"],
 
 Cell[BoxData[
  TemplateBox[{
   "NewDsBasis", "ovrw", 
    "\"Warning: definitions for \\!\\(\\*RowBox[{\\\"gr2\\\"}]\\) has been \
 found. They may interfere with the upcoming definitions. Clearing definitions\
-\[Ellipsis]\"", 2, 98, 29, 33353475058390769569, "IBP1", "LiteRed`NewDsBasis"},
+\[Ellipsis]\"", 2, 117, 37, 33353475058390769569, "IBP1", 
+   "LiteRed`NewDsBasis"},
   "MessageTemplate2"]], "Message", "MSG",
  CellChangeTimes->{3.883001621850072*^9, 3.883001819531164*^9, 
-  3.883002231207087*^9},
+  3.883002210355466*^9, 3.883045325548613*^9},
  CellLabel->
   "During evaluation of \
-In[98]:=",ExpressionUUID->"4226822c-da8d-487e-b8ec-3f1b673af8ed"],
+In[117]:=",ExpressionUUID->"53aba720-1ded-49d5-b1b2-ee6ed7d1d179"],
 
 Cell[CellGroupData[{
 
@@ -2947,35 +2950,35 @@ masses, dimension),\\n    Toj[gr2] \[LongDash] rules to transform scalar \
 products to denominators,\\n    CutDs[gr2] \[LongDash] flag vector of cut \
 denominators.\"\>"], "Print",
  CellChangeTimes->{3.8830016218449574`*^9, 3.883001819527059*^9, 
-  3.8830022312120132`*^9},
+  3.8830022103513803`*^9, 3.88304532555402*^9},
  CellLabel->
   "During evaluation of \
-In[98]:=",ExpressionUUID->"f29d8998-1c88-4e69-b4e0-b1bddf85a949"],
+In[117]:=",ExpressionUUID->"4864c306-ac99-4c42-a5f5-1c91da6ee25d"],
 
 Cell[BoxData["\<\"Identities are generated.\\n    IBP[gr2] \[LongDash] \
 integration-by-part identities,\\n    LI[gr2] \[LongDash] Lorentz invariance \
 identities.\"\>"], "Print",
  CellChangeTimes->{3.8830016218449574`*^9, 3.883001819527059*^9, 
-  3.8830022312134933`*^9},
+  3.8830022103513803`*^9, 3.883045325578433*^9},
  CellLabel->
   "During evaluation of \
-In[98]:=",ExpressionUUID->"c0af5ceb-a853-455a-b6e3-c15f1e1089d2"],
+In[117]:=",ExpressionUUID->"13322f92-b8b7-41f5-b28e-e223e42c19b4"],
 
 Cell[BoxData["\<\"Updated SectorsPattern[gr2] \[LongDash] pattern for all \
 relevant sectors of the basis gr2.\"\>"], "Print",
  CellChangeTimes->{3.8830016218449574`*^9, 3.883001819527059*^9, 
-  3.883002231279563*^9},
+  3.8830022103513803`*^9, 3.883045325672662*^9},
  CellLabel->
   "During evaluation of \
-In[98]:=",ExpressionUUID->"25909166-49bc-45eb-97ce-794f32ba1d42"],
+In[117]:=",ExpressionUUID->"65e4dbcb-4646-4dcc-bb29-0ba0cf8255bb"],
 
 Cell[BoxData["\<\"Updated CutDs[gr2] \[LongDash] cut denominators of the \
 basis gr2.\"\>"], "Print",
  CellChangeTimes->{3.8830016218449574`*^9, 3.883001819527059*^9, 
-  3.883002231280881*^9},
+  3.8830022103513803`*^9, 3.883045325674143*^9},
  CellLabel->
   "During evaluation of \
-In[98]:=",ExpressionUUID->"e822d8b5-a0ec-4305-aa47-3086e1ff611c"],
+In[117]:=",ExpressionUUID->"24732655-1c76-469e-a949-8e99d1f5565b"],
 
 Cell[BoxData["\<\"Found 124(4) zero(nonzero) sectors out of 128.\\n    \
 ZeroSectors[gr2] \[LongDash] zero sectors,\\n    NonZeroSectors[gr2] \
@@ -2985,10 +2988,10 @@ sectors (at least one immediate subsector is zero),\\n    ZerojRule[gr2] \
 \[LongDash] a rule to nullify all zero j[gr2\[Ellipsis]],\\n    CutDs[gr2] \
 \[LongDash] a flag list of cut denominators (1=cut).\"\>"], "Print",
  CellChangeTimes->{3.8830016218449574`*^9, 3.883001819527059*^9, 
-  3.8830022312819023`*^9},
+  3.8830022103513803`*^9, 3.88304532567528*^9},
  CellLabel->
   "During evaluation of \
-In[98]:=",ExpressionUUID->"61291f70-0cdf-4a45-9782-b8a8801e7bcb"],
+In[117]:=",ExpressionUUID->"d5b6468f-dfe0-4ad8-af3f-fe71b6203639"],
 
 Cell[BoxData["\<\"Found 0 mapped sectors and 4 unique sectors.\\n    \
 UniqueSectors[gr2] \[LongDash] unique sectors.\\n    MappedSectors[gr2] \
@@ -3000,24 +3003,24 @@ js[gr2,\[Ellipsis]] in UniqueSectors[gr2].\\n    jRules[gr2,\[Ellipsis]] \
 MappedSectors[gr2].\\n    SectorsMappings[gr2] gives the list of mappings of \
 all sectors from MappedSectors[gr2] to UniqueSectors[gr2].\"\>"], "Print",
  CellChangeTimes->{3.8830016218449574`*^9, 3.883001819527059*^9, 
-  3.883002231837982*^9},
+  3.8830022103513803`*^9, 3.8830453270232077`*^9},
  CellLabel->
   "During evaluation of \
-In[98]:=",ExpressionUUID->"fb25aa91-fc8c-4139-be70-16038c6985fc"],
+In[117]:=",ExpressionUUID->"bfe35b39-2fdb-464b-96b4-bbd11c10e2c5"],
 
 Cell[BoxData["4"], "Print",
  CellChangeTimes->{3.8830016218449574`*^9, 3.883001819527059*^9, 
-  3.883002231839525*^9},
+  3.8830022103513803`*^9, 3.8830453270249662`*^9},
  CellLabel->
   "During evaluation of \
-In[98]:=",ExpressionUUID->"24ad7b3a-2459-43ba-b31d-5e626c7ebeb7"],
+In[117]:=",ExpressionUUID->"2c2f57c2-48fd-4fde-a1f8-867f62b98743"],
 
 Cell[BoxData["1"], "Print",
  CellChangeTimes->{3.8830016218449574`*^9, 3.883001819527059*^9, 
-  3.883002231840537*^9},
+  3.8830022103513803`*^9, 3.883045327026123*^9},
  CellLabel->
   "During evaluation of \
-In[98]:=",ExpressionUUID->"81704117-8b2d-43fc-80d6-89df786f3ab1"],
+In[117]:=",ExpressionUUID->"5e72a408-6054-4047-9b0e-b96fe96b528d"],
 
 Cell[BoxData[
  InterpretationBox[
@@ -3030,27 +3033,27 @@ Cell[BoxData[
    LiteRed`js[$CellContext`gr2, 1, 1, 1, 1, 1, 0, 0, 0, 0]],
   Editable->False]], "Print",
  CellChangeTimes->{3.8830016218449574`*^9, 3.883001819527059*^9, 
-  3.883002231844482*^9},
+  3.8830022103513803`*^9, 3.883045327027339*^9},
  CellLabel->
   "During evaluation of \
-In[98]:=",ExpressionUUID->"0b10200e-808e-4841-8edb-fad251560480"],
+In[117]:=",ExpressionUUID->"90e1ba4b-96e4-4b31-8991-d39da1f44a90"],
 
 Cell[BoxData["\<\"    jRules[gr2, 1, 1, 1, 1, 1, 0, 0, 0, 0] \[LongDash] \
 reduction rules for the sector.\\n    MIs[gr2] \[LongDash] list of master \
 integrals appended with 1 integrals (j[gr2, 1, 1, 1, 1, 1, 0, 0, 0, \
 0]).\"\>"], "Print",
  CellChangeTimes->{3.8830016218449574`*^9, 3.883001819527059*^9, 
-  3.883002235997841*^9},
+  3.8830022103513803`*^9, 3.8830453313759003`*^9},
  CellLabel->
   "During evaluation of \
-In[98]:=",ExpressionUUID->"7d21a1c3-a352-4ade-b670-3bd41811cf45"],
+In[117]:=",ExpressionUUID->"b45b6c8e-c702-446d-8f3d-071420d5234b"],
 
 Cell[BoxData["2"], "Print",
  CellChangeTimes->{3.8830016218449574`*^9, 3.883001819527059*^9, 
-  3.883002235999308*^9},
+  3.8830022103513803`*^9, 3.883045331377655*^9},
  CellLabel->
   "During evaluation of \
-In[98]:=",ExpressionUUID->"d6b03bda-d5b2-4724-98e4-296281b61683"],
+In[117]:=",ExpressionUUID->"2c10dc80-1f69-48b1-8daa-43dc1dd90c1a"],
 
 Cell[BoxData[
  InterpretationBox[
@@ -3063,27 +3066,27 @@ Cell[BoxData[
    LiteRed`js[$CellContext`gr2, 1, 1, 1, 1, 1, 0, 1, 0, 0]],
   Editable->False]], "Print",
  CellChangeTimes->{3.8830016218449574`*^9, 3.883001819527059*^9, 
-  3.883002236021286*^9},
+  3.8830022103513803`*^9, 3.883045331401265*^9},
  CellLabel->
   "During evaluation of \
-In[98]:=",ExpressionUUID->"c2ca8666-8eb1-42e8-92b7-08dbd036d68c"],
+In[117]:=",ExpressionUUID->"359f9b22-5d27-44a7-b9cb-a1b2f042d2cd"],
 
 Cell[BoxData["\<\"    jRules[gr2, 1, 1, 1, 1, 1, 0, 1, 0, 0] \[LongDash] \
 reduction rules for the sector.\\n    MIs[gr2] \[LongDash] list of master \
 integrals appended with 1 integrals (j[gr2, 1, 1, 1, 1, 1, 0, 1, 0, \
 0]).\"\>"], "Print",
  CellChangeTimes->{3.8830016218449574`*^9, 3.883001819527059*^9, 
-  3.883002240761222*^9},
+  3.8830022103513803`*^9, 3.883045336268856*^9},
  CellLabel->
   "During evaluation of \
-In[98]:=",ExpressionUUID->"56115d04-399d-40c3-8ed7-0ab61b6804d1"],
+In[117]:=",ExpressionUUID->"2fd54a5f-7029-4e05-9a29-69a0dd60025d"],
 
 Cell[BoxData["3"], "Print",
  CellChangeTimes->{3.8830016218449574`*^9, 3.883001819527059*^9, 
-  3.883002240762689*^9},
+  3.8830022103513803`*^9, 3.883045336270507*^9},
  CellLabel->
   "During evaluation of \
-In[98]:=",ExpressionUUID->"8adbe5a6-09a4-48e2-b4c0-263bc38abe42"],
+In[117]:=",ExpressionUUID->"cc7ada0a-d4ab-4849-8691-2339fb8e09c6"],
 
 Cell[BoxData[
  InterpretationBox[
@@ -3096,27 +3099,27 @@ Cell[BoxData[
    LiteRed`js[$CellContext`gr2, 1, 1, 1, 1, 1, 1, 0, 0, 0]],
   Editable->False]], "Print",
  CellChangeTimes->{3.8830016218449574`*^9, 3.883001819527059*^9, 
-  3.88300224078405*^9},
+  3.8830022103513803`*^9, 3.883045336293479*^9},
  CellLabel->
   "During evaluation of \
-In[98]:=",ExpressionUUID->"732a0750-615c-4593-afa1-23986c55dbd7"],
+In[117]:=",ExpressionUUID->"55cb0f81-7bc9-4356-90ca-ae33ad63499b"],
 
 Cell[BoxData["\<\"    jRules[gr2, 1, 1, 1, 1, 1, 1, 0, 0, 0] \[LongDash] \
 reduction rules for the sector.\\n    MIs[gr2] \[LongDash] list of master \
 integrals appended with 1 integrals (j[gr2, 1, 1, 1, 1, 1, 1, 0, 0, \
 0]).\"\>"], "Print",
  CellChangeTimes->{3.8830016218449574`*^9, 3.883001819527059*^9, 
-  3.883002246503662*^9},
+  3.8830022103513803`*^9, 3.883045342122373*^9},
  CellLabel->
   "During evaluation of \
-In[98]:=",ExpressionUUID->"3680e1c5-290c-4bdd-85ec-38ac1c029c4e"],
+In[117]:=",ExpressionUUID->"f6e3aa69-8b07-497c-9de8-1f4aaba7c858"],
 
 Cell[BoxData["4"], "Print",
  CellChangeTimes->{3.8830016218449574`*^9, 3.883001819527059*^9, 
-  3.883002246505314*^9},
+  3.8830022103513803`*^9, 3.883045342123868*^9},
  CellLabel->
   "During evaluation of \
-In[98]:=",ExpressionUUID->"5f30e413-470d-4d2d-b8d1-5b61cf86d3b4"],
+In[117]:=",ExpressionUUID->"3d54819b-7e27-4adb-b35e-c2ff0f25dd31"],
 
 Cell[BoxData[
  InterpretationBox[
@@ -3129,28 +3132,28 @@ Cell[BoxData[
    LiteRed`js[$CellContext`gr2, 1, 1, 1, 1, 1, 1, 1, 0, 0]],
   Editable->False]], "Print",
  CellChangeTimes->{3.8830016218449574`*^9, 3.883001819527059*^9, 
-  3.883002246526018*^9},
+  3.8830022103513803`*^9, 3.883045342148038*^9},
  CellLabel->
   "During evaluation of \
-In[98]:=",ExpressionUUID->"1c1230de-b032-4aab-be46-31a0a23a648a"],
+In[117]:=",ExpressionUUID->"bd7110b6-8483-49fe-87b2-08555f40312d"],
 
 Cell[BoxData["\<\"    jRules[gr2, 1, 1, 1, 1, 1, 1, 1, 0, 0] \[LongDash] \
 reduction rules for the sector.\\n    MIs[gr2] \[LongDash] list of master \
 integrals appended with 2 integrals (j[gr2, 1, 1, 1, 1, 1, 1, 1, 0, 0], \
 j[gr2, 1, 1, 1, 1, 1, 2, 1, 0, 0]).\"\>"], "Print",
  CellChangeTimes->{3.8830016218449574`*^9, 3.883001819527059*^9, 
-  3.8830022510618343`*^9},
+  3.8830022103513803`*^9, 3.883045346801807*^9},
  CellLabel->
   "During evaluation of \
-In[98]:=",ExpressionUUID->"4f806999-fb4e-4520-a44d-0bd26d8a95e7"],
+In[117]:=",ExpressionUUID->"8fd015c2-3136-45a6-b6c4-9638a6acdc3e"],
 
 Cell[BoxData["\<\"Executing nothing. Everything was already set?\"\>"], \
 "Print",
  CellChangeTimes->{3.8830016218449574`*^9, 3.883001819527059*^9, 
-  3.883002251063298*^9},
+  3.8830022103513803`*^9, 3.883045346803487*^9},
  CellLabel->
   "During evaluation of \
-In[98]:=",ExpressionUUID->"19234bf3-5ace-4330-9675-b4493251cdcd"],
+In[117]:=",ExpressionUUID->"5a704ee5-c621-440d-b149-b3d50275db1d"],
 
 Cell[BoxData[
  RowBox[{"{", 
@@ -3178,63 +3181,64 @@ Cell[BoxData[
    RowBox[{"l1", "\[CenterDot]", "p4"}], ",", 
    RowBox[{"l1", "\[CenterDot]", "q1"}]}], "}"}]], "Print",
  CellChangeTimes->{3.8830016218449574`*^9, 3.883001819527059*^9, 
-  3.883002251064481*^9},
+  3.8830022103513803`*^9, 3.883045346804851*^9},
  CellLabel->
   "During evaluation of \
-In[98]:=",ExpressionUUID->"eb3c2e94-a6f8-4b23-864b-aac14e073ec3"]
+In[117]:=",ExpressionUUID->"5327a049-8ef6-46da-b235-63a266c8545a"]
 }, Open  ]],
 
 Cell[BoxData[
  TemplateBox[{
   "LiteRed`Private`WarnSet", "warn", 
    "\"Use \\!\\(\\*RowBox[{\\\"NewDsBasis\\\"}]\\) instead of \
-\\!\\(\\*RowBox[{\\\"NewDsBasis\\\"}]\\).\"", 2, 98, 30, 33353475058390769569,
-    "IBP1", "LiteRed`Private`WarnSet"},
+\\!\\(\\*RowBox[{\\\"NewDsBasis\\\"}]\\).\"", 2, 117, 38, 
+   33353475058390769569, "IBP1", "LiteRed`Private`WarnSet"},
   "MessageTemplate2"]], "Message", "MSG",
  CellChangeTimes->{3.883001621850072*^9, 3.883001819531164*^9, 
-  3.8830022510656157`*^9},
+  3.883002210355466*^9, 3.883045346806212*^9},
  CellLabel->
   "During evaluation of \
-In[98]:=",ExpressionUUID->"0f3cb76d-23f3-432f-a800-727dd2b0ad58"],
+In[117]:=",ExpressionUUID->"62045fb4-5031-4e80-9990-f9e0358f490d"],
 
 Cell[BoxData[
  TemplateBox[{
   "General", "stop", 
    "\"Further output of \\!\\(\\*StyleBox[RowBox[{\\\"LiteRed`Private`WarnSet\
 \\\", \\\"::\\\", \\\"warn\\\"}], \\\"MessageName\\\"]\\) will be suppressed \
-during this calculation.\"", 2, 98, 31, 33353475058390769569, "IBP1"},
+during this calculation.\"", 2, 117, 39, 33353475058390769569, "IBP1"},
   "MessageTemplate"]], "Message", "MSG",
  CellChangeTimes->{3.883001621850072*^9, 3.883001819531164*^9, 
-  3.883002251071405*^9},
+  3.883002210355466*^9, 3.883045346814942*^9},
  CellLabel->
   "During evaluation of \
-In[98]:=",ExpressionUUID->"15187fb4-9b59-4d16-a24f-65ecfe78eb6a"],
+In[117]:=",ExpressionUUID->"5b705d87-9328-4483-a101-a4c1f12c0cad"],
 
 Cell[BoxData[
  TemplateBox[{
   "NewDsBasis", "ovrw", 
    "\"Warning: definitions for \\!\\(\\*RowBox[{\\\"gr3\\\"}]\\) has been \
 found. They may interfere with the upcoming definitions. Clearing definitions\
-\[Ellipsis]\"", 2, 98, 32, 33353475058390769569, "IBP1", "LiteRed`NewDsBasis"},
+\[Ellipsis]\"", 2, 117, 40, 33353475058390769569, "IBP1", 
+   "LiteRed`NewDsBasis"},
   "MessageTemplate2"]], "Message", "MSG",
  CellChangeTimes->{3.883001621850072*^9, 3.883001819531164*^9, 
-  3.8830022510766*^9},
+  3.883002210355466*^9, 3.8830453468207493`*^9},
  CellLabel->
   "During evaluation of \
-In[98]:=",ExpressionUUID->"3ef472e3-f572-452a-96f1-6951d5135514"],
+In[117]:=",ExpressionUUID->"9086b474-9310-47d8-9d97-169d02befd9e"],
 
 Cell[BoxData[
  TemplateBox[{
   "General", "stop", 
    "\"Further output of \\!\\(\\*StyleBox[RowBox[{\\\"NewDsBasis\\\", \
 \\\"::\\\", \\\"ovrw\\\"}], \\\"MessageName\\\"]\\) will be suppressed during \
-this calculation.\"", 2, 98, 33, 33353475058390769569, "IBP1"},
+this calculation.\"", 2, 117, 41, 33353475058390769569, "IBP1"},
   "MessageTemplate"]], "Message", "MSG",
  CellChangeTimes->{3.883001621850072*^9, 3.883001819531164*^9, 
-  3.8830022510817223`*^9},
+  3.883002210355466*^9, 3.8830453468257217`*^9},
  CellLabel->
   "During evaluation of \
-In[98]:=",ExpressionUUID->"3dc7c9af-89d8-4fa0-b462-c7b1ef06fb4b"],
+In[117]:=",ExpressionUUID->"14991339-d1ca-4c68-95bc-b47b33b01165"],
 
 Cell[CellGroupData[{
 
@@ -3247,35 +3251,35 @@ masses, dimension),\\n    Toj[gr3] \[LongDash] rules to transform scalar \
 products to denominators,\\n    CutDs[gr3] \[LongDash] flag vector of cut \
 denominators.\"\>"], "Print",
  CellChangeTimes->{3.8830016218449574`*^9, 3.883001819527059*^9, 
-  3.883002251086421*^9},
+  3.8830022103513803`*^9, 3.8830453468302803`*^9},
  CellLabel->
   "During evaluation of \
-In[98]:=",ExpressionUUID->"8008f795-328e-495d-bedc-86a0d8ca8a48"],
+In[117]:=",ExpressionUUID->"a19b7c5b-e630-4484-975d-57af87a4bae0"],
 
 Cell[BoxData["\<\"Identities are generated.\\n    IBP[gr3] \[LongDash] \
 integration-by-part identities,\\n    LI[gr3] \[LongDash] Lorentz invariance \
 identities.\"\>"], "Print",
  CellChangeTimes->{3.8830016218449574`*^9, 3.883001819527059*^9, 
-  3.883002251090629*^9},
+  3.8830022103513803`*^9, 3.883045346852805*^9},
  CellLabel->
   "During evaluation of \
-In[98]:=",ExpressionUUID->"d43783c0-e915-409b-9e65-42e9810ecdd5"],
+In[117]:=",ExpressionUUID->"08fe1fbf-c676-4d10-bfba-704109de9b22"],
 
 Cell[BoxData["\<\"Updated SectorsPattern[gr3] \[LongDash] pattern for all \
 relevant sectors of the basis gr3.\"\>"], "Print",
  CellChangeTimes->{3.8830016218449574`*^9, 3.883001819527059*^9, 
-  3.88300225116116*^9},
+  3.8830022103513803`*^9, 3.883045346936572*^9},
  CellLabel->
   "During evaluation of \
-In[98]:=",ExpressionUUID->"f26d7732-2190-4b72-8165-30166c7deaed"],
+In[117]:=",ExpressionUUID->"a28904db-68cf-4f87-8a29-8689c37b1f8f"],
 
 Cell[BoxData["\<\"Updated CutDs[gr3] \[LongDash] cut denominators of the \
 basis gr3.\"\>"], "Print",
  CellChangeTimes->{3.8830016218449574`*^9, 3.883001819527059*^9, 
-  3.883002251162611*^9},
+  3.8830022103513803`*^9, 3.883045346938119*^9},
  CellLabel->
   "During evaluation of \
-In[98]:=",ExpressionUUID->"323407f1-868b-43e8-ab16-1ddb2c47a31b"],
+In[117]:=",ExpressionUUID->"bdc0fac9-a0bd-4138-81c5-677bf4348e45"],
 
 Cell[BoxData["\<\"Found 124(4) zero(nonzero) sectors out of 128.\\n    \
 ZeroSectors[gr3] \[LongDash] zero sectors,\\n    NonZeroSectors[gr3] \
@@ -3285,10 +3289,10 @@ sectors (at least one immediate subsector is zero),\\n    ZerojRule[gr3] \
 \[LongDash] a rule to nullify all zero j[gr3\[Ellipsis]],\\n    CutDs[gr3] \
 \[LongDash] a flag list of cut denominators (1=cut).\"\>"], "Print",
  CellChangeTimes->{3.8830016218449574`*^9, 3.883001819527059*^9, 
-  3.8830022511636953`*^9},
+  3.8830022103513803`*^9, 3.883045346939314*^9},
  CellLabel->
   "During evaluation of \
-In[98]:=",ExpressionUUID->"653d7438-9cb4-475d-b29f-e6573046b792"],
+In[117]:=",ExpressionUUID->"f85a4dcc-c6cf-4f2e-9f40-1be40ed0cbd8"],
 
 Cell[BoxData["\<\"Found 0 mapped sectors and 4 unique sectors.\\n    \
 UniqueSectors[gr3] \[LongDash] unique sectors.\\n    MappedSectors[gr3] \
@@ -3300,24 +3304,24 @@ js[gr3,\[Ellipsis]] in UniqueSectors[gr3].\\n    jRules[gr3,\[Ellipsis]] \
 MappedSectors[gr3].\\n    SectorsMappings[gr3] gives the list of mappings of \
 all sectors from MappedSectors[gr3] to UniqueSectors[gr3].\"\>"], "Print",
  CellChangeTimes->{3.8830016218449574`*^9, 3.883001819527059*^9, 
-  3.883002251718568*^9},
+  3.8830022103513803`*^9, 3.8830453482880983`*^9},
  CellLabel->
   "During evaluation of \
-In[98]:=",ExpressionUUID->"568b90d6-7a64-4b22-a44e-81d94cd1c51b"],
+In[117]:=",ExpressionUUID->"5b2ea7b3-3293-4795-bec5-cc0093c1e105"],
 
 Cell[BoxData["4"], "Print",
  CellChangeTimes->{3.8830016218449574`*^9, 3.883001819527059*^9, 
-  3.883002251720232*^9},
+  3.8830022103513803`*^9, 3.883045348289789*^9},
  CellLabel->
   "During evaluation of \
-In[98]:=",ExpressionUUID->"ae965d06-001c-48af-8472-a2eaab32c5e3"],
+In[117]:=",ExpressionUUID->"5826c3d0-c0ec-45b7-9d09-9217f8a3d3f5"],
 
 Cell[BoxData["1"], "Print",
  CellChangeTimes->{3.8830016218449574`*^9, 3.883001819527059*^9, 
-  3.883002251721301*^9},
+  3.8830022103513803`*^9, 3.883045348291059*^9},
  CellLabel->
   "During evaluation of \
-In[98]:=",ExpressionUUID->"7bb922bd-4cbb-4da7-8890-59b9156e228c"],
+In[117]:=",ExpressionUUID->"3bfaf9ba-dbd9-4b49-8c5b-fbec85bf86d8"],
 
 Cell[BoxData[
  InterpretationBox[
@@ -3330,27 +3334,27 @@ Cell[BoxData[
    LiteRed`js[$CellContext`gr3, 1, 1, 1, 1, 1, 0, 0, 0, 0]],
   Editable->False]], "Print",
  CellChangeTimes->{3.8830016218449574`*^9, 3.883001819527059*^9, 
-  3.883002251725259*^9},
+  3.8830022103513803`*^9, 3.883045348292357*^9},
  CellLabel->
   "During evaluation of \
-In[98]:=",ExpressionUUID->"ab142a24-b0c7-454e-8ed7-213f0d62a435"],
+In[117]:=",ExpressionUUID->"73ab1f61-5dda-4fa7-a488-7b83a72ce56b"],
 
 Cell[BoxData["\<\"    jRules[gr3, 1, 1, 1, 1, 1, 0, 0, 0, 0] \[LongDash] \
 reduction rules for the sector.\\n    MIs[gr3] \[LongDash] list of master \
 integrals appended with 1 integrals (j[gr3, 1, 1, 1, 1, 1, 0, 0, 0, \
 0]).\"\>"], "Print",
  CellChangeTimes->{3.8830016218449574`*^9, 3.883001819527059*^9, 
-  3.883002255082686*^9},
+  3.8830022103513803`*^9, 3.8830453518163548`*^9},
  CellLabel->
   "During evaluation of \
-In[98]:=",ExpressionUUID->"fe6f24e1-a8b4-405c-9044-34bef5d0ec78"],
+In[117]:=",ExpressionUUID->"ad70f222-51cc-458b-991e-cd79309d7c4f"],
 
 Cell[BoxData["2"], "Print",
  CellChangeTimes->{3.8830016218449574`*^9, 3.883001819527059*^9, 
-  3.8830022550842867`*^9},
+  3.8830022103513803`*^9, 3.883045351817917*^9},
  CellLabel->
   "During evaluation of \
-In[98]:=",ExpressionUUID->"84d7b324-3503-436d-9874-15f9d25e079a"],
+In[117]:=",ExpressionUUID->"46053a4e-5f51-49b6-b660-b1c48f8b66e8"],
 
 Cell[BoxData[
  InterpretationBox[
@@ -3363,26 +3367,26 @@ Cell[BoxData[
    LiteRed`js[$CellContext`gr3, 1, 1, 1, 1, 1, 0, 1, 0, 0]],
   Editable->False]], "Print",
  CellChangeTimes->{3.8830016218449574`*^9, 3.883001819527059*^9, 
-  3.88300225510823*^9},
+  3.8830022103513803`*^9, 3.883045351841589*^9},
  CellLabel->
   "During evaluation of \
-In[98]:=",ExpressionUUID->"8a37a200-b5d5-4c35-a6ac-af67e92032d2"],
+In[117]:=",ExpressionUUID->"2e850435-fed8-4220-98b1-bf8387fad421"],
 
 Cell[BoxData["\<\"    jRules[gr3, 1, 1, 1, 1, 1, 0, 1, 0, 0] \[LongDash] \
 reduction rules for the sector.\\n    MIs[gr3] \[LongDash] list of master \
 integrals appended with 0 integrals.\"\>"], "Print",
  CellChangeTimes->{3.8830016218449574`*^9, 3.883001819527059*^9, 
-  3.883002255825921*^9},
+  3.8830022103513803`*^9, 3.8830453526379347`*^9},
  CellLabel->
   "During evaluation of \
-In[98]:=",ExpressionUUID->"34a8ae70-bbd6-4dfa-bdcd-966cfa3dfbd9"],
+In[117]:=",ExpressionUUID->"ca71b51d-5088-444b-8c0a-4c1c72918212"],
 
 Cell[BoxData["3"], "Print",
  CellChangeTimes->{3.8830016218449574`*^9, 3.883001819527059*^9, 
-  3.883002255827361*^9},
+  3.8830022103513803`*^9, 3.883045352639598*^9},
  CellLabel->
   "During evaluation of \
-In[98]:=",ExpressionUUID->"dcf11f3a-5945-4505-895a-2328e5156077"],
+In[117]:=",ExpressionUUID->"b95dc33c-841d-43db-a239-6d70706932f2"],
 
 Cell[BoxData[
  InterpretationBox[
@@ -3395,27 +3399,27 @@ Cell[BoxData[
    LiteRed`js[$CellContext`gr3, 1, 1, 1, 1, 1, 1, 0, 0, 0]],
   Editable->False]], "Print",
  CellChangeTimes->{3.8830016218449574`*^9, 3.883001819527059*^9, 
-  3.88300225583643*^9},
+  3.8830022103513803`*^9, 3.8830453526503153`*^9},
  CellLabel->
   "During evaluation of \
-In[98]:=",ExpressionUUID->"ee1da84b-93ee-4b35-9960-92ae4b74a199"],
+In[117]:=",ExpressionUUID->"6a68641f-0a3d-4746-88e8-cb8ab65b189c"],
 
 Cell[BoxData["\<\"    jRules[gr3, 1, 1, 1, 1, 1, 1, 0, 0, 0] \[LongDash] \
 reduction rules for the sector.\\n    MIs[gr3] \[LongDash] list of master \
 integrals appended with 1 integrals (j[gr3, 1, 1, 1, 1, 1, 1, 0, 0, \
 0]).\"\>"], "Print",
  CellChangeTimes->{3.8830016218449574`*^9, 3.883001819527059*^9, 
-  3.883002259418407*^9},
+  3.8830022103513803`*^9, 3.88304535636642*^9},
  CellLabel->
   "During evaluation of \
-In[98]:=",ExpressionUUID->"c6e74e6f-5ad3-4839-afa8-344c495c5ddc"],
+In[117]:=",ExpressionUUID->"ef2e4f92-0185-44d2-8aa7-891c898ff430"],
 
 Cell[BoxData["4"], "Print",
  CellChangeTimes->{3.8830016218449574`*^9, 3.883001819527059*^9, 
-  3.8830022594198217`*^9},
+  3.8830022103513803`*^9, 3.883045356367956*^9},
  CellLabel->
   "During evaluation of \
-In[98]:=",ExpressionUUID->"3441ee18-f976-4f67-82a1-df004d6f3207"],
+In[117]:=",ExpressionUUID->"876e3a29-667c-4c91-b769-eed2a1c4c714"],
 
 Cell[BoxData[
  InterpretationBox[
@@ -3428,27 +3432,27 @@ Cell[BoxData[
    LiteRed`js[$CellContext`gr3, 1, 1, 1, 1, 1, 1, 1, 0, 0]],
   Editable->False]], "Print",
  CellChangeTimes->{3.8830016218449574`*^9, 3.883001819527059*^9, 
-  3.883002259441268*^9},
+  3.8830022103513803`*^9, 3.883045356391776*^9},
  CellLabel->
   "During evaluation of \
-In[98]:=",ExpressionUUID->"9840f06e-5f1e-466b-b8c1-9150697524db"],
+In[117]:=",ExpressionUUID->"ab1e7adb-179b-4a97-8bce-d9f283679d1c"],
 
 Cell[BoxData["\<\"    jRules[gr3, 1, 1, 1, 1, 1, 1, 1, 0, 0] \[LongDash] \
 reduction rules for the sector.\\n    MIs[gr3] \[LongDash] list of master \
 integrals appended with 0 integrals.\"\>"], "Print",
  CellChangeTimes->{3.8830016218449574`*^9, 3.883001819527059*^9, 
-  3.883002260275141*^9},
+  3.8830022103513803`*^9, 3.883045357342168*^9},
  CellLabel->
   "During evaluation of \
-In[98]:=",ExpressionUUID->"85644626-f5ff-429e-b5b8-b0ec88195cd0"],
+In[117]:=",ExpressionUUID->"7c99b4f7-80da-4d3f-af33-9e3485802d2a"],
 
 Cell[BoxData["\<\"Executing nothing. Everything was already set?\"\>"], \
 "Print",
  CellChangeTimes->{3.8830016218449574`*^9, 3.883001819527059*^9, 
-  3.883002260276613*^9},
+  3.8830022103513803`*^9, 3.8830453573438377`*^9},
  CellLabel->
   "During evaluation of \
-In[98]:=",ExpressionUUID->"e60b5c70-1cd2-497e-a7c0-5447c6f5f783"],
+In[117]:=",ExpressionUUID->"c62ca63e-f532-4b35-966f-3c1105e91618"],
 
 Cell[BoxData[
  RowBox[{"{", 
@@ -3478,10 +3482,10 @@ Cell[BoxData[
    RowBox[{"l2", "\[CenterDot]", "p4"}], ",", 
    RowBox[{"l2", "\[CenterDot]", "q1"}]}], "}"}]], "Print",
  CellChangeTimes->{3.8830016218449574`*^9, 3.883001819527059*^9, 
-  3.883002260277841*^9},
+  3.8830022103513803`*^9, 3.8830453573452263`*^9},
  CellLabel->
   "During evaluation of \
-In[98]:=",ExpressionUUID->"20668d8f-b7b6-4533-9e34-bd60f7135b1f"],
+In[117]:=",ExpressionUUID->"afebdc84-68e1-420e-9c34-44f9610c6b54"],
 
 Cell[BoxData["\<\"gr4 is valid basis. The definitions of the basis will be \
 saved in \\\"radiOne\\\" directory.\\n    Ds[gr4] \[LongDash] \
@@ -3492,35 +3496,35 @@ masses, dimension),\\n    Toj[gr4] \[LongDash] rules to transform scalar \
 products to denominators,\\n    CutDs[gr4] \[LongDash] flag vector of cut \
 denominators.\"\>"], "Print",
  CellChangeTimes->{3.8830016218449574`*^9, 3.883001819527059*^9, 
-  3.88300226027897*^9},
+  3.8830022103513803`*^9, 3.883045357346507*^9},
  CellLabel->
   "During evaluation of \
-In[98]:=",ExpressionUUID->"ef7c09d6-e653-4496-aa79-85a4193142ea"],
+In[117]:=",ExpressionUUID->"b2502dc4-e8bc-449a-b26d-c31be2d85088"],
 
 Cell[BoxData["\<\"Identities are generated.\\n    IBP[gr4] \[LongDash] \
 integration-by-part identities,\\n    LI[gr4] \[LongDash] Lorentz invariance \
 identities.\"\>"], "Print",
  CellChangeTimes->{3.8830016218449574`*^9, 3.883001819527059*^9, 
-  3.883002260301646*^9},
+  3.8830022103513803`*^9, 3.883045357374539*^9},
  CellLabel->
   "During evaluation of \
-In[98]:=",ExpressionUUID->"36d3cab2-9967-4cf0-8de4-c3f735d826cd"],
+In[117]:=",ExpressionUUID->"83ca6061-9a2b-42b2-b57a-d4f79826d2cd"],
 
 Cell[BoxData["\<\"Updated SectorsPattern[gr4] \[LongDash] pattern for all \
 relevant sectors of the basis gr4.\"\>"], "Print",
  CellChangeTimes->{3.8830016218449574`*^9, 3.883001819527059*^9, 
-  3.8830022603822412`*^9},
+  3.8830022103513803`*^9, 3.8830453574390182`*^9},
  CellLabel->
   "During evaluation of \
-In[98]:=",ExpressionUUID->"bf9cbb22-2a85-48a5-9d73-f8243e553517"],
+In[117]:=",ExpressionUUID->"ac454265-6be9-4589-802e-20d7f71e6d30"],
 
 Cell[BoxData["\<\"Updated CutDs[gr4] \[LongDash] cut denominators of the \
 basis gr4.\"\>"], "Print",
  CellChangeTimes->{3.8830016218449574`*^9, 3.883001819527059*^9, 
-  3.883002260383593*^9},
+  3.8830022103513803`*^9, 3.883045357440531*^9},
  CellLabel->
   "During evaluation of \
-In[98]:=",ExpressionUUID->"6f665929-7758-442d-9557-297b89cea7d7"],
+In[117]:=",ExpressionUUID->"216ac47e-fa24-4572-b58c-3026632b886f"],
 
 Cell[BoxData["\<\"Found 124(4) zero(nonzero) sectors out of 128.\\n    \
 ZeroSectors[gr4] \[LongDash] zero sectors,\\n    NonZeroSectors[gr4] \
@@ -3530,10 +3534,10 @@ sectors (at least one immediate subsector is zero),\\n    ZerojRule[gr4] \
 \[LongDash] a rule to nullify all zero j[gr4\[Ellipsis]],\\n    CutDs[gr4] \
 \[LongDash] a flag list of cut denominators (1=cut).\"\>"], "Print",
  CellChangeTimes->{3.8830016218449574`*^9, 3.883001819527059*^9, 
-  3.883002260384654*^9},
+  3.8830022103513803`*^9, 3.883045357441802*^9},
  CellLabel->
   "During evaluation of \
-In[98]:=",ExpressionUUID->"54f6570c-d57c-4f09-a9fd-b03fca0c1d45"],
+In[117]:=",ExpressionUUID->"4963209e-c51a-4de2-bd1c-cd313315b654"],
 
 Cell[BoxData["\<\"Found 0 mapped sectors and 4 unique sectors.\\n    \
 UniqueSectors[gr4] \[LongDash] unique sectors.\\n    MappedSectors[gr4] \
@@ -3545,24 +3549,24 @@ js[gr4,\[Ellipsis]] in UniqueSectors[gr4].\\n    jRules[gr4,\[Ellipsis]] \
 MappedSectors[gr4].\\n    SectorsMappings[gr4] gives the list of mappings of \
 all sectors from MappedSectors[gr4] to UniqueSectors[gr4].\"\>"], "Print",
  CellChangeTimes->{3.8830016218449574`*^9, 3.883001819527059*^9, 
-  3.883002260930223*^9},
+  3.8830022103513803`*^9, 3.8830453588034887`*^9},
  CellLabel->
   "During evaluation of \
-In[98]:=",ExpressionUUID->"c7008ea5-b593-4b3e-81d7-a6eb7cf80508"],
+In[117]:=",ExpressionUUID->"9ad43d30-0f5f-4040-aaa7-92b9cf1e4c2e"],
 
 Cell[BoxData["4"], "Print",
  CellChangeTimes->{3.8830016218449574`*^9, 3.883001819527059*^9, 
-  3.88300226093184*^9},
+  3.8830022103513803`*^9, 3.8830453588051767`*^9},
  CellLabel->
   "During evaluation of \
-In[98]:=",ExpressionUUID->"d17c76d9-b075-4178-903e-50cf91dae60f"],
+In[117]:=",ExpressionUUID->"f57eb70e-49e1-4581-b6d9-04551265f4c8"],
 
 Cell[BoxData["1"], "Print",
  CellChangeTimes->{3.8830016218449574`*^9, 3.883001819527059*^9, 
-  3.8830022609329*^9},
+  3.8830022103513803`*^9, 3.883045358806306*^9},
  CellLabel->
   "During evaluation of \
-In[98]:=",ExpressionUUID->"c327a76b-17d5-4daa-9690-b80eb49528c6"],
+In[117]:=",ExpressionUUID->"6be0a89c-2fb5-49da-a8e1-ef5a5bcf3300"],
 
 Cell[BoxData[
  InterpretationBox[
@@ -3575,27 +3579,27 @@ Cell[BoxData[
    LiteRed`js[$CellContext`gr4, 1, 1, 1, 1, 1, 0, 0, 0, 0]],
   Editable->False]], "Print",
  CellChangeTimes->{3.8830016218449574`*^9, 3.883001819527059*^9, 
-  3.883002260936883*^9},
+  3.8830022103513803`*^9, 3.883045358807521*^9},
  CellLabel->
   "During evaluation of \
-In[98]:=",ExpressionUUID->"7a61ec12-2c03-4e36-9c6a-04ce539eb5c1"],
+In[117]:=",ExpressionUUID->"e5f25524-e399-4813-aa54-b9ed2dc90bdb"],
 
 Cell[BoxData["\<\"    jRules[gr4, 1, 1, 1, 1, 1, 0, 0, 0, 0] \[LongDash] \
 reduction rules for the sector.\\n    MIs[gr4] \[LongDash] list of master \
 integrals appended with 1 integrals (j[gr4, 1, 1, 1, 1, 1, 0, 0, 0, \
 0]).\"\>"], "Print",
  CellChangeTimes->{3.8830016218449574`*^9, 3.883001819527059*^9, 
-  3.8830022641583643`*^9},
+  3.8830022103513803`*^9, 3.883045362174715*^9},
  CellLabel->
   "During evaluation of \
-In[98]:=",ExpressionUUID->"deb04dca-6d20-4566-b1f1-eb2216048db6"],
+In[117]:=",ExpressionUUID->"fa47e383-6284-4163-a29a-2b04331958a4"],
 
 Cell[BoxData["2"], "Print",
  CellChangeTimes->{3.8830016218449574`*^9, 3.883001819527059*^9, 
-  3.8830022641598988`*^9},
+  3.8830022103513803`*^9, 3.883045362176284*^9},
  CellLabel->
   "During evaluation of \
-In[98]:=",ExpressionUUID->"44044427-e943-4019-886b-9805419600c2"],
+In[117]:=",ExpressionUUID->"9bf062da-23c7-4fe2-a59c-1c262fc87647"],
 
 Cell[BoxData[
  InterpretationBox[
@@ -3608,26 +3612,26 @@ Cell[BoxData[
    LiteRed`js[$CellContext`gr4, 1, 1, 1, 1, 1, 0, 1, 0, 0]],
   Editable->False]], "Print",
  CellChangeTimes->{3.8830016218449574`*^9, 3.883001819527059*^9, 
-  3.883002264183943*^9},
+  3.8830022103513803`*^9, 3.883045362200132*^9},
  CellLabel->
   "During evaluation of \
-In[98]:=",ExpressionUUID->"c70619b9-84f8-42df-a6b5-0036ec781147"],
+In[117]:=",ExpressionUUID->"fea98b94-378d-4f40-b290-c00af5181e4a"],
 
 Cell[BoxData["\<\"    jRules[gr4, 1, 1, 1, 1, 1, 0, 1, 0, 0] \[LongDash] \
 reduction rules for the sector.\\n    MIs[gr4] \[LongDash] list of master \
 integrals appended with 0 integrals.\"\>"], "Print",
  CellChangeTimes->{3.8830016218449574`*^9, 3.883001819527059*^9, 
-  3.8830022648741407`*^9},
+  3.8830022103513803`*^9, 3.8830453629629173`*^9},
  CellLabel->
   "During evaluation of \
-In[98]:=",ExpressionUUID->"ce2cb40e-b0b5-4190-98f4-281e67a6e0f7"],
+In[117]:=",ExpressionUUID->"35dd45fe-4470-4605-b1bc-35b3460591aa"],
 
 Cell[BoxData["3"], "Print",
  CellChangeTimes->{3.8830016218449574`*^9, 3.883001819527059*^9, 
-  3.883002264875618*^9},
+  3.8830022103513803`*^9, 3.883045362964566*^9},
  CellLabel->
   "During evaluation of \
-In[98]:=",ExpressionUUID->"76511260-7e02-4bfb-8032-266573c75e62"],
+In[117]:=",ExpressionUUID->"acb91f0f-d5c8-4761-a759-7758358cc4d5"],
 
 Cell[BoxData[
  InterpretationBox[
@@ -3640,27 +3644,27 @@ Cell[BoxData[
    LiteRed`js[$CellContext`gr4, 1, 1, 1, 1, 1, 1, 0, 0, 0]],
   Editable->False]], "Print",
  CellChangeTimes->{3.8830016218449574`*^9, 3.883001819527059*^9, 
-  3.883002264883527*^9},
+  3.8830022103513803`*^9, 3.883045362973509*^9},
  CellLabel->
   "During evaluation of \
-In[98]:=",ExpressionUUID->"659f648c-76e9-44be-a317-79337c038cb0"],
+In[117]:=",ExpressionUUID->"09c3eea6-83b2-45d1-842b-689a83121933"],
 
 Cell[BoxData["\<\"    jRules[gr4, 1, 1, 1, 1, 1, 1, 0, 0, 0] \[LongDash] \
 reduction rules for the sector.\\n    MIs[gr4] \[LongDash] list of master \
 integrals appended with 2 integrals (j[gr4, 1, 1, 1, 1, 1, 1, 0, 0, 0], \
 j[gr4, 1, 1, 1, 1, 1, 2, 0, 0, 0]).\"\>"], "Print",
  CellChangeTimes->{3.8830016218449574`*^9, 3.883001819527059*^9, 
-  3.883002269144858*^9},
+  3.8830022103513803`*^9, 3.883045367439971*^9},
  CellLabel->
   "During evaluation of \
-In[98]:=",ExpressionUUID->"67decdaf-c187-4b48-9a56-3dbbe198ba35"],
+In[117]:=",ExpressionUUID->"31e9f8d4-ed09-47a6-8179-f15a8f5d19f4"],
 
 Cell[BoxData["4"], "Print",
  CellChangeTimes->{3.8830016218449574`*^9, 3.883001819527059*^9, 
-  3.883002269146431*^9},
+  3.8830022103513803`*^9, 3.883045367446774*^9},
  CellLabel->
   "During evaluation of \
-In[98]:=",ExpressionUUID->"2cc58471-ed76-40a2-8cf9-62baa05a5e1d"],
+In[117]:=",ExpressionUUID->"dc8ad788-9e41-4dec-aed6-71b67d2cf2ec"],
 
 Cell[BoxData[
  InterpretationBox[
@@ -3673,27 +3677,27 @@ Cell[BoxData[
    LiteRed`js[$CellContext`gr4, 1, 1, 1, 1, 1, 1, 1, 0, 0]],
   Editable->False]], "Print",
  CellChangeTimes->{3.8830016218449574`*^9, 3.883001819527059*^9, 
-  3.883002269166902*^9},
+  3.8830022103513803`*^9, 3.883045367469701*^9},
  CellLabel->
   "During evaluation of \
-In[98]:=",ExpressionUUID->"cc47ff38-3aa4-4297-b56e-b397e209c8c5"],
+In[117]:=",ExpressionUUID->"66c57314-94a5-4279-b535-9df9c7188b5f"],
 
 Cell[BoxData["\<\"    jRules[gr4, 1, 1, 1, 1, 1, 1, 1, 0, 0] \[LongDash] \
 reduction rules for the sector.\\n    MIs[gr4] \[LongDash] list of master \
 integrals appended with 0 integrals.\"\>"], "Print",
  CellChangeTimes->{3.8830016218449574`*^9, 3.883001819527059*^9, 
-  3.883002269891078*^9},
+  3.8830022103513803`*^9, 3.883045368284103*^9},
  CellLabel->
   "During evaluation of \
-In[98]:=",ExpressionUUID->"662ae405-18d6-43e4-917a-d21093afb3ef"],
+In[117]:=",ExpressionUUID->"cde1f9b4-ad7b-4d94-9f4a-7483a120f644"],
 
 Cell[BoxData["\<\"Executing nothing. Everything was already set?\"\>"], \
 "Print",
  CellChangeTimes->{3.8830016218449574`*^9, 3.883001819527059*^9, 
-  3.883002269892614*^9},
+  3.8830022103513803`*^9, 3.883045368285746*^9},
  CellLabel->
   "During evaluation of \
-In[98]:=",ExpressionUUID->"8a5e8f1a-9da6-47d9-8fb0-5b75cd0777e7"],
+In[117]:=",ExpressionUUID->"5f0d2a29-4b1f-497f-ae55-0201ea835013"],
 
 Cell[BoxData[
  RowBox[{"{", 
@@ -3726,10 +3730,10 @@ Cell[BoxData[
    RowBox[{"l1", "\[CenterDot]", "p4"}], ",", 
    RowBox[{"l1", "\[CenterDot]", "q1"}]}], "}"}]], "Print",
  CellChangeTimes->{3.8830016218449574`*^9, 3.883001819527059*^9, 
-  3.883002269893928*^9},
+  3.8830022103513803`*^9, 3.883045368287137*^9},
  CellLabel->
   "During evaluation of \
-In[98]:=",ExpressionUUID->"60be1c59-275a-443a-8ddd-c693e89abb0f"],
+In[117]:=",ExpressionUUID->"b27f6149-06c5-4315-affa-503ee66607ca"],
 
 Cell[BoxData["\<\"gr5 is valid basis. The definitions of the basis will be \
 saved in \\\"radiOne\\\" directory.\\n    Ds[gr5] \[LongDash] \
@@ -3740,35 +3744,35 @@ masses, dimension),\\n    Toj[gr5] \[LongDash] rules to transform scalar \
 products to denominators,\\n    CutDs[gr5] \[LongDash] flag vector of cut \
 denominators.\"\>"], "Print",
  CellChangeTimes->{3.8830016218449574`*^9, 3.883001819527059*^9, 
-  3.88300226989509*^9},
+  3.8830022103513803`*^9, 3.883045368288473*^9},
  CellLabel->
   "During evaluation of \
-In[98]:=",ExpressionUUID->"d9b425ed-fde5-40c1-8769-418bc5dfb1eb"],
+In[117]:=",ExpressionUUID->"6cdfe967-18dd-4310-aeee-97c72889d1b8"],
 
 Cell[BoxData["\<\"Identities are generated.\\n    IBP[gr5] \[LongDash] \
 integration-by-part identities,\\n    LI[gr5] \[LongDash] Lorentz invariance \
 identities.\"\>"], "Print",
  CellChangeTimes->{3.8830016218449574`*^9, 3.883001819527059*^9, 
-  3.883002269918037*^9},
+  3.8830022103513803`*^9, 3.883045368315895*^9},
  CellLabel->
   "During evaluation of \
-In[98]:=",ExpressionUUID->"a663b016-7ff4-44f7-8cf1-6a823bea8ab0"],
+In[117]:=",ExpressionUUID->"870bcc90-87e2-41be-8395-ef0bd1548b6a"],
 
 Cell[BoxData["\<\"Updated SectorsPattern[gr5] \[LongDash] pattern for all \
 relevant sectors of the basis gr5.\"\>"], "Print",
  CellChangeTimes->{3.8830016218449574`*^9, 3.883001819527059*^9, 
-  3.883002269980425*^9},
+  3.8830022103513803`*^9, 3.883045368380495*^9},
  CellLabel->
   "During evaluation of \
-In[98]:=",ExpressionUUID->"027375fd-ff2f-4d05-9be8-7cc4db21e509"],
+In[117]:=",ExpressionUUID->"1e423f99-b3ef-4f6d-a7f2-2e4ab2d9712e"],
 
 Cell[BoxData["\<\"Updated CutDs[gr5] \[LongDash] cut denominators of the \
 basis gr5.\"\>"], "Print",
  CellChangeTimes->{3.8830016218449574`*^9, 3.883001819527059*^9, 
-  3.8830022699818573`*^9},
+  3.8830022103513803`*^9, 3.883045368382135*^9},
  CellLabel->
   "During evaluation of \
-In[98]:=",ExpressionUUID->"ad69904d-b87f-4857-bcea-276024a29544"],
+In[117]:=",ExpressionUUID->"95683019-b973-4417-912a-8d68fa3e6985"],
 
 Cell[BoxData["\<\"Found 124(4) zero(nonzero) sectors out of 128.\\n    \
 ZeroSectors[gr5] \[LongDash] zero sectors,\\n    NonZeroSectors[gr5] \
@@ -3778,10 +3782,10 @@ sectors (at least one immediate subsector is zero),\\n    ZerojRule[gr5] \
 \[LongDash] a rule to nullify all zero j[gr5\[Ellipsis]],\\n    CutDs[gr5] \
 \[LongDash] a flag list of cut denominators (1=cut).\"\>"], "Print",
  CellChangeTimes->{3.8830016218449574`*^9, 3.883001819527059*^9, 
-  3.883002269982952*^9},
+  3.8830022103513803`*^9, 3.883045368383507*^9},
  CellLabel->
   "During evaluation of \
-In[98]:=",ExpressionUUID->"172fe460-aabe-48ce-b2f1-29fbee2dfbed"],
+In[117]:=",ExpressionUUID->"ca5ddd20-a1b9-4d06-8821-10af9de05c1b"],
 
 Cell[BoxData["\<\"Found 0 mapped sectors and 4 unique sectors.\\n    \
 UniqueSectors[gr5] \[LongDash] unique sectors.\\n    MappedSectors[gr5] \
@@ -3793,24 +3797,24 @@ js[gr5,\[Ellipsis]] in UniqueSectors[gr5].\\n    jRules[gr5,\[Ellipsis]] \
 MappedSectors[gr5].\\n    SectorsMappings[gr5] gives the list of mappings of \
 all sectors from MappedSectors[gr5] to UniqueSectors[gr5].\"\>"], "Print",
  CellChangeTimes->{3.8830016218449574`*^9, 3.883001819527059*^9, 
-  3.883002270613884*^9},
+  3.8830022103513803`*^9, 3.883045369868908*^9},
  CellLabel->
   "During evaluation of \
-In[98]:=",ExpressionUUID->"c98167a9-e4d7-4da2-898e-8deba9b70aea"],
+In[117]:=",ExpressionUUID->"04327eaf-6c64-4f41-95e5-e9d78a8a814d"],
 
 Cell[BoxData["4"], "Print",
  CellChangeTimes->{3.8830016218449574`*^9, 3.883001819527059*^9, 
-  3.883002270615592*^9},
+  3.8830022103513803`*^9, 3.88304536987076*^9},
  CellLabel->
   "During evaluation of \
-In[98]:=",ExpressionUUID->"205cc1bc-0372-4449-a858-725574de1126"],
+In[117]:=",ExpressionUUID->"ba7a2553-663f-4d63-af71-f3a62a93ff94"],
 
 Cell[BoxData["1"], "Print",
  CellChangeTimes->{3.8830016218449574`*^9, 3.883001819527059*^9, 
-  3.8830022706166897`*^9},
+  3.8830022103513803`*^9, 3.883045369871964*^9},
  CellLabel->
   "During evaluation of \
-In[98]:=",ExpressionUUID->"8f39bb35-a9fd-47e3-a360-ee5f198ed1a6"],
+In[117]:=",ExpressionUUID->"525dd287-84e4-40a3-8e83-4b86c7241166"],
 
 Cell[BoxData[
  InterpretationBox[
@@ -3823,27 +3827,27 @@ Cell[BoxData[
    LiteRed`js[$CellContext`gr5, 1, 1, 1, 1, 1, 0, 0, 0, 0]],
   Editable->False]], "Print",
  CellChangeTimes->{3.8830016218449574`*^9, 3.883001819527059*^9, 
-  3.883002270622863*^9},
+  3.8830022103513803`*^9, 3.8830453698731937`*^9},
  CellLabel->
   "During evaluation of \
-In[98]:=",ExpressionUUID->"43771b2e-2414-4b9f-bff2-0f70992a6179"],
+In[117]:=",ExpressionUUID->"e9b7c5b0-1389-4d15-af23-ab0053292bd9"],
 
 Cell[BoxData["\<\"    jRules[gr5, 1, 1, 1, 1, 1, 0, 0, 0, 0] \[LongDash] \
 reduction rules for the sector.\\n    MIs[gr5] \[LongDash] list of master \
 integrals appended with 1 integrals (j[gr5, 1, 1, 1, 1, 1, 0, 0, 0, \
 0]).\"\>"], "Print",
  CellChangeTimes->{3.8830016218449574`*^9, 3.883001819527059*^9, 
-  3.883002273637341*^9},
+  3.8830022103513803`*^9, 3.883045373016404*^9},
  CellLabel->
   "During evaluation of \
-In[98]:=",ExpressionUUID->"3c1de672-1204-4ac8-a78f-255c19c971e4"],
+In[117]:=",ExpressionUUID->"97bd5970-36fd-400e-939f-8f761db70177"],
 
 Cell[BoxData["2"], "Print",
  CellChangeTimes->{3.8830016218449574`*^9, 3.883001819527059*^9, 
-  3.8830022736389437`*^9},
+  3.8830022103513803`*^9, 3.883045373018037*^9},
  CellLabel->
   "During evaluation of \
-In[98]:=",ExpressionUUID->"3c621dd3-b878-44b8-a7af-b53a85c6fce3"],
+In[117]:=",ExpressionUUID->"e80fbb89-6644-4b76-acb3-058f101b97c7"],
 
 Cell[BoxData[
  InterpretationBox[
@@ -3856,26 +3860,26 @@ Cell[BoxData[
    LiteRed`js[$CellContext`gr5, 1, 1, 1, 1, 1, 0, 1, 0, 0]],
   Editable->False]], "Print",
  CellChangeTimes->{3.8830016218449574`*^9, 3.883001819527059*^9, 
-  3.883002273659608*^9},
+  3.8830022103513803`*^9, 3.8830453730419827`*^9},
  CellLabel->
   "During evaluation of \
-In[98]:=",ExpressionUUID->"60bca5c7-3db9-41a1-ada5-f2c9401b20ce"],
+In[117]:=",ExpressionUUID->"4a25d070-37a6-4b78-a37f-2096716ce33a"],
 
 Cell[BoxData["\<\"    jRules[gr5, 1, 1, 1, 1, 1, 0, 1, 0, 0] \[LongDash] \
 reduction rules for the sector.\\n    MIs[gr5] \[LongDash] list of master \
 integrals appended with 0 integrals.\"\>"], "Print",
  CellChangeTimes->{3.8830016218449574`*^9, 3.883001819527059*^9, 
-  3.883002274337123*^9},
+  3.8830022103513803`*^9, 3.883045373792276*^9},
  CellLabel->
   "During evaluation of \
-In[98]:=",ExpressionUUID->"2e4bfa79-0719-457c-b2c6-1f2cc7c2ce9c"],
+In[117]:=",ExpressionUUID->"502c4850-aabb-4b80-8c0e-1accb4e1d41f"],
 
 Cell[BoxData["3"], "Print",
  CellChangeTimes->{3.8830016218449574`*^9, 3.883001819527059*^9, 
-  3.883002274338703*^9},
+  3.8830022103513803`*^9, 3.883045373794033*^9},
  CellLabel->
   "During evaluation of \
-In[98]:=",ExpressionUUID->"1bbee978-352d-4ae1-be01-0261853ccb4e"],
+In[117]:=",ExpressionUUID->"7793c1db-4a79-4269-a270-2aef93ae133e"],
 
 Cell[BoxData[
  InterpretationBox[
@@ -3888,27 +3892,27 @@ Cell[BoxData[
    LiteRed`js[$CellContext`gr5, 1, 1, 1, 1, 1, 1, 0, 0, 0]],
   Editable->False]], "Print",
  CellChangeTimes->{3.8830016218449574`*^9, 3.883001819527059*^9, 
-  3.88300227435913*^9},
+  3.8830022103513803`*^9, 3.88304537379915*^9},
  CellLabel->
   "During evaluation of \
-In[98]:=",ExpressionUUID->"9103811e-3e71-490e-9920-e8a3430f2394"],
+In[117]:=",ExpressionUUID->"e7b3c5cc-a3d5-4c5a-bbec-aa2f7fd740e2"],
 
 Cell[BoxData["\<\"    jRules[gr5, 1, 1, 1, 1, 1, 1, 0, 0, 0] \[LongDash] \
 reduction rules for the sector.\\n    MIs[gr5] \[LongDash] list of master \
 integrals appended with 1 integrals (j[gr5, 1, 1, 1, 1, 1, 1, 0, 0, \
 0]).\"\>"], "Print",
  CellChangeTimes->{3.8830016218449574`*^9, 3.883001819527059*^9, 
-  3.883002277457223*^9},
+  3.8830022103513803`*^9, 3.883045376990971*^9},
  CellLabel->
   "During evaluation of \
-In[98]:=",ExpressionUUID->"f5df561f-cd8c-4fb0-a533-23f959c33c34"],
+In[117]:=",ExpressionUUID->"6251774c-afa1-4213-bc5d-a0732347db29"],
 
 Cell[BoxData["4"], "Print",
  CellChangeTimes->{3.8830016218449574`*^9, 3.883001819527059*^9, 
-  3.883002277458783*^9},
+  3.8830022103513803`*^9, 3.883045376992579*^9},
  CellLabel->
   "During evaluation of \
-In[98]:=",ExpressionUUID->"4a8eca01-8c38-448d-a840-225f89cef0f3"],
+In[117]:=",ExpressionUUID->"9ebf1618-0c77-4001-9a95-993951bc3e1b"],
 
 Cell[BoxData[
  InterpretationBox[
@@ -3921,21 +3925,21 @@ Cell[BoxData[
    LiteRed`js[$CellContext`gr5, 1, 1, 1, 1, 1, 1, 1, 0, 0]],
   Editable->False]], "Print",
  CellChangeTimes->{3.8830016218449574`*^9, 3.883001819527059*^9, 
-  3.883002277484152*^9},
+  3.8830022103513803`*^9, 3.883045377016426*^9},
  CellLabel->
   "During evaluation of \
-In[98]:=",ExpressionUUID->"64b5b858-d084-4f7f-93ac-4d83e87c5e2f"],
+In[117]:=",ExpressionUUID->"5e1a6974-618f-4e2d-b04f-f147d0595b2c"],
 
 Cell[BoxData["\<\"    jRules[gr5, 1, 1, 1, 1, 1, 1, 1, 0, 0] \[LongDash] \
 reduction rules for the sector.\\n    MIs[gr5] \[LongDash] list of master \
 integrals appended with 0 integrals.\"\>"], "Print",
  CellChangeTimes->{3.8830016218449574`*^9, 3.883001819527059*^9, 
-  3.883002278157836*^9},
+  3.8830022103513803`*^9, 3.8830453777573643`*^9},
  CellLabel->
   "During evaluation of \
-In[98]:=",ExpressionUUID->"4f72054a-7dca-4fc8-ae75-4ef99a00beac"]
+In[117]:=",ExpressionUUID->"3e3cd3fc-55b7-4362-9809-af878686b4ec"]
 }, Open  ]]
-}, Closed]]
+}, Open  ]]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -13368,198 +13372,198 @@ Cell[20921, 610, 74054, 1778, 2392, "Output",ExpressionUUID->"b8d1fed9-ef2a-48bd
 Cell[94990, 2391, 571, 14, 99, "Input",ExpressionUUID->"9f8086e0-9ed9-4c29-9e85-6578a1f315e2"],
 Cell[95564, 2407, 6828, 159, 832, "Input",ExpressionUUID->"4d5e9816-4ed2-4ebe-a6c9-ff454430df01"],
 Cell[CellGroupData[{
-Cell[102417, 2570, 933, 25, 104, "Input",ExpressionUUID->"808ece2e-e7b6-41a6-bdfa-5435b925f73c"],
+Cell[102417, 2570, 937, 26, 104, "Input",ExpressionUUID->"808ece2e-e7b6-41a6-bdfa-5435b925f73c"],
 Cell[CellGroupData[{
-Cell[103375, 2599, 280, 6, 29, "Print",ExpressionUUID->"da59ffe0-0739-42a9-8293-7dc5642bfb20"],
-Cell[103658, 2607, 1076, 28, 54, "Print",ExpressionUUID->"a788c2bf-e5a7-4b19-8cb1-9a02d2c35185"]
+Cell[103379, 2600, 302, 6, 29, "Print",ExpressionUUID->"9b9d56f4-c328-42e3-8461-bf1544171f82"],
+Cell[103684, 2608, 1101, 28, 54, "Print",ExpressionUUID->"83b73fb7-be12-4e0e-818a-3161cb379c2b"]
 }, Open  ]],
-Cell[104749, 2638, 485, 11, 35, "Message",ExpressionUUID->"7d7c6f1d-89f0-4b72-bcbe-49fc2bba1b15"],
-Cell[105237, 2651, 524, 11, 57, "Message",ExpressionUUID->"b848b5e4-9511-4335-9d7e-511aea86e688"],
+Cell[104800, 2639, 509, 11, 35, "Message",ExpressionUUID->"8559039a-ae6d-4932-84ed-2ab5c5efbea8"],
+Cell[105312, 2652, 554, 12, 57, "Message",ExpressionUUID->"8e3c6bc5-494c-4c6e-bebe-b2281ed641a1"],
 Cell[CellGroupData[{
-Cell[105786, 2666, 750, 12, 222, "Print",ExpressionUUID->"475cfb45-c674-44ee-9606-670753b64445"],
-Cell[106539, 2680, 374, 7, 78, "Print",ExpressionUUID->"3c011fa0-0eec-45ae-b6d1-4f1ed2873db2"],
-Cell[106916, 2689, 321, 6, 54, "Print",ExpressionUUID->"405815d2-c718-4539-9201-71d37f7e9f6d"],
-Cell[107240, 2697, 297, 6, 29, "Print",ExpressionUUID->"5aaa9764-bcdc-4850-a64e-598f94c74efe"],
-Cell[107540, 2705, 714, 11, 198, "Print",ExpressionUUID->"bf29284a-75fd-431d-bb4e-77a37a02e8ea"],
-Cell[108257, 2718, 846, 13, 246, "Print",ExpressionUUID->"76c4ad5c-9c16-4e4d-af3d-13762cbb19ef"],
-Cell[109106, 2733, 223, 5, 29, "Print",ExpressionUUID->"ffdbec0f-2a20-4228-a713-f82c31fb6e6f"],
-Cell[109332, 2740, 222, 5, 29, "Print",ExpressionUUID->"2e30dad2-3db3-4daa-ac52-a1f942ae3f41"],
-Cell[109557, 2747, 551, 14, 29, "Print",ExpressionUUID->"64217f01-8d7c-476b-8096-d8ed7f2a0857"],
-Cell[110111, 2763, 439, 8, 102, "Print",ExpressionUUID->"6f5433b3-b1fb-43b2-b4a2-ca8049c408dd"],
-Cell[110553, 2773, 223, 5, 29, "Print",ExpressionUUID->"ab3e2d79-91e1-4b63-86eb-aa7400ac3deb"],
-Cell[110779, 2780, 554, 14, 29, "Print",ExpressionUUID->"19a55d7b-b1c9-44d1-a19e-4850376000a1"],
-Cell[111336, 2796, 472, 8, 102, "Print",ExpressionUUID->"d94b7231-1539-4548-bdbd-53b38a05f021"],
-Cell[111811, 2806, 223, 5, 29, "Print",ExpressionUUID->"99d94c9e-2f49-4206-abcb-cd417dc5c12f"],
-Cell[112037, 2813, 554, 14, 29, "Print",ExpressionUUID->"ac06c997-6f52-4c4a-8a5f-d7474be97c7d"],
-Cell[112594, 2829, 437, 8, 102, "Print",ExpressionUUID->"392518b0-bf28-4d21-866d-fda0d736c274"],
-Cell[113034, 2839, 223, 5, 29, "Print",ExpressionUUID->"eb4901e6-029a-4038-8b2d-14de65adb552"],
-Cell[113260, 2846, 552, 14, 29, "Print",ExpressionUUID->"19e53b62-b9f9-459f-ae97-2f5ce57e97e1"],
-Cell[113815, 2862, 472, 8, 102, "Print",ExpressionUUID->"609db75e-f5b5-428d-9580-8a4d9436c177"],
-Cell[114290, 2872, 280, 6, 29, "Print",ExpressionUUID->"570cf9e7-0d35-479f-bbe9-8cc9885e59c8"],
-Cell[114573, 2880, 1123, 29, 54, "Print",ExpressionUUID->"100900b2-f7f9-4029-bde2-13f333447998"]
+Cell[105891, 2668, 773, 12, 198, "Print",ExpressionUUID->"4d81466e-5d2f-4595-b769-86034fc72ec7"],
+Cell[106667, 2682, 400, 7, 78, "Print",ExpressionUUID->"7fc9c390-1b67-45d3-8a84-78464f2f4737"],
+Cell[107070, 2691, 347, 6, 29, "Print",ExpressionUUID->"35058d3f-eb47-437c-b2e3-224bffa3b1a8"],
+Cell[107420, 2699, 322, 6, 29, "Print",ExpressionUUID->"f6585093-bb46-4cc2-aba1-32e926892a8e"],
+Cell[107745, 2707, 737, 11, 174, "Print",ExpressionUUID->"a874f396-2d42-4abb-82d6-b73e5ac37c43"],
+Cell[108485, 2720, 869, 13, 198, "Print",ExpressionUUID->"2bb4ae97-87a8-4e3e-b1ca-98430f9eea17"],
+Cell[109357, 2735, 250, 5, 29, "Print",ExpressionUUID->"3476313b-fbc7-4a8f-9b2c-a074d578e623"],
+Cell[109610, 2742, 250, 5, 29, "Print",ExpressionUUID->"536fbad7-a49b-426a-b71f-b7adf00f861d"],
+Cell[109863, 2749, 577, 14, 29, "Print",ExpressionUUID->"e3059b4b-b3da-4929-89dc-bfa88840e689"],
+Cell[110443, 2765, 462, 8, 78, "Print",ExpressionUUID->"624e0356-d2f9-4cce-9b2b-ca696ff4f3ca"],
+Cell[110908, 2775, 248, 5, 29, "Print",ExpressionUUID->"e83fd6e1-bb83-45b3-bec1-fd8fe09a41bb"],
+Cell[111159, 2782, 577, 14, 29, "Print",ExpressionUUID->"b109dfa5-a385-4f3c-bf2e-d72f2db4a966"],
+Cell[111739, 2798, 497, 8, 78, "Print",ExpressionUUID->"15d4a365-972d-4df4-ac1c-c51617676b83"],
+Cell[112239, 2808, 248, 5, 29, "Print",ExpressionUUID->"f9618a76-0323-467e-a289-a6c73566f618"],
+Cell[112490, 2815, 577, 14, 29, "Print",ExpressionUUID->"8ad5e899-58ff-4210-bf6b-675ac3ef74e5"],
+Cell[113070, 2831, 461, 8, 78, "Print",ExpressionUUID->"823579a2-967a-4491-801f-5397b271d00a"],
+Cell[113534, 2841, 248, 5, 29, "Print",ExpressionUUID->"cee6e4ee-94fa-4b3a-ab63-61a59bd59b99"],
+Cell[113785, 2848, 577, 14, 29, "Print",ExpressionUUID->"dc864cd8-52c5-4da8-bfec-ede4a5e06ee8"],
+Cell[114365, 2864, 496, 8, 78, "Print",ExpressionUUID->"d7eb470f-0202-4d06-bec6-2cd0b978603b"],
+Cell[114864, 2874, 305, 6, 29, "Print",ExpressionUUID->"2e9f93d4-f24d-4d57-82d7-5e8477a866ce"],
+Cell[115172, 2882, 1149, 29, 54, "Print",ExpressionUUID->"ab233ef4-fd86-4499-92f6-3adb6e437ad6"]
 }, Open  ]],
-Cell[115711, 2912, 487, 11, 35, "Message",ExpressionUUID->"df7059e4-d5cd-465c-b447-0a8c07087a7f"],
-Cell[116201, 2925, 524, 11, 57, "Message",ExpressionUUID->"4226822c-da8d-487e-b8ec-3f1b673af8ed"],
+Cell[116336, 2914, 509, 11, 35, "Message",ExpressionUUID->"75cc0378-5c12-4b69-89a5-a15e23c94622"],
+Cell[116848, 2927, 552, 12, 57, "Message",ExpressionUUID->"53aba720-1ded-49d5-b1b2-ee6ed7d1d179"],
 Cell[CellGroupData[{
-Cell[116750, 2940, 750, 12, 222, "Print",ExpressionUUID->"f29d8998-1c88-4e69-b4e0-b1bddf85a949"],
-Cell[117503, 2954, 377, 7, 78, "Print",ExpressionUUID->"c0af5ceb-a853-455a-b6e3-c15f1e1089d2"],
-Cell[117883, 2963, 322, 6, 54, "Print",ExpressionUUID->"25909166-49bc-45eb-97ce-794f32ba1d42"],
-Cell[118208, 2971, 297, 6, 29, "Print",ExpressionUUID->"e822d8b5-a0ec-4305-aa47-3086e1ff611c"],
-Cell[118508, 2979, 714, 11, 198, "Print",ExpressionUUID->"61291f70-0cdf-4a45-9782-b8a8801e7bcb"],
-Cell[119225, 2992, 844, 13, 246, "Print",ExpressionUUID->"fb25aa91-fc8c-4139-be70-16038c6985fc"],
-Cell[120072, 3007, 223, 5, 29, "Print",ExpressionUUID->"24ad7b3a-2459-43ba-b31d-5e626c7ebeb7"],
-Cell[120298, 3014, 223, 5, 29, "Print",ExpressionUUID->"81704117-8b2d-43fc-80d6-89df786f3ab1"],
-Cell[120524, 3021, 552, 14, 29, "Print",ExpressionUUID->"0b10200e-808e-4841-8edb-fad251560480"],
-Cell[121079, 3037, 437, 8, 102, "Print",ExpressionUUID->"7d21a1c3-a352-4ade-b670-3bd41811cf45"],
-Cell[121519, 3047, 223, 5, 29, "Print",ExpressionUUID->"d6b03bda-d5b2-4724-98e4-296281b61683"],
-Cell[121745, 3054, 552, 14, 29, "Print",ExpressionUUID->"c2ca8666-8eb1-42e8-92b7-08dbd036d68c"],
-Cell[122300, 3070, 437, 8, 102, "Print",ExpressionUUID->"56115d04-399d-40c3-8ed7-0ab61b6804d1"],
-Cell[122740, 3080, 223, 5, 29, "Print",ExpressionUUID->"8adbe5a6-09a4-48e2-b4c0-263bc38abe42"],
-Cell[122966, 3087, 551, 14, 29, "Print",ExpressionUUID->"732a0750-615c-4593-afa1-23986c55dbd7"],
-Cell[123520, 3103, 437, 8, 102, "Print",ExpressionUUID->"3680e1c5-290c-4bdd-85ec-38ac1c029c4e"],
-Cell[123960, 3113, 223, 5, 29, "Print",ExpressionUUID->"5f30e413-470d-4d2d-b8d1-5b61cf86d3b4"],
-Cell[124186, 3120, 552, 14, 29, "Print",ExpressionUUID->"1c1230de-b032-4aab-be46-31a0a23a648a"],
-Cell[124741, 3136, 474, 8, 102, "Print",ExpressionUUID->"4f806999-fb4e-4520-a44d-0bd26d8a95e7"],
-Cell[125218, 3146, 278, 6, 29, "Print",ExpressionUUID->"19234bf3-5ace-4330-9675-b4493251cdcd"],
-Cell[125499, 3154, 1102, 29, 54, "Print",ExpressionUUID->"eb3c2e94-a6f8-4b23-864b-aac14e073ec3"]
+Cell[117425, 2943, 772, 12, 198, "Print",ExpressionUUID->"4864c306-ac99-4c42-a5f5-1c91da6ee25d"],
+Cell[118200, 2957, 400, 7, 78, "Print",ExpressionUUID->"13322f92-b8b7-41f5-b28e-e223e42c19b4"],
+Cell[118603, 2966, 347, 6, 29, "Print",ExpressionUUID->"65e4dbcb-4646-4dcc-bb29-0ba0cf8255bb"],
+Cell[118953, 2974, 322, 6, 29, "Print",ExpressionUUID->"24732655-1c76-469e-a949-8e99d1f5565b"],
+Cell[119278, 2982, 736, 11, 174, "Print",ExpressionUUID->"d5b6468f-dfe0-4ad8-af3f-fe71b6203639"],
+Cell[120017, 2995, 871, 13, 198, "Print",ExpressionUUID->"bfe35b39-2fdb-464b-96b4-bbd11c10e2c5"],
+Cell[120891, 3010, 250, 5, 29, "Print",ExpressionUUID->"2c2f57c2-48fd-4fde-a1f8-867f62b98743"],
+Cell[121144, 3017, 248, 5, 29, "Print",ExpressionUUID->"5e72a408-6054-4047-9b0e-b96fe96b528d"],
+Cell[121395, 3024, 577, 14, 29, "Print",ExpressionUUID->"90e1ba4b-96e4-4b31-8991-d39da1f44a90"],
+Cell[121975, 3040, 464, 8, 78, "Print",ExpressionUUID->"b45b6c8e-c702-446d-8f3d-071420d5234b"],
+Cell[122442, 3050, 248, 5, 29, "Print",ExpressionUUID->"2c10dc80-1f69-48b1-8daa-43dc1dd90c1a"],
+Cell[122693, 3057, 577, 14, 29, "Print",ExpressionUUID->"359f9b22-5d27-44a7-b9cb-a1b2f042d2cd"],
+Cell[123273, 3073, 462, 8, 78, "Print",ExpressionUUID->"2fd54a5f-7029-4e05-9a29-69a0dd60025d"],
+Cell[123738, 3083, 248, 5, 29, "Print",ExpressionUUID->"cc7ada0a-d4ab-4849-8691-2339fb8e09c6"],
+Cell[123989, 3090, 577, 14, 29, "Print",ExpressionUUID->"55cb0f81-7bc9-4356-90ca-ae33ad63499b"],
+Cell[124569, 3106, 462, 8, 78, "Print",ExpressionUUID->"f6e3aa69-8b07-497c-9de8-1f4aaba7c858"],
+Cell[125034, 3116, 248, 5, 29, "Print",ExpressionUUID->"3d54819b-7e27-4adb-b35e-c2ff0f25dd31"],
+Cell[125285, 3123, 577, 14, 29, "Print",ExpressionUUID->"bd7110b6-8483-49fe-87b2-08555f40312d"],
+Cell[125865, 3139, 497, 8, 78, "Print",ExpressionUUID->"8fd015c2-3136-45a6-b6c4-9638a6acdc3e"],
+Cell[126365, 3149, 303, 6, 29, "Print",ExpressionUUID->"5a704ee5-c621-440d-b149-b3d50275db1d"],
+Cell[126671, 3157, 1127, 29, 54, "Print",ExpressionUUID->"5327a049-8ef6-46da-b235-63a266c8545a"]
 }, Open  ]],
-Cell[126616, 3186, 487, 11, 35, "Message",ExpressionUUID->"0f3cb76d-23f3-432f-a800-727dd2b0ad58"],
-Cell[127106, 3199, 514, 11, 35, "Message",ExpressionUUID->"15187fb4-9b59-4d16-a24f-65ecfe78eb6a"],
-Cell[127623, 3212, 522, 11, 57, "Message",ExpressionUUID->"3ef472e3-f572-452a-96f1-6951d5135514"],
-Cell[128148, 3225, 503, 11, 35, "Message",ExpressionUUID->"3dc7c9af-89d8-4fa0-b462-c7b1ef06fb4b"],
+Cell[127813, 3189, 509, 11, 35, "Message",ExpressionUUID->"62045fb4-5031-4e80-9990-f9e0358f490d"],
+Cell[128325, 3202, 538, 11, 35, "Message",ExpressionUUID->"5b705d87-9328-4483-a101-a4c1f12c0cad"],
+Cell[128866, 3215, 554, 12, 57, "Message",ExpressionUUID->"9086b474-9310-47d8-9d97-169d02befd9e"],
+Cell[129423, 3229, 527, 11, 35, "Message",ExpressionUUID->"14991339-d1ca-4c68-95bc-b47b33b01165"],
 Cell[CellGroupData[{
-Cell[128676, 3240, 748, 12, 222, "Print",ExpressionUUID->"8008f795-328e-495d-bedc-86a0d8ca8a48"],
-Cell[129427, 3254, 375, 7, 78, "Print",ExpressionUUID->"d43783c0-e915-409b-9e65-42e9810ecdd5"],
-Cell[129805, 3263, 321, 6, 54, "Print",ExpressionUUID->"f26d7732-2190-4b72-8165-30166c7deaed"],
-Cell[130129, 3271, 297, 6, 29, "Print",ExpressionUUID->"323407f1-868b-43e8-ab16-1ddb2c47a31b"],
-Cell[130429, 3279, 714, 11, 198, "Print",ExpressionUUID->"653d7438-9cb4-475d-b29f-e6573046b792"],
-Cell[131146, 3292, 844, 13, 246, "Print",ExpressionUUID->"568b90d6-7a64-4b22-a44e-81d94cd1c51b"],
-Cell[131993, 3307, 223, 5, 29, "Print",ExpressionUUID->"ae965d06-001c-48af-8472-a2eaab32c5e3"],
-Cell[132219, 3314, 223, 5, 29, "Print",ExpressionUUID->"7bb922bd-4cbb-4da7-8890-59b9156e228c"],
-Cell[132445, 3321, 552, 14, 29, "Print",ExpressionUUID->"ab142a24-b0c7-454e-8ed7-213f0d62a435"],
-Cell[133000, 3337, 437, 8, 102, "Print",ExpressionUUID->"fe6f24e1-a8b4-405c-9044-34bef5d0ec78"],
-Cell[133440, 3347, 225, 5, 29, "Print",ExpressionUUID->"84d7b324-3503-436d-9874-15f9d25e079a"],
-Cell[133668, 3354, 551, 14, 29, "Print",ExpressionUUID->"8a37a200-b5d5-4c35-a6ac-af67e92032d2"],
-Cell[134222, 3370, 399, 7, 78, "Print",ExpressionUUID->"34a8ae70-bbd6-4dfa-bdcd-966cfa3dfbd9"],
-Cell[134624, 3379, 223, 5, 29, "Print",ExpressionUUID->"dcf11f3a-5945-4505-895a-2328e5156077"],
-Cell[134850, 3386, 551, 14, 29, "Print",ExpressionUUID->"ee1da84b-93ee-4b35-9960-92ae4b74a199"],
-Cell[135404, 3402, 437, 8, 102, "Print",ExpressionUUID->"c6e74e6f-5ad3-4839-afa8-344c495c5ddc"],
-Cell[135844, 3412, 225, 5, 29, "Print",ExpressionUUID->"3441ee18-f976-4f67-82a1-df004d6f3207"],
-Cell[136072, 3419, 552, 14, 29, "Print",ExpressionUUID->"9840f06e-5f1e-466b-b8c1-9150697524db"],
-Cell[136627, 3435, 399, 7, 78, "Print",ExpressionUUID->"85644626-f5ff-429e-b5b8-b0ec88195cd0"],
-Cell[137029, 3444, 278, 6, 29, "Print",ExpressionUUID->"e60b5c70-1cd2-497e-a7c0-5447c6f5f783"],
-Cell[137310, 3452, 1148, 31, 54, "Print",ExpressionUUID->"20668d8f-b7b6-4533-9e34-bd60f7135b1f"],
-Cell[138461, 3485, 747, 12, 222, "Print",ExpressionUUID->"ef7c09d6-e653-4496-aa79-85a4193142ea"],
-Cell[139211, 3499, 375, 7, 78, "Print",ExpressionUUID->"36d3cab2-9967-4cf0-8de4-c3f735d826cd"],
-Cell[139589, 3508, 324, 6, 54, "Print",ExpressionUUID->"bf9cbb22-2a85-48a5-9d73-f8243e553517"],
-Cell[139916, 3516, 297, 6, 29, "Print",ExpressionUUID->"6f665929-7758-442d-9557-297b89cea7d7"],
-Cell[140216, 3524, 712, 11, 198, "Print",ExpressionUUID->"54f6570c-d57c-4f09-a9fd-b03fca0c1d45"],
-Cell[140931, 3537, 844, 13, 246, "Print",ExpressionUUID->"c7008ea5-b593-4b3e-81d7-a6eb7cf80508"],
-Cell[141778, 3552, 222, 5, 29, "Print",ExpressionUUID->"d17c76d9-b075-4178-903e-50cf91dae60f"],
-Cell[142003, 3559, 221, 5, 29, "Print",ExpressionUUID->"c327a76b-17d5-4daa-9690-b80eb49528c6"],
-Cell[142227, 3566, 552, 14, 29, "Print",ExpressionUUID->"7a61ec12-2c03-4e36-9c6a-04ce539eb5c1"],
-Cell[142782, 3582, 439, 8, 102, "Print",ExpressionUUID->"deb04dca-6d20-4566-b1f1-eb2216048db6"],
-Cell[143224, 3592, 225, 5, 29, "Print",ExpressionUUID->"44044427-e943-4019-886b-9805419600c2"],
-Cell[143452, 3599, 552, 14, 29, "Print",ExpressionUUID->"c70619b9-84f8-42df-a6b5-0036ec781147"],
-Cell[144007, 3615, 401, 7, 78, "Print",ExpressionUUID->"ce2cb40e-b0b5-4190-98f4-281e67a6e0f7"],
-Cell[144411, 3624, 223, 5, 29, "Print",ExpressionUUID->"76511260-7e02-4bfb-8032-266573c75e62"],
-Cell[144637, 3631, 552, 14, 29, "Print",ExpressionUUID->"659f648c-76e9-44be-a317-79337c038cb0"],
-Cell[145192, 3647, 472, 8, 102, "Print",ExpressionUUID->"67decdaf-c187-4b48-9a56-3dbbe198ba35"],
-Cell[145667, 3657, 223, 5, 29, "Print",ExpressionUUID->"2cc58471-ed76-40a2-8cf9-62baa05a5e1d"],
-Cell[145893, 3664, 552, 14, 29, "Print",ExpressionUUID->"cc47ff38-3aa4-4297-b56e-b397e209c8c5"],
-Cell[146448, 3680, 399, 7, 78, "Print",ExpressionUUID->"662ae405-18d6-43e4-917a-d21093afb3ef"],
-Cell[146850, 3689, 278, 6, 29, "Print",ExpressionUUID->"8a5e8f1a-9da6-47d9-8fb0-5b75cd0777e7"],
-Cell[147131, 3697, 1270, 34, 54, "Print",ExpressionUUID->"60be1c59-275a-443a-8ddd-c693e89abb0f"],
-Cell[148404, 3733, 747, 12, 222, "Print",ExpressionUUID->"d9b425ed-fde5-40c1-8769-418bc5dfb1eb"],
-Cell[149154, 3747, 375, 7, 78, "Print",ExpressionUUID->"a663b016-7ff4-44f7-8cf1-6a823bea8ab0"],
-Cell[149532, 3756, 322, 6, 54, "Print",ExpressionUUID->"027375fd-ff2f-4d05-9be8-7cc4db21e509"],
-Cell[149857, 3764, 299, 6, 29, "Print",ExpressionUUID->"ad69904d-b87f-4857-bcea-276024a29544"],
-Cell[150159, 3772, 712, 11, 198, "Print",ExpressionUUID->"172fe460-aabe-48ce-b2f1-29fbee2dfbed"],
-Cell[150874, 3785, 844, 13, 246, "Print",ExpressionUUID->"c98167a9-e4d7-4da2-898e-8deba9b70aea"],
-Cell[151721, 3800, 223, 5, 29, "Print",ExpressionUUID->"205cc1bc-0372-4449-a858-725574de1126"],
-Cell[151947, 3807, 225, 5, 29, "Print",ExpressionUUID->"8f39bb35-a9fd-47e3-a360-ee5f198ed1a6"],
-Cell[152175, 3814, 552, 14, 29, "Print",ExpressionUUID->"43771b2e-2414-4b9f-bff2-0f70992a6179"],
-Cell[152730, 3830, 437, 8, 102, "Print",ExpressionUUID->"3c1de672-1204-4ac8-a78f-255c19c971e4"],
-Cell[153170, 3840, 225, 5, 29, "Print",ExpressionUUID->"3c621dd3-b878-44b8-a7af-b53a85c6fce3"],
-Cell[153398, 3847, 552, 14, 29, "Print",ExpressionUUID->"60bca5c7-3db9-41a1-ada5-f2c9401b20ce"],
-Cell[153953, 3863, 399, 7, 78, "Print",ExpressionUUID->"2e4bfa79-0719-457c-b2c6-1f2cc7c2ce9c"],
-Cell[154355, 3872, 223, 5, 29, "Print",ExpressionUUID->"1bbee978-352d-4ae1-be01-0261853ccb4e"],
-Cell[154581, 3879, 551, 14, 29, "Print",ExpressionUUID->"9103811e-3e71-490e-9920-e8a3430f2394"],
-Cell[155135, 3895, 437, 8, 102, "Print",ExpressionUUID->"f5df561f-cd8c-4fb0-a533-23f959c33c34"],
-Cell[155575, 3905, 223, 5, 29, "Print",ExpressionUUID->"4a8eca01-8c38-448d-a840-225f89cef0f3"],
-Cell[155801, 3912, 552, 14, 29, "Print",ExpressionUUID->"64b5b858-d084-4f7f-93ac-4d83e87c5e2f"],
-Cell[156356, 3928, 399, 7, 78, "Print",ExpressionUUID->"4f72054a-7dca-4fc8-ae75-4ef99a00beac"]
+Cell[129975, 3244, 775, 12, 198, "Print",ExpressionUUID->"a19b7c5b-e630-4484-975d-57af87a4bae0"],
+Cell[130753, 3258, 400, 7, 78, "Print",ExpressionUUID->"08fe1fbf-c676-4d10-bfba-704109de9b22"],
+Cell[131156, 3267, 347, 6, 29, "Print",ExpressionUUID->"a28904db-68cf-4f87-8a29-8689c37b1f8f"],
+Cell[131506, 3275, 322, 6, 29, "Print",ExpressionUUID->"bdc0fac9-a0bd-4138-81c5-677bf4348e45"],
+Cell[131831, 3283, 737, 11, 174, "Print",ExpressionUUID->"f85a4dcc-c6cf-4f2e-9f40-1be40ed0cbd8"],
+Cell[132571, 3296, 871, 13, 198, "Print",ExpressionUUID->"5b2ea7b3-3293-4795-bec5-cc0093c1e105"],
+Cell[133445, 3311, 248, 5, 29, "Print",ExpressionUUID->"5826c3d0-c0ec-45b7-9d09-9217f8a3d3f5"],
+Cell[133696, 3318, 248, 5, 29, "Print",ExpressionUUID->"3bfaf9ba-dbd9-4b49-8c5b-fbec85bf86d8"],
+Cell[133947, 3325, 577, 14, 29, "Print",ExpressionUUID->"73ab1f61-5dda-4fa7-a488-7b83a72ce56b"],
+Cell[134527, 3341, 464, 8, 78, "Print",ExpressionUUID->"ad70f222-51cc-458b-991e-cd79309d7c4f"],
+Cell[134994, 3351, 248, 5, 29, "Print",ExpressionUUID->"46053a4e-5f51-49b6-b660-b1c48f8b66e8"],
+Cell[135245, 3358, 577, 14, 29, "Print",ExpressionUUID->"2e850435-fed8-4220-98b1-bf8387fad421"],
+Cell[135825, 3374, 426, 7, 54, "Print",ExpressionUUID->"ca71b51d-5088-444b-8c0a-4c1c72918212"],
+Cell[136254, 3383, 248, 5, 29, "Print",ExpressionUUID->"b95dc33c-841d-43db-a239-6d70706932f2"],
+Cell[136505, 3390, 579, 14, 29, "Print",ExpressionUUID->"6a68641f-0a3d-4746-88e8-cb8ab65b189c"],
+Cell[137087, 3406, 461, 8, 78, "Print",ExpressionUUID->"ef2e4f92-0185-44d2-8aa7-891c898ff430"],
+Cell[137551, 3416, 248, 5, 29, "Print",ExpressionUUID->"876e3a29-667c-4c91-b769-eed2a1c4c714"],
+Cell[137802, 3423, 577, 14, 29, "Print",ExpressionUUID->"ab1e7adb-179b-4a97-8bce-d9f283679d1c"],
+Cell[138382, 3439, 424, 7, 54, "Print",ExpressionUUID->"7c99b4f7-80da-4d3f-af33-9e3485802d2a"],
+Cell[138809, 3448, 305, 6, 29, "Print",ExpressionUUID->"c62ca63e-f532-4b35-966f-3c1105e91618"],
+Cell[139117, 3456, 1175, 31, 54, "Print",ExpressionUUID->"afebdc84-68e1-420e-9c34-44f9610c6b54"],
+Cell[140295, 3489, 773, 12, 198, "Print",ExpressionUUID->"b2502dc4-e8bc-449a-b26d-c31be2d85088"],
+Cell[141071, 3503, 400, 7, 78, "Print",ExpressionUUID->"83ca6061-9a2b-42b2-b57a-d4f79826d2cd"],
+Cell[141474, 3512, 349, 6, 29, "Print",ExpressionUUID->"ac454265-6be9-4589-802e-20d7f71e6d30"],
+Cell[141826, 3520, 322, 6, 29, "Print",ExpressionUUID->"216ac47e-fa24-4572-b58c-3026632b886f"],
+Cell[142151, 3528, 737, 11, 174, "Print",ExpressionUUID->"4963209e-c51a-4de2-bd1c-cd313315b654"],
+Cell[142891, 3541, 871, 13, 198, "Print",ExpressionUUID->"9ad43d30-0f5f-4040-aaa7-92b9cf1e4c2e"],
+Cell[143765, 3556, 250, 5, 29, "Print",ExpressionUUID->"f57eb70e-49e1-4581-b6d9-04551265f4c8"],
+Cell[144018, 3563, 248, 5, 29, "Print",ExpressionUUID->"6be0a89c-2fb5-49da-a8e1-ef5a5bcf3300"],
+Cell[144269, 3570, 577, 14, 29, "Print",ExpressionUUID->"e5f25524-e399-4813-aa54-b9ed2dc90bdb"],
+Cell[144849, 3586, 462, 8, 78, "Print",ExpressionUUID->"fa47e383-6284-4163-a29a-2b04331958a4"],
+Cell[145314, 3596, 248, 5, 29, "Print",ExpressionUUID->"9bf062da-23c7-4fe2-a59c-1c262fc87647"],
+Cell[145565, 3603, 577, 14, 29, "Print",ExpressionUUID->"fea98b94-378d-4f40-b290-c00af5181e4a"],
+Cell[146145, 3619, 426, 7, 54, "Print",ExpressionUUID->"35dd45fe-4470-4605-b1bc-35b3460591aa"],
+Cell[146574, 3628, 248, 5, 29, "Print",ExpressionUUID->"acb91f0f-d5c8-4761-a759-7758358cc4d5"],
+Cell[146825, 3635, 577, 14, 29, "Print",ExpressionUUID->"09c3eea6-83b2-45d1-842b-689a83121933"],
+Cell[147405, 3651, 497, 8, 78, "Print",ExpressionUUID->"31e9f8d4-ed09-47a6-8179-f15a8f5d19f4"],
+Cell[147905, 3661, 248, 5, 29, "Print",ExpressionUUID->"dc8ad788-9e41-4dec-aed6-71b67d2cf2ec"],
+Cell[148156, 3668, 577, 14, 29, "Print",ExpressionUUID->"66c57314-94a5-4279-b535-9df9c7188b5f"],
+Cell[148736, 3684, 424, 7, 54, "Print",ExpressionUUID->"cde1f9b4-ad7b-4d94-9f4a-7483a120f644"],
+Cell[149163, 3693, 303, 6, 29, "Print",ExpressionUUID->"5f0d2a29-4b1f-497f-ae55-0201ea835013"],
+Cell[149469, 3701, 1295, 34, 54, "Print",ExpressionUUID->"b27f6149-06c5-4315-affa-503ee66607ca"],
+Cell[150767, 3737, 773, 12, 198, "Print",ExpressionUUID->"6cdfe967-18dd-4310-aeee-97c72889d1b8"],
+Cell[151543, 3751, 400, 7, 78, "Print",ExpressionUUID->"870bcc90-87e2-41be-8395-ef0bd1548b6a"],
+Cell[151946, 3760, 347, 6, 29, "Print",ExpressionUUID->"1e423f99-b3ef-4f6d-a7f2-2e4ab2d9712e"],
+Cell[152296, 3768, 322, 6, 29, "Print",ExpressionUUID->"95683019-b973-4417-912a-8d68fa3e6985"],
+Cell[152621, 3776, 737, 11, 174, "Print",ExpressionUUID->"ca5ddd20-a1b9-4d06-8821-10af9de05c1b"],
+Cell[153361, 3789, 869, 13, 198, "Print",ExpressionUUID->"04327eaf-6c64-4f41-95e5-e9d78a8a814d"],
+Cell[154233, 3804, 247, 5, 29, "Print",ExpressionUUID->"ba7a2553-663f-4d63-af71-f3a62a93ff94"],
+Cell[154483, 3811, 248, 5, 29, "Print",ExpressionUUID->"525dd287-84e4-40a3-8e83-4b86c7241166"],
+Cell[154734, 3818, 579, 14, 29, "Print",ExpressionUUID->"e9b7c5b0-1389-4d15-af23-ab0053292bd9"],
+Cell[155316, 3834, 462, 8, 78, "Print",ExpressionUUID->"97bd5970-36fd-400e-939f-8f761db70177"],
+Cell[155781, 3844, 248, 5, 29, "Print",ExpressionUUID->"e80fbb89-6644-4b76-acb3-058f101b97c7"],
+Cell[156032, 3851, 579, 14, 29, "Print",ExpressionUUID->"4a25d070-37a6-4b78-a37f-2096716ce33a"],
+Cell[156614, 3867, 424, 7, 54, "Print",ExpressionUUID->"502c4850-aabb-4b80-8c0e-1accb4e1d41f"],
+Cell[157041, 3876, 248, 5, 29, "Print",ExpressionUUID->"7793c1db-4a79-4269-a270-2aef93ae133e"],
+Cell[157292, 3883, 576, 14, 29, "Print",ExpressionUUID->"e7b3c5cc-a3d5-4c5a-bbec-aa2f7fd740e2"],
+Cell[157871, 3899, 462, 8, 78, "Print",ExpressionUUID->"6251774c-afa1-4213-bc5d-a0732347db29"],
+Cell[158336, 3909, 248, 5, 29, "Print",ExpressionUUID->"9ebf1618-0c77-4001-9a95-993951bc3e1b"],
+Cell[158587, 3916, 577, 14, 29, "Print",ExpressionUUID->"5e1a6974-618f-4e2d-b04f-f147d0595b2c"],
+Cell[159167, 3932, 426, 7, 54, "Print",ExpressionUUID->"3e3cd3fc-55b7-4362-9809-af878686b4ec"]
 }, Open  ]]
-}, Closed]]
+}, Open  ]]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[156816, 3942, 156, 3, 87, "Section",ExpressionUUID->"908deb29-f500-41e9-a082-a4582ac52a46"],
-Cell[156975, 3947, 1044, 29, 104, "Input",ExpressionUUID->"fcea7222-a5a8-4169-b08f-99f4fb7c169c"],
+Cell[159654, 3946, 156, 3, 87, "Section",ExpressionUUID->"908deb29-f500-41e9-a082-a4582ac52a46"],
+Cell[159813, 3951, 1044, 29, 104, "Input",ExpressionUUID->"fcea7222-a5a8-4169-b08f-99f4fb7c169c"],
 Cell[CellGroupData[{
-Cell[158044, 3980, 268, 5, 78, "Input",ExpressionUUID->"cb33918c-c5d6-44a4-a39b-ee90f9060bd0"],
-Cell[158315, 3987, 1030, 26, 78, "Output",ExpressionUUID->"dabc299c-e931-40b8-83e5-35687e3b5845"],
-Cell[159348, 4015, 1102, 29, 78, "Output",ExpressionUUID->"eff44eb1-e5c0-4bed-a9c3-41a906c50a9a"]
+Cell[160882, 3984, 268, 5, 78, "Input",ExpressionUUID->"cb33918c-c5d6-44a4-a39b-ee90f9060bd0"],
+Cell[161153, 3991, 1030, 26, 78, "Output",ExpressionUUID->"dabc299c-e931-40b8-83e5-35687e3b5845"],
+Cell[162186, 4019, 1102, 29, 78, "Output",ExpressionUUID->"eff44eb1-e5c0-4bed-a9c3-41a906c50a9a"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[160487, 4049, 1199, 29, 130, "Input",ExpressionUUID->"bcf4e6f7-5cf7-4913-a6e9-bbdd920458de"],
-Cell[161689, 4080, 973, 31, 78, "Output",ExpressionUUID->"a96bda4b-637e-4e0f-bbec-046fabd7194d"]
+Cell[163325, 4053, 1199, 29, 130, "Input",ExpressionUUID->"bcf4e6f7-5cf7-4913-a6e9-bbdd920458de"],
+Cell[164527, 4084, 973, 31, 78, "Output",ExpressionUUID->"a96bda4b-637e-4e0f-bbec-046fabd7194d"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[162699, 4116, 653, 19, 51, "Input",ExpressionUUID->"421e93fa-7998-4e73-b352-85b4ef58aee5"],
-Cell[163355, 4137, 1416, 41, 103, "Output",ExpressionUUID->"f3f09a07-e46c-4474-aece-e385431e001a"]
+Cell[165537, 4120, 653, 19, 51, "Input",ExpressionUUID->"421e93fa-7998-4e73-b352-85b4ef58aee5"],
+Cell[166193, 4141, 1416, 41, 103, "Output",ExpressionUUID->"f3f09a07-e46c-4474-aece-e385431e001a"]
 }, Open  ]],
-Cell[164786, 4181, 894, 20, 78, "Input",ExpressionUUID->"83c8a4a5-df77-4131-8982-fb98ae640fb3"],
-Cell[165683, 4203, 360, 9, 51, "Input",ExpressionUUID->"52a39429-d656-49f9-9f44-80923254f49c"],
+Cell[167624, 4185, 894, 20, 78, "Input",ExpressionUUID->"83c8a4a5-df77-4131-8982-fb98ae640fb3"],
+Cell[168521, 4207, 360, 9, 51, "Input",ExpressionUUID->"52a39429-d656-49f9-9f44-80923254f49c"],
 Cell[CellGroupData[{
-Cell[166068, 4216, 230, 3, 51, "Input",ExpressionUUID->"a4e4c78d-c501-42b2-8510-f320c6822615"],
-Cell[166301, 4221, 439, 11, 51, "Output",ExpressionUUID->"83f2f621-d20f-4938-9600-4696b7229322"]
+Cell[168906, 4220, 230, 3, 51, "Input",ExpressionUUID->"a4e4c78d-c501-42b2-8510-f320c6822615"],
+Cell[169139, 4225, 439, 11, 51, "Output",ExpressionUUID->"83f2f621-d20f-4938-9600-4696b7229322"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[166777, 4237, 225, 4, 51, "Input",ExpressionUUID->"7824ccb9-33fa-4ec4-80d4-39ae3f425d69"],
-Cell[167005, 4243, 114321, 3163, 6547, "Output",ExpressionUUID->"b43f7208-ba85-4c68-b8b1-00ca5f07248f"]
+Cell[169615, 4241, 225, 4, 51, "Input",ExpressionUUID->"7824ccb9-33fa-4ec4-80d4-39ae3f425d69"],
+Cell[169843, 4247, 114321, 3163, 6547, "Output",ExpressionUUID->"b43f7208-ba85-4c68-b8b1-00ca5f07248f"]
 }, Closed]],
 Cell[CellGroupData[{
-Cell[281363, 7411, 202, 3, 46, "Input",ExpressionUUID->"dde1aab9-1ba3-4baf-b28c-0c00cbb60de3"],
-Cell[281568, 7416, 149, 2, 51, "Output",ExpressionUUID->"a5dcd297-79d7-4457-974d-c02fb83556d1"]
+Cell[284201, 7415, 202, 3, 46, "Input",ExpressionUUID->"dde1aab9-1ba3-4baf-b28c-0c00cbb60de3"],
+Cell[284406, 7420, 149, 2, 51, "Output",ExpressionUUID->"a5dcd297-79d7-4457-974d-c02fb83556d1"]
 }, Open  ]],
-Cell[281732, 7421, 2648, 63, 234, "Input",ExpressionUUID->"9e630a3c-52ed-4973-b67b-4f90966fcfd0"],
+Cell[284570, 7425, 2648, 63, 234, "Input",ExpressionUUID->"9e630a3c-52ed-4973-b67b-4f90966fcfd0"],
 Cell[CellGroupData[{
-Cell[284405, 7488, 456, 9, 51, "Input",ExpressionUUID->"d4443dc9-3a3f-4113-adde-6012f055afc3"],
-Cell[284864, 7499, 139527, 3709, 7816, "Output",ExpressionUUID->"a642048b-66c8-46bf-9fe6-f7bbb83b3aee"]
+Cell[287243, 7492, 456, 9, 51, "Input",ExpressionUUID->"d4443dc9-3a3f-4113-adde-6012f055afc3"],
+Cell[287702, 7503, 139527, 3709, 7816, "Output",ExpressionUUID->"a642048b-66c8-46bf-9fe6-f7bbb83b3aee"]
 }, Closed]],
 Cell[CellGroupData[{
-Cell[424428, 11213, 858, 18, 46, "Input",ExpressionUUID->"b0bbfbed-3867-438f-8b91-76049dff8c0a"],
-Cell[425289, 11233, 69136, 1797, 4178, "Output",ExpressionUUID->"f7c72074-521a-451f-a902-8a9b310cf9fb"]
+Cell[427266, 11217, 858, 18, 46, "Input",ExpressionUUID->"b0bbfbed-3867-438f-8b91-76049dff8c0a"],
+Cell[428127, 11237, 69136, 1797, 4178, "Output",ExpressionUUID->"f7c72074-521a-451f-a902-8a9b310cf9fb"]
 }, Closed]],
-Cell[494440, 13033, 450, 8, 46, "Input",ExpressionUUID->"3dcc4f86-a2d8-4dba-8584-ae757eb050d3"],
-Cell[494893, 13043, 866, 26, 80, "Input",ExpressionUUID->"30be66f9-6f59-495e-82be-d4d2d6753887"],
+Cell[497278, 13037, 450, 8, 46, "Input",ExpressionUUID->"3dcc4f86-a2d8-4dba-8584-ae757eb050d3"],
+Cell[497731, 13047, 866, 26, 80, "Input",ExpressionUUID->"30be66f9-6f59-495e-82be-d4d2d6753887"],
 Cell[CellGroupData[{
-Cell[495784, 13073, 535, 12, 78, "Input",ExpressionUUID->"6ee2dd44-bfd1-49bf-90d6-660d3ffcb389"],
-Cell[496322, 13087, 234, 4, 51, "Output",ExpressionUUID->"1e9142da-8155-4c41-93e5-8426ef652125"],
-Cell[496559, 13093, 199, 3, 51, "Output",ExpressionUUID->"3eb59adb-749c-4b11-bb24-c109c8be2f46"]
+Cell[498622, 13077, 535, 12, 78, "Input",ExpressionUUID->"6ee2dd44-bfd1-49bf-90d6-660d3ffcb389"],
+Cell[499160, 13091, 234, 4, 51, "Output",ExpressionUUID->"1e9142da-8155-4c41-93e5-8426ef652125"],
+Cell[499397, 13097, 199, 3, 51, "Output",ExpressionUUID->"3eb59adb-749c-4b11-bb24-c109c8be2f46"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[496795, 13101, 253, 4, 51, "Input",ExpressionUUID->"ef5cc414-57fd-46e6-964e-cde56131d98f"],
-Cell[497051, 13107, 178, 2, 51, "Output",ExpressionUUID->"b24f05a6-de1b-4661-be5d-c2fa37bb0170"]
+Cell[499633, 13105, 253, 4, 51, "Input",ExpressionUUID->"ef5cc414-57fd-46e6-964e-cde56131d98f"],
+Cell[499889, 13111, 178, 2, 51, "Output",ExpressionUUID->"b24f05a6-de1b-4661-be5d-c2fa37bb0170"]
 }, Open  ]],
-Cell[497244, 13112, 1520, 47, 286, "Input",ExpressionUUID->"91c16895-37ad-4b10-9678-89bee2738c9a"],
+Cell[500082, 13116, 1520, 47, 286, "Input",ExpressionUUID->"91c16895-37ad-4b10-9678-89bee2738c9a"],
 Cell[CellGroupData[{
-Cell[498789, 13163, 367, 10, 51, "Input",ExpressionUUID->"b2ac318f-c798-420c-a19e-97d6c2fb1a0f"],
-Cell[499159, 13175, 179, 3, 51, "Output",ExpressionUUID->"367e25bf-b83a-471a-948b-67d0cb0d0515"]
-}, Open  ]],
-Cell[CellGroupData[{
-Cell[499375, 13183, 208, 5, 51, "Input",ExpressionUUID->"8aabd398-8ba9-490b-9030-c51928a405ba"],
-Cell[499586, 13190, 158, 3, 51, "Output",ExpressionUUID->"f14afd78-2f65-46f5-a8c5-d27cfd420030"]
+Cell[501627, 13167, 367, 10, 51, "Input",ExpressionUUID->"b2ac318f-c798-420c-a19e-97d6c2fb1a0f"],
+Cell[501997, 13179, 179, 3, 51, "Output",ExpressionUUID->"367e25bf-b83a-471a-948b-67d0cb0d0515"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[499781, 13198, 490, 10, 51, "Input",ExpressionUUID->"37b117af-a937-4fc1-aeab-049c73f1f3a1"],
-Cell[500274, 13210, 2073, 60, 113, "Output",ExpressionUUID->"b924ae4a-242a-4b9a-87e2-ea34f0558800"]
+Cell[502213, 13187, 208, 5, 51, "Input",ExpressionUUID->"8aabd398-8ba9-490b-9030-c51928a405ba"],
+Cell[502424, 13194, 158, 3, 51, "Output",ExpressionUUID->"f14afd78-2f65-46f5-a8c5-d27cfd420030"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[502384, 13275, 341, 8, 51, "Input",ExpressionUUID->"ddc45b64-8551-4c0b-8943-b2427cb590bc"],
-Cell[502728, 13285, 782, 24, 55, "Output",ExpressionUUID->"f5d31ef5-8605-44fe-8a40-5b43bc1aa22a"]
+Cell[502619, 13202, 490, 10, 51, "Input",ExpressionUUID->"37b117af-a937-4fc1-aeab-049c73f1f3a1"],
+Cell[503112, 13214, 2073, 60, 113, "Output",ExpressionUUID->"b924ae4a-242a-4b9a-87e2-ea34f0558800"]
 }, Open  ]],
-Cell[503525, 13312, 172, 3, 51, "Input",ExpressionUUID->"ae569d02-7e13-408c-9711-a46e931d7a83"]
+Cell[CellGroupData[{
+Cell[505222, 13279, 341, 8, 51, "Input",ExpressionUUID->"ddc45b64-8551-4c0b-8943-b2427cb590bc"],
+Cell[505566, 13289, 782, 24, 55, "Output",ExpressionUUID->"f5d31ef5-8605-44fe-8a40-5b43bc1aa22a"]
+}, Open  ]],
+Cell[506363, 13316, 172, 3, 51, "Input",ExpressionUUID->"ae569d02-7e13-408c-9711-a46e931d7a83"]
 }, Open  ]]
 }
 ]
