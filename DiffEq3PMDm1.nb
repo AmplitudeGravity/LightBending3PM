@@ -1,0 +1,2522 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 11.3' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[     95528,       2514]
+NotebookOptionsPosition[     89228,       2404]
+NotebookOutlinePosition[     89944,       2429]
+CellTagsIndexPosition[     89855,       2424]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[BoxData[{
+ RowBox[{"SetDirectory", "[", 
+  RowBox[{"NotebookDirectory", "[", "]"}], "]"}], "\[IndentingNewLine]", 
+ RowBox[{"<<", "LiteRed2`"}]}], "Input",
+ CellChangeTimes->{3.883543606712802*^9},
+ CellLabel->"In[1]:=",ExpressionUUID->"2b6699d2-cbac-492b-b904-18fb35640ea4"],
+
+Cell[BoxData["\<\"/Users/gangchen/Documents/GitHub/LightBending3PM\"\>"], \
+"Output",
+ CellChangeTimes->{
+  3.830335665838732*^9, {3.830335697131562*^9, 3.83033571314506*^9}, 
+   3.830496546450869*^9, 3.830498805553753*^9, 3.8305609949366083`*^9, 
+   3.830835288745225*^9, 3.830911212966309*^9, 3.831022432349622*^9, 
+   3.831091801673326*^9, 3.8311196829459877`*^9, 3.831627233125239*^9, 
+   3.831631033732642*^9, 3.831684387783597*^9, 3.831686139869879*^9, 
+   3.831686394375436*^9, {3.83169084982574*^9, 3.831690870708747*^9}, 
+   3.8317706973294353`*^9, 3.8318073443810787`*^9, 3.831809144813127*^9, 
+   3.8318102150358667`*^9, 3.831812385607932*^9, 3.831858642444748*^9, 
+   3.831961857494338*^9, {3.832292468292226*^9, 3.832292478051443*^9}, 
+   3.833323919408369*^9, 3.8334253541462927`*^9, 3.834658429031487*^9, 
+   3.834883401457658*^9, 3.8349868093483667`*^9, 3.836040139919717*^9, 
+   3.836627901976357*^9, {3.8835435811778*^9, 3.8835436229760017`*^9}, 
+   3.88354397300179*^9, 3.88362908537383*^9},
+ CellLabel->"Out[1]=",ExpressionUUID->"7afb7730-c909-4b85-98cc-2de95f7a01da"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"**************** \"\>", "\[InvisibleSpace]", 
+   StyleBox["\<\"LiteRed v2.021\[Beta]\"\>",
+    StripOnInput->False,
+    LineColor->RGBColor[1, 
+      Rational[1, 3], 
+      Rational[1, 3]],
+    FrontFaceColor->RGBColor[1, 
+      Rational[1, 3], 
+      Rational[1, 3]],
+    BackFaceColor->RGBColor[1, 
+      Rational[1, 3], 
+      Rational[1, 3]],
+    GraphicsColor->RGBColor[1, 
+      Rational[1, 3], 
+      Rational[1, 3]],
+    FontWeight->Bold,
+    FontColor->RGBColor[1, 
+      Rational[1, 3], 
+      Rational[1, 3]]], 
+   "\[InvisibleSpace]", "\<\" ********************\\nAuthor: Roman N. Lee, \
+Budker Institute of Nuclear Physics, Novosibirsk.\\nRelease Date: \
+????-??-??\\nTimestamp: Tue 6 Apr 2021 07:23:42\\nMD5: \
+31715554472932810013881831558989345605\\n\\nLiteRed stands for \"\>", 
+   "\[InvisibleSpace]", 
+   StyleBox["\<\"L\"\>",
+    StripOnInput->False,
+    LineColor->RGBColor[1, 
+      Rational[1, 3], 
+      Rational[1, 3]],
+    FrontFaceColor->RGBColor[1, 
+      Rational[1, 3], 
+      Rational[1, 3]],
+    BackFaceColor->RGBColor[1, 
+      Rational[1, 3], 
+      Rational[1, 3]],
+    GraphicsColor->RGBColor[1, 
+      Rational[1, 3], 
+      Rational[1, 3]],
+    FontColor->RGBColor[1, 
+      Rational[1, 3], 
+      Rational[1, 3]]], "\[InvisibleSpace]", "\<\"oop \"\>", 
+   "\[InvisibleSpace]", 
+   StyleBox["\<\"i\"\>",
+    StripOnInput->False,
+    LineColor->RGBColor[1, 
+      Rational[1, 3], 
+      Rational[1, 3]],
+    FrontFaceColor->RGBColor[1, 
+      Rational[1, 3], 
+      Rational[1, 3]],
+    BackFaceColor->RGBColor[1, 
+      Rational[1, 3], 
+      Rational[1, 3]],
+    GraphicsColor->RGBColor[1, 
+      Rational[1, 3], 
+      Rational[1, 3]],
+    FontColor->RGBColor[1, 
+      Rational[1, 3], 
+      Rational[1, 3]]], "\[InvisibleSpace]", "\<\"n\"\>", "\[InvisibleSpace]", 
+   StyleBox["\<\"te\"\>",
+    StripOnInput->False,
+    LineColor->RGBColor[1, 
+      Rational[1, 3], 
+      Rational[1, 3]],
+    FrontFaceColor->RGBColor[1, 
+      Rational[1, 3], 
+      Rational[1, 3]],
+    BackFaceColor->RGBColor[1, 
+      Rational[1, 3], 
+      Rational[1, 3]],
+    GraphicsColor->RGBColor[1, 
+      Rational[1, 3], 
+      Rational[1, 3]],
+    FontColor->RGBColor[1, 
+      Rational[1, 3], 
+      Rational[1, 3]]], "\[InvisibleSpace]", "\<\"grals \"\>", 
+   "\[InvisibleSpace]", 
+   StyleBox["\<\"Red\"\>",
+    StripOnInput->False,
+    LineColor->RGBColor[1, 
+      Rational[1, 3], 
+      Rational[1, 3]],
+    FrontFaceColor->RGBColor[1, 
+      Rational[1, 3], 
+      Rational[1, 3]],
+    BackFaceColor->RGBColor[1, 
+      Rational[1, 3], 
+      Rational[1, 3]],
+    GraphicsColor->RGBColor[1, 
+      Rational[1, 3], 
+      Rational[1, 3]],
+    FontColor->RGBColor[1, 
+      Rational[1, 3], 
+      Rational[1, 3]]], 
+   "\[InvisibleSpace]", "\<\"uction.\\nThe package is designed for the search \
+and application of the Integration-By-Part reduction rules. It also contains \
+some other useful tools.\\n\\nSee ?LiteRed`* for a list of functions. \"\>"}],
+  
+  SequenceForm["**************** ", 
+   Style["LiteRed v2.021\[Beta]", {Bold, 
+     RGBColor[1, 
+      Rational[1, 3], 
+      Rational[1, 3]]}], 
+   " ********************\nAuthor: Roman N. Lee, Budker Institute of Nuclear \
+Physics, Novosibirsk.\nRelease Date: ????-??-??\nTimestamp: Tue 6 Apr 2021 \
+07:23:42\nMD5: 31715554472932810013881831558989345605\n\nLiteRed stands for ", 
+   Style["L", {
+     RGBColor[1, 
+      Rational[1, 3], 
+      Rational[1, 3]]}], "oop ", 
+   Style["i", {
+     RGBColor[1, 
+      Rational[1, 3], 
+      Rational[1, 3]]}], "n", 
+   Style["te", {
+     RGBColor[1, 
+      Rational[1, 3], 
+      Rational[1, 3]]}], "grals ", 
+   Style["Red", {
+     RGBColor[1, 
+      Rational[1, 3], 
+      Rational[1, 3]]}], 
+   "uction.\nThe package is designed for the search and application of the \
+Integration-By-Part reduction rules. It also contains some other useful \
+tools.\n\nSee ?LiteRed`* for a list of functions. "],
+  Editable->False]], "Print",
+ CellChangeTimes->{
+  3.830335665870305*^9, {3.83033569718472*^9, 3.8303357132722178`*^9}, 
+   3.8304965466207952`*^9, 3.830498805683261*^9, 3.8305609952345*^9, 
+   3.830835288896819*^9, 3.830911213181793*^9, 3.831022432516507*^9, 
+   3.8310918018291473`*^9, 3.831119683106193*^9, 3.831627233284759*^9, 
+   3.831631033870516*^9, 3.8316843879606447`*^9, 3.831686140025321*^9, 
+   3.831686394508542*^9, {3.831690850021212*^9, 3.831690870839717*^9}, 
+   3.8317706975056887`*^9, 3.831807344544148*^9, 3.83180914496542*^9, 
+   3.831810215198739*^9, 3.831812385769821*^9, 3.83185864261607*^9, 
+   3.8319618576485*^9, {3.832292468430419*^9, 3.832292478216962*^9}, 
+   3.833323919610462*^9, 3.83342535431045*^9, 3.8346584291961*^9, 
+   3.834883401653871*^9, 3.83498680953572*^9, 3.83604014011054*^9, 
+   3.836627902151767*^9, {3.883543582014133*^9, 3.8835436237281446`*^9}, 
+   3.883543973753641*^9, 3.883629086136099*^9},
+ CellLabel->
+  "During evaluation of \
+In[1]:=",ExpressionUUID->"a7cfd306-f641-40f9-9e37-3d7ddd2f2b29"],
+
+Cell[BoxData[
+ TemplateBox[{
+  "SetOptions", "optnf", 
+   "\"\\!\\(\\*RowBox[{\\\"VertexRenderingFunction\\\"}]\\) is not a known \
+option for \\!\\(\\*RowBox[{\\\"GraphPlot\\\"}]\\).\"", 2, 2, 1, 
+   33358561166317127309, "IBP1"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{{3.883543582270011*^9, 3.883543623992159*^9}, 
+   3.8835439740008297`*^9, 3.8836290863971024`*^9},
+ CellLabel->
+  "During evaluation of \
+In[1]:=",ExpressionUUID->"758051e7-0429-46f5-953c-da7765b1d959"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"?", "LiteRed`*"}]], "Input",
+ CellLabel->
+  "In[193]:=",ExpressionUUID->"3c249571-9c49-45db-988e-755c1f6348cb"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ DynamicModuleBox[{Typeset`open$$ = True}, 
+  PaneSelectorBox[{False->
+   RowBox[{
+    OpenerBox[Dynamic[Typeset`open$$],
+     ImageSize->Small], 
+    StyleBox["LiteRed`", "InfoHeading"]}], True->GridBox[{
+     {
+      RowBox[{
+       OpenerBox[Dynamic[Typeset`open$$],
+        ImageSize->Small], 
+       StyleBox["LiteRed`", "InfoHeading"]}]},
+     {GridBox[{
+        {
+         ButtonBox["A",
+          BaseStyle->"InformationLink",
+          ButtonData:>{"Info1933830607465-8510001", {"A", "LiteRed`"}},
+          ButtonNote->"LiteRed`"], 
+         ButtonBox["GramP",
+          BaseStyle->"InformationLink",
+          ButtonData:>{"Info1933830607465-8510001", {"GramP", "LiteRed`"}},
+          ButtonNote->"LiteRed`"], 
+         ButtonBox["NoRules",
+          BaseStyle->"InformationLink",
+          ButtonData:>{"Info1933830607465-8510001", {"NoRules", "LiteRed`"}},
+          ButtonNote->"LiteRed`"]},
+        {
+         ButtonBox["ABIBP",
+          BaseStyle->"InformationLink",
+          ButtonData:>{"Info1933830607465-8510001", {"ABIBP", "LiteRed`"}},
+          ButtonNote->"LiteRed`"], 
+         ButtonBox["GramPFunction",
+          BaseStyle->"InformationLink",
+          
+          ButtonData:>{
+           "Info1933830607465-8510001", {"GramPFunction", "LiteRed`"}},
+          ButtonNote->"LiteRed`"], 
+         ButtonBox["NoRules$",
+          BaseStyle->"InformationLink",
+          ButtonData:>{"Info1933830607465-8510001", {"NoRules$", "LiteRed`"}},
+          
+          ButtonNote->"LiteRed`"]},
+        {
+         ButtonBox["ABIBPLI",
+          BaseStyle->"InformationLink",
+          ButtonData:>{"Info1933830607465-8510001", {"ABIBPLI", "LiteRed`"}},
+          ButtonNote->"LiteRed`"], 
+         ButtonBox["GraphSort",
+          BaseStyle->"InformationLink",
+          ButtonData:>{"Info1933830607465-8510001", {"GraphSort", "LiteRed`"}},
+          ButtonNote->"LiteRed`"], 
+         ButtonBox["NumDepth",
+          BaseStyle->"InformationLink",
+          ButtonData:>{"Info1933830607465-8510001", {"NumDepth", "LiteRed`"}},
+          
+          ButtonNote->"LiteRed`"]},
+        {
+         ButtonBox["ABLI",
+          BaseStyle->"InformationLink",
+          ButtonData:>{"Info1933830607465-8510001", {"ABLI", "LiteRed`"}},
+          ButtonNote->"LiteRed`"], 
+         ButtonBox["GraphToDs",
+          BaseStyle->"InformationLink",
+          ButtonData:>{"Info1933830607465-8510001", {"GraphToDs", "LiteRed`"}},
+          ButtonNote->"LiteRed`"], 
+         ButtonBox["NumeratorsToDShifts",
+          BaseStyle->"InformationLink",
+          
+          ButtonData:>{
+           "Info1933830607465-8510001", {"NumeratorsToDShifts", "LiteRed`"}},
+          ButtonNote->"LiteRed`"]},
+        {
+         ButtonBox["AddjRule",
+          BaseStyle->"InformationLink",
+          ButtonData:>{"Info1933830607465-8510001", {"AddjRule", "LiteRed`"}},
+          
+          ButtonNote->"LiteRed`"], 
+         ButtonBox["Highj",
+          BaseStyle->"InformationLink",
+          ButtonData:>{"Info1933830607465-8510001", {"Highj", "LiteRed`"}},
+          ButtonNote->"LiteRed`"], 
+         ButtonBox["Parameters",
+          BaseStyle->"InformationLink",
+          
+          ButtonData:>{
+           "Info1933830607465-8510001", {"Parameters", "LiteRed`"}},
+          ButtonNote->"LiteRed`"]},
+        {
+         ButtonBox["AnalyzeSectors",
+          BaseStyle->"InformationLink",
+          
+          ButtonData:>{
+           "Info1933830607465-8510001", {"AnalyzeSectors", "LiteRed`"}},
+          ButtonNote->"LiteRed`"], 
+         ButtonBox["HighjIndex",
+          BaseStyle->"InformationLink",
+          
+          ButtonData:>{
+           "Info1933830607465-8510001", {"HighjIndex", "LiteRed`"}},
+          ButtonNote->"LiteRed`"], 
+         ButtonBox["PFGB",
+          BaseStyle->"InformationLink",
+          ButtonData:>{"Info1933830607465-8510001", {"PFGB", "LiteRed`"}},
+          ButtonNote->"LiteRed`"]},
+        {
+         ButtonBox["AtoLeft",
+          BaseStyle->"InformationLink",
+          ButtonData:>{"Info1933830607465-8510001", {"AtoLeft", "LiteRed`"}},
+          ButtonNote->"LiteRed`"], 
+         ButtonBox["Highjs",
+          BaseStyle->"InformationLink",
+          ButtonData:>{"Info1933830607465-8510001", {"Highjs", "LiteRed`"}},
+          ButtonNote->"LiteRed`"], 
+         ButtonBox["PFReduce",
+          BaseStyle->"InformationLink",
+          ButtonData:>{"Info1933830607465-8510001", {"PFReduce", "LiteRed`"}},
+          
+          ButtonNote->"LiteRed`"]},
+        {
+         ButtonBox["AttachGraph",
+          BaseStyle->"InformationLink",
+          
+          ButtonData:>{
+           "Info1933830607465-8510001", {"AttachGraph", "LiteRed`"}},
+          ButtonNote->"LiteRed`"], 
+         ButtonBox["IBP",
+          BaseStyle->"InformationLink",
+          ButtonData:>{"Info1933830607465-8510001", {"IBP", "LiteRed`"}},
+          ButtonNote->"LiteRed`"], 
+         ButtonBox["PolyNForm",
+          BaseStyle->"InformationLink",
+          ButtonData:>{"Info1933830607465-8510001", {"PolyNForm", "LiteRed`"}},
+          ButtonNote->"LiteRed`"]},
+        {
+         ButtonBox["B",
+          BaseStyle->"InformationLink",
+          ButtonData:>{"Info1933830607465-8510001", {"B", "LiteRed`"}},
+          ButtonNote->"LiteRed`"], 
+         ButtonBox["IBPLI",
+          BaseStyle->"InformationLink",
+          ButtonData:>{"Info1933830607465-8510001", {"IBPLI", "LiteRed`"}},
+          ButtonNote->"LiteRed`"], 
+         ButtonBox["PolySignature",
+          BaseStyle->"InformationLink",
+          
+          ButtonData:>{
+           "Info1933830607465-8510001", {"PolySignature", "LiteRed`"}},
+          ButtonNote->"LiteRed`"]},
+        {
+         ButtonBox["BasisDirectory",
+          BaseStyle->"InformationLink",
+          
+          ButtonData:>{
+           "Info1933830607465-8510001", {"BasisDirectory", "LiteRed`"}},
+          ButtonNote->"LiteRed`"], 
+         ButtonBox["IBPReduce",
+          BaseStyle->"InformationLink",
+          ButtonData:>{"Info1933830607465-8510001", {"IBPReduce", "LiteRed`"}},
+          ButtonNote->"LiteRed`"], 
+         ButtonBox["PolySignaturePermutations",
+          BaseStyle->"InformationLink",
+          
+          ButtonData:>{
+           "Info1933830607465-8510001", {
+            "PolySignaturePermutations", "LiteRed`"}},
+          ButtonNote->"LiteRed`"]},
+        {
+         ButtonBox["BasisSectors",
+          BaseStyle->"InformationLink",
+          
+          ButtonData:>{
+           "Info1933830607465-8510001", {"BasisSectors", "LiteRed`"}},
+          ButtonNote->"LiteRed`"], 
+         ButtonBox["IBPReduceDen",
+          BaseStyle->"InformationLink",
+          
+          ButtonData:>{
+           "Info1933830607465-8510001", {"IBPReduceDen", "LiteRed`"}},
+          ButtonNote->"LiteRed`"], 
+         ButtonBox["PowerShifts",
+          BaseStyle->"InformationLink",
+          
+          ButtonData:>{
+           "Info1933830607465-8510001", {"PowerShifts", "LiteRed`"}},
+          ButtonNote->"LiteRed`"]},
+        {
+         ButtonBox["BiggestSectors",
+          BaseStyle->"InformationLink",
+          
+          ButtonData:>{
+           "Info1933830607465-8510001", {"BiggestSectors", "LiteRed`"}},
+          ButtonNote->"LiteRed`"], 
+         ButtonBox["IBPSelect",
+          BaseStyle->"InformationLink",
+          ButtonData:>{"Info1933830607465-8510001", {"IBPSelect", "LiteRed`"}},
+          ButtonNote->"LiteRed`"], 
+         ButtonBox["RaiseDim",
+          BaseStyle->"InformationLink",
+          ButtonData:>{"Info1933830607465-8510001", {"RaiseDim", "LiteRed`"}},
+          
+          ButtonNote->"LiteRed`"]},
+        {
+         ButtonBox["BloodhoundSearch",
+          BaseStyle->"InformationLink",
+          
+          ButtonData:>{
+           "Info1933830607465-8510001", {"BloodhoundSearch", "LiteRed`"}},
+          ButtonNote->"LiteRed`"], 
+         ButtonBox["IdentifyMIs",
+          BaseStyle->"InformationLink",
+          
+          ButtonData:>{
+           "Info1933830607465-8510001", {"IdentifyMIs", "LiteRed`"}},
+          ButtonNote->"LiteRed`"], 
+         ButtonBox["RaisingDRR",
+          BaseStyle->"InformationLink",
+          
+          ButtonData:>{
+           "Info1933830607465-8510001", {"RaisingDRR", "LiteRed`"}},
+          ButtonNote->"LiteRed`"]},
+        {
+         ButtonBox["CheckDefinitions",
+          BaseStyle->"InformationLink",
+          
+          ButtonData:>{
+           "Info1933830607465-8510001", {"CheckDefinitions", "LiteRed`"}},
+          ButtonNote->"LiteRed`"], 
+         ButtonBox["InverseTildeConjugate",
+          BaseStyle->"InformationLink",
+          
+          ButtonData:>{
+           "Info1933830607465-8510001", {"InverseTildeConjugate", "LiteRed`"}},
+          ButtonNote->"LiteRed`"], 
+         ButtonBox["RefreshMIs",
+          BaseStyle->"InformationLink",
+          
+          ButtonData:>{
+           "Info1933830607465-8510001", {"RefreshMIs", "LiteRed`"}},
+          ButtonNote->"LiteRed`"]},
+        {
+         ButtonBox["CheckZeroAlways",
+          BaseStyle->"InformationLink",
+          
+          ButtonData:>{
+           "Info1933830607465-8510001", {"CheckZeroAlways", "LiteRed`"}},
+          ButtonNote->"LiteRed`"], 
+         ButtonBox["j",
+          BaseStyle->"InformationLink",
+          ButtonData:>{"Info1933830607465-8510001", {"j", "LiteRed`"}},
+          ButtonNote->"LiteRed`"], 
+         ButtonBox["Relations",
+          BaseStyle->"InformationLink",
+          ButtonData:>{"Info1933830607465-8510001", {"Relations", "LiteRed`"}},
+          ButtonNote->"LiteRed`"]},
+        {
+         ButtonBox["CheckZeroFunction",
+          BaseStyle->"InformationLink",
+          
+          ButtonData:>{
+           "Info1933830607465-8510001", {"CheckZeroFunction", "LiteRed`"}},
+          ButtonNote->"LiteRed`"], 
+         ButtonBox["jComplexity",
+          BaseStyle->"InformationLink",
+          
+          ButtonData:>{
+           "Info1933830607465-8510001", {"jComplexity", "LiteRed`"}},
+          ButtonNote->"LiteRed`"], 
+         ButtonBox["RRs",
+          BaseStyle->"InformationLink",
+          ButtonData:>{"Info1933830607465-8510001", {"RRs", "LiteRed`"}},
+          ButtonNote->"LiteRed`"]},
+        {
+         ButtonBox["Collectj",
+          BaseStyle->"InformationLink",
+          ButtonData:>{"Info1933830607465-8510001", {"Collectj", "LiteRed`"}},
+          
+          ButtonNote->"LiteRed`"], 
+         ButtonBox["jExtRules",
+          BaseStyle->"InformationLink",
+          ButtonData:>{"Info1933830607465-8510001", {"jExtRules", "LiteRed`"}},
+          ButtonNote->"LiteRed`"], 
+         ButtonBox["SectorHierarchy",
+          BaseStyle->"InformationLink",
+          
+          ButtonData:>{
+           "Info1933830607465-8510001", {"SectorHierarchy", "LiteRed`"}},
+          ButtonNote->"LiteRed`"]},
+        {
+         ButtonBox["CollectjList",
+          BaseStyle->"InformationLink",
+          
+          ButtonData:>{
+           "Info1933830607465-8510001", {"CollectjList", "LiteRed`"}},
+          ButtonNote->"LiteRed`"], 
+         ButtonBox["jGraph",
+          BaseStyle->"InformationLink",
+          ButtonData:>{"Info1933830607465-8510001", {"jGraph", "LiteRed`"}},
+          ButtonNote->"LiteRed`"], 
+         ButtonBox["SectorLayer",
+          BaseStyle->"InformationLink",
+          
+          ButtonData:>{
+           "Info1933830607465-8510001", {"SectorLayer", "LiteRed`"}},
+          ButtonNote->"LiteRed`"]},
+        {
+         ButtonBox["CompleteMomentaFlow",
+          BaseStyle->"InformationLink",
+          
+          ButtonData:>{
+           "Info1933830607465-8510001", {"CompleteMomentaFlow", "LiteRed`"}},
+          ButtonNote->"LiteRed`"], 
+         ButtonBox["jLevel",
+          BaseStyle->"InformationLink",
+          ButtonData:>{"Info1933830607465-8510001", {"jLevel", "LiteRed`"}},
+          ButtonNote->"LiteRed`"], 
+         ButtonBox["SectorsMappings",
+          BaseStyle->"InformationLink",
+          ButtonData:>{
+           "Info1933830607465-8510001", {"SectorsMappings", "LiteRed`"}},
+          ButtonNote->"LiteRed`"]},
+        {
+         ButtonBox["CurrentState",
+          BaseStyle->"InformationLink",
+          
+          ButtonData:>{
+           "Info1933830607465-8510001", {"CurrentState", "LiteRed`"}},
+          ButtonNote->"LiteRed`"], 
+         ButtonBox["jPattern",
+          BaseStyle->"InformationLink",
+          ButtonData:>{"Info1933830607465-8510001", {"jPattern", "LiteRed`"}},
+          
+          ButtonNote->"LiteRed`"], 
+         ButtonBox["SectorsPattern",
+          BaseStyle->"InformationLink",
+          
+          ButtonData:>{
+           "Info1933830607465-8510001", {"SectorsPattern", "LiteRed`"}},
+          ButtonNote->"LiteRed`"]},
+        {
+         ButtonBox["CutDs",
+          BaseStyle->"InformationLink",
+          ButtonData:>{"Info1933830607465-8510001", {"CutDs", "LiteRed`"}},
+          ButtonNote->"LiteRed`"], 
+         ButtonBox["jRules",
+          BaseStyle->"InformationLink",
+          ButtonData:>{"Info1933830607465-8510001", {"jRules", "LiteRed`"}},
+          ButtonNote->"LiteRed`"], 
+         ButtonBox["SetToBasesRule",
+          BaseStyle->"InformationLink",
+          
+          ButtonData:>{
+           "Info1933830607465-8510001", {"SetToBasesRule", "LiteRed`"}},
+          ButtonNote->"LiteRed`"]},
+        {
+         ButtonBox["Definitions",
+          BaseStyle->"InformationLink",
+          
+          ButtonData:>{
+           "Info1933830607465-8510001", {"Definitions", "LiteRed`"}},
+          ButtonNote->"LiteRed`"], 
+         ButtonBox["jRulesDen",
+          BaseStyle->"InformationLink",
+          ButtonData:>{"Info1933830607465-8510001", {"jRulesDen", "LiteRed`"}},
+          ButtonNote->"LiteRed`"], 
+         ButtonBox["SimpleSectors",
+          BaseStyle->"InformationLink",
+          
+          ButtonData:>{
+           "Info1933830607465-8510001", {"SimpleSectors", "LiteRed`"}},
+          ButtonNote->"LiteRed`"]},
+        {
+         ButtonBox["Dinv",
+          BaseStyle->"InformationLink",
+          ButtonData:>{"Info1933830607465-8510001", {"Dinv", "LiteRed`"}},
+          ButtonNote->"LiteRed`"], 
+         ButtonBox["js",
+          BaseStyle->"InformationLink",
+          ButtonData:>{"Info1933830607465-8510001", {"js", "LiteRed`"}},
+          ButtonNote->"LiteRed`"], 
+         ButtonBox["SimplifyAlways",
+          BaseStyle->"InformationLink",
+          
+          ButtonData:>{
+           "Info1933830607465-8510001", {"SimplifyAlways", "LiteRed`"}},
+          ButtonNote->"LiteRed`"]},
+        {
+         ButtonBox["DiskRecover",
+          BaseStyle->"InformationLink",
+          
+          ButtonData:>{
+           "Info1933830607465-8510001", {"DiskRecover", "LiteRed`"}},
+          ButtonNote->"LiteRed`"], 
+         ButtonBox["jSector",
+          BaseStyle->"InformationLink",
+          ButtonData:>{"Info1933830607465-8510001", {"jSector", "LiteRed`"}},
+          ButtonNote->"LiteRed`"], 
+         ButtonBox["SimplifyFunction",
+          BaseStyle->"InformationLink",
+          
+          ButtonData:>{
+           "Info1933830607465-8510001", {"SimplifyFunction", "LiteRed`"}},
+          ButtonNote->"LiteRed`"]},
+        {
+         ButtonBox["DiskSave",
+          BaseStyle->"InformationLink",
+          ButtonData:>{"Info1933830607465-8510001", {"DiskSave", "LiteRed`"}},
+          
+          ButtonNote->"LiteRed`"], 
+         ButtonBox["jsFPIBP",
+          BaseStyle->"InformationLink",
+          ButtonData:>{"Info1933830607465-8510001", {"jsFPIBP", "LiteRed`"}},
+          ButtonNote->"LiteRed`"], 
+         ButtonBox["Solvej",
+          BaseStyle->"InformationLink",
+          ButtonData:>{"Info1933830607465-8510001", {"Solvej", "LiteRed`"}},
+          ButtonNote->"LiteRed`"]},
+        {
+         ButtonBox["Ds",
+          BaseStyle->"InformationLink",
+          ButtonData:>{"Info1933830607465-8510001", {"Ds", "LiteRed`"}},
+          ButtonNote->"LiteRed`"], 
+         ButtonBox["jSignature",
+          BaseStyle->"InformationLink",
+          
+          ButtonData:>{
+           "Info1933830607465-8510001", {"jSignature", "LiteRed`"}},
+          ButtonNote->"LiteRed`"], 
+         ButtonBox["SolvejSector",
+          BaseStyle->"InformationLink",
+          
+          ButtonData:>{
+           "Info1933830607465-8510001", {"SolvejSector", "LiteRed`"}},
+          ButtonNote->"LiteRed`"]},
+        {
+         ButtonBox["DsBasisQ",
+          BaseStyle->"InformationLink",
+          ButtonData:>{"Info1933830607465-8510001", {"DsBasisQ", "LiteRed`"}},
+          
+          ButtonNote->"LiteRed`"], 
+         ButtonBox["jsOrder",
+          BaseStyle->"InformationLink",
+          ButtonData:>{"Info1933830607465-8510001", {"jsOrder", "LiteRed`"}},
+          ButtonNote->"LiteRed`"], 
+         ButtonBox["SolvejSectorD",
+          BaseStyle->"InformationLink",
+          
+          ButtonData:>{
+           "Info1933830607465-8510001", {"SolvejSectorD", "LiteRed`"}},
+          ButtonNote->"LiteRed`"]},
+        {
+         ButtonBox["DsSetQ",
+          BaseStyle->"InformationLink",
+          ButtonData:>{"Info1933830607465-8510001", {"DsSetQ", "LiteRed`"}},
+          ButtonNote->"LiteRed`"], 
+         ButtonBox["jsSignature",
+          BaseStyle->"InformationLink",
+          
+          ButtonData:>{
+           "Info1933830607465-8510001", {"jsSignature", "LiteRed`"}},
+          ButtonNote->"LiteRed`"], 
+         ButtonBox["SolvejSectorDen",
+          BaseStyle->"InformationLink",
+          
+          ButtonData:>{
+           "Info1933830607465-8510001", {"SolvejSectorDen", "LiteRed`"}},
+          ButtonNote->"LiteRed`"]},
+        {
+         ButtonBox["EMs",
+          BaseStyle->"InformationLink",
+          ButtonData:>{"Info1933830607465-8510001", {"EMs", "LiteRed`"}},
+          ButtonNote->"LiteRed`"], 
+         ButtonBox["jsSignaturePermutations",
+          BaseStyle->"InformationLink",
+          ButtonData:>{
+           "Info1933830607465-8510001", {
+            "jsSignaturePermutations", "LiteRed`"}},
+          ButtonNote->"LiteRed`"], 
+         ButtonBox["SolvejSectorTag",
+          BaseStyle->"InformationLink",
+          
+          ButtonData:>{
+           "Info1933830607465-8510001", {"SolvejSectorTag", "LiteRed`"}},
+          ButtonNote->"LiteRed`"]},
+        {
+         ButtonBox["ExecuteDefinitions",
+          BaseStyle->"InformationLink",
+          
+          ButtonData:>{
+           "Info1933830607465-8510001", {"ExecuteDefinitions", "LiteRed`"}},
+          ButtonNote->"LiteRed`"], 
+         ButtonBox["jSubsectors",
+          BaseStyle->"InformationLink",
+          
+          ButtonData:>{
+           "Info1933830607465-8510001", {"jSubsectors", "LiteRed`"}},
+          ButtonNote->"LiteRed`"], 
+         ButtonBox["SolvejTag",
+          BaseStyle->"InformationLink",
+          ButtonData:>{"Info1933830607465-8510001", {"SolvejTag", "LiteRed`"}},
+          ButtonNote->"LiteRed`"]},
+        {
+         ButtonBox["ExtMappedSectors",
+          BaseStyle->"InformationLink",
+          
+          ButtonData:>{
+           "Info1933830607465-8510001", {"ExtMappedSectors", "LiteRed`"}},
+          ButtonNote->"LiteRed`"], 
+         ButtonBox["jSymmetries",
+          BaseStyle->"InformationLink",
+          
+          ButtonData:>{
+           "Info1933830607465-8510001", {"jSymmetries", "LiteRed`"}},
+          ButtonNote->"LiteRed`"], 
+         ButtonBox["SPs",
+          BaseStyle->"InformationLink",
+          ButtonData:>{"Info1933830607465-8510001", {"SPs", "LiteRed`"}},
+          ButtonNote->"LiteRed`"]},
+        {
+         ButtonBox["ExtSectorsMappings",
+          BaseStyle->"InformationLink",
+          
+          ButtonData:>{
+           "Info1933830607465-8510001", {"ExtSectorsMappings", "LiteRed`"}},
+          ButtonNote->"LiteRed`"], 
+         ButtonBox["jSymmetriesDen",
+          BaseStyle->"InformationLink",
+          
+          ButtonData:>{
+           "Info1933830607465-8510001", {"jSymmetriesDen", "LiteRed`"}},
+          ButtonNote->"LiteRed`"], 
+         ButtonBox["SR",
+          BaseStyle->"InformationLink",
+          ButtonData:>{"Info1933830607465-8510001", {"SR", "LiteRed`"}},
+          ButtonNote->"LiteRed`"]},
+        {
+         ButtonBox["ExtUniqueSectors",
+          BaseStyle->"InformationLink",
+          
+          ButtonData:>{
+           "Info1933830607465-8510001", {"ExtUniqueSectors", "LiteRed`"}},
+          ButtonNote->"LiteRed`"], 
+         ButtonBox["jVars",
+          BaseStyle->"InformationLink",
+          ButtonData:>{"Info1933830607465-8510001", {"jVars", "LiteRed`"}},
+          ButtonNote->"LiteRed`"], 
+         ButtonBox["SubstituteAlways",
+          BaseStyle->"InformationLink",
+          
+          ButtonData:>{
+           "Info1933830607465-8510001", {"SubstituteAlways", "LiteRed`"}},
+          ButtonNote->"LiteRed`"]},
+        {
+         ButtonBox["Factor1",
+          BaseStyle->"InformationLink",
+          ButtonData:>{"Info1933830607465-8510001", {"Factor1", "LiteRed`"}},
+          ButtonNote->"LiteRed`"], 
+         ButtonBox["LI",
+          BaseStyle->"InformationLink",
+          ButtonData:>{"Info1933830607465-8510001", {"LI", "LiteRed`"}},
+          ButtonNote->"LiteRed`"], 
+         ButtonBox["TildeConjugate",
+          BaseStyle->"InformationLink",
+          
+          ButtonData:>{
+           "Info1933830607465-8510001", {"TildeConjugate", "LiteRed`"}},
+          ButtonNote->"LiteRed`"]},
+        {
+         ButtonBox["Factor2",
+          BaseStyle->"InformationLink",
+          ButtonData:>{"Info1933830607465-8510001", {"Factor2", "LiteRed`"}},
+          ButtonNote->"LiteRed`"], 
+         ButtonBox["LMs",
+          BaseStyle->"InformationLink",
+          ButtonData:>{"Info1933830607465-8510001", {"LMs", "LiteRed`"}},
+          ButtonNote->"LiteRed`"], 
+         ButtonBox["ToAB",
+          BaseStyle->"InformationLink",
+          ButtonData:>{"Info1933830607465-8510001", {"ToAB", "LiteRed`"}},
+          ButtonNote->"LiteRed`"]},
+        {
+         ButtonBox["Factor3",
+          BaseStyle->"InformationLink",
+          ButtonData:>{"Info1933830607465-8510001", {"Factor3", "LiteRed`"}},
+          ButtonNote->"LiteRed`"], 
+         ButtonBox["LowerDim",
+          BaseStyle->"InformationLink",
+          ButtonData:>{"Info1933830607465-8510001", {"LowerDim", "LiteRed`"}},
+          
+          ButtonNote->"LiteRed`"], 
+         ButtonBox["todo",
+          BaseStyle->"InformationLink",
+          ButtonData:>{"Info1933830607465-8510001", {"todo", "LiteRed`"}},
+          ButtonNote->"LiteRed`"]},
+        {
+         ButtonBox["FactorizeFP",
+          BaseStyle->"InformationLink",
+          
+          ButtonData:>{
+           "Info1933830607465-8510001", {"FactorizeFP", "LiteRed`"}},
+          ButtonNote->"LiteRed`"], 
+         ButtonBox["LoweringDRR",
+          BaseStyle->"InformationLink",
+          
+          ButtonData:>{
+           "Info1933830607465-8510001", {"LoweringDRR", "LiteRed`"}},
+          ButtonNote->"LiteRed`"], 
+         ButtonBox["ToDShifts",
+          BaseStyle->"InformationLink",
+          ButtonData:>{"Info1933830607465-8510001", {"ToDShifts", "LiteRed`"}},
+          ButtonNote->"LiteRed`"]},
+        {
+         ButtonBox["FactorizejSector",
+          BaseStyle->"InformationLink",
+          
+          ButtonData:>{
+           "Info1933830607465-8510001", {"FactorizejSector", "LiteRed`"}},
+          ButtonNote->"LiteRed`"], 
+         ButtonBox["MakeDSystem",
+          BaseStyle->"InformationLink",
+          
+          ButtonData:>{
+           "Info1933830607465-8510001", {"MakeDSystem", "LiteRed`"}},
+          ButtonNote->"LiteRed`"], 
+         ButtonBox["Toj",
+          BaseStyle->"InformationLink",
+          ButtonData:>{"Info1933830607465-8510001", {"Toj", "LiteRed`"}},
+          ButtonNote->"LiteRed`"]},
+        {
+         ButtonBox["FeynParGdG",
+          BaseStyle->"InformationLink",
+          
+          ButtonData:>{
+           "Info1933830607465-8510001", {"FeynParGdG", "LiteRed`"}},
+          ButtonNote->"LiteRed`"], 
+         ButtonBox["MakeOrderMatrix",
+          BaseStyle->"InformationLink",
+          
+          ButtonData:>{
+           "Info1933830607465-8510001", {"MakeOrderMatrix", "LiteRed`"}},
+          ButtonNote->"LiteRed`"], 
+         ButtonBox["ToMIsRule",
+          BaseStyle->"InformationLink",
+          ButtonData:>{"Info1933830607465-8510001", {"ToMIsRule", "LiteRed`"}},
+          ButtonNote->"LiteRed`"]},
+        {
+         ButtonBox["FeynParUF",
+          BaseStyle->"InformationLink",
+          ButtonData:>{"Info1933830607465-8510001", {"FeynParUF", "LiteRed`"}},
+          ButtonNote->"LiteRed`"], 
+         ButtonBox["MappedSectorQ",
+          BaseStyle->"InformationLink",
+          
+          ButtonData:>{
+           "Info1933830607465-8510001", {"MappedSectorQ", "LiteRed`"}},
+          ButtonNote->"LiteRed`"], 
+         ButtonBox["ToMyMIs",
+          BaseStyle->"InformationLink",
+          ButtonData:>{"Info1933830607465-8510001", {"ToMyMIs", "LiteRed`"}},
+          ButtonNote->"LiteRed`"]},
+        {
+         ButtonBox["FeynParUVM",
+          BaseStyle->"InformationLink",
+          
+          ButtonData:>{
+           "Info1933830607465-8510001", {"FeynParUVM", "LiteRed`"}},
+          ButtonNote->"LiteRed`"], 
+         ButtonBox["MappedSectors",
+          BaseStyle->"InformationLink",
+          
+          ButtonData:>{
+           "Info1933830607465-8510001", {"MappedSectors", "LiteRed`"}},
+          ButtonNote->"LiteRed`"], 
+         ButtonBox["UniqueSectorQ",
+          BaseStyle->"InformationLink",
+          
+          ButtonData:>{
+           "Info1933830607465-8510001", {"UniqueSectorQ", "LiteRed`"}},
+          ButtonNote->"LiteRed`"]},
+        {
+         ButtonBox["FindExtSymmetries",
+          BaseStyle->"InformationLink",
+          
+          ButtonData:>{
+           "Info1933830607465-8510001", {"FindExtSymmetries", "LiteRed`"}},
+          ButtonNote->"LiteRed`"], 
+         ButtonBox["MappedSectorsDen",
+          BaseStyle->"InformationLink",
+          ButtonData:>{
+           "Info1933830607465-8510001", {"MappedSectorsDen", "LiteRed`"}},
+          ButtonNote->"LiteRed`"], 
+         ButtonBox["UniqueSectors",
+          BaseStyle->"InformationLink",
+          
+          ButtonData:>{
+           "Info1933830607465-8510001", {"UniqueSectors", "LiteRed`"}},
+          ButtonNote->"LiteRed`"]},
+        {
+         ButtonBox["FindShifts",
+          BaseStyle->"InformationLink",
+          
+          ButtonData:>{
+           "Info1933830607465-8510001", {"FindShifts", "LiteRed`"}},
+          ButtonNote->"LiteRed`"], 
+         ButtonBox["MaxDepth",
+          BaseStyle->"InformationLink",
+          ButtonData:>{"Info1933830607465-8510001", {"MaxDepth", "LiteRed`"}},
+          
+          ButtonNote->"LiteRed`"], 
+         ButtonBox["UniqueSectorsDen",
+          BaseStyle->"InformationLink",
+          
+          ButtonData:>{
+           "Info1933830607465-8510001", {"UniqueSectorsDen", "LiteRed`"}},
+          ButtonNote->"LiteRed`"]},
+        {
+         ButtonBox["FindSymmetries",
+          BaseStyle->"InformationLink",
+          
+          ButtonData:>{
+           "Info1933830607465-8510001", {"FindSymmetries", "LiteRed`"}},
+          ButtonNote->"LiteRed`"], 
+         ButtonBox["MIs",
+          BaseStyle->"InformationLink",
+          ButtonData:>{"Info1933830607465-8510001", {"MIs", "LiteRed`"}},
+          ButtonNote->"LiteRed`"], 
+         ButtonBox["ZerojRule",
+          BaseStyle->"InformationLink",
+          ButtonData:>{"Info1933830607465-8510001", {"ZerojRule", "LiteRed`"}},
+          ButtonNote->"LiteRed`"]},
+        {
+         ButtonBox["FindSymmetriesDen",
+          BaseStyle->"InformationLink",
+          
+          ButtonData:>{
+           "Info1933830607465-8510001", {"FindSymmetriesDen", "LiteRed`"}},
+          ButtonNote->"LiteRed`"], 
+         ButtonBox["MIsHierarchyGraph",
+          BaseStyle->"InformationLink",
+          
+          ButtonData:>{
+           "Info1933830607465-8510001", {"MIsHierarchyGraph", "LiteRed`"}},
+          ButtonNote->"LiteRed`"], 
+         ButtonBox["ZeroSectorQ",
+          BaseStyle->"InformationLink",
+          
+          ButtonData:>{
+           "Info1933830607465-8510001", {"ZeroSectorQ", "LiteRed`"}},
+          ButtonNote->"LiteRed`"]},
+        {
+         ButtonBox["FPIBP",
+          BaseStyle->"InformationLink",
+          ButtonData:>{"Info1933830607465-8510001", {"FPIBP", "LiteRed`"}},
+          ButtonNote->"LiteRed`"], 
+         ButtonBox["MyMIs",
+          BaseStyle->"InformationLink",
+          ButtonData:>{"Info1933830607465-8510001", {"MyMIs", "LiteRed`"}},
+          ButtonNote->"LiteRed`"], 
+         ButtonBox["ZeroSectors",
+          BaseStyle->"InformationLink",
+          
+          ButtonData:>{
+           "Info1933830607465-8510001", {"ZeroSectors", "LiteRed`"}},
+          ButtonNote->"LiteRed`"]},
+        {
+         ButtonBox["FromAB",
+          BaseStyle->"InformationLink",
+          ButtonData:>{"Info1933830607465-8510001", {"FromAB", "LiteRed`"}},
+          ButtonNote->"LiteRed`"], 
+         ButtonBox["NamingFunction",
+          BaseStyle->"InformationLink",
+          
+          ButtonData:>{
+           "Info1933830607465-8510001", {"NamingFunction", "LiteRed`"}},
+          ButtonNote->"LiteRed`"], 
+         ButtonBox["$ActiveBases",
+          BaseStyle->"InformationLink",
+          
+          ButtonData:>{
+           "Info1933830607465-8510001", {"$ActiveBases", "LiteRed`"}},
+          ButtonNote->"LiteRed`"]},
+        {
+         ButtonBox["FromDShifts",
+          BaseStyle->"InformationLink",
+          
+          ButtonData:>{
+           "Info1933830607465-8510001", {"FromDShifts", "LiteRed`"}},
+          ButtonNote->"LiteRed`"], 
+         ButtonBox["NDs",
+          BaseStyle->"InformationLink",
+          ButtonData:>{"Info1933830607465-8510001", {"NDs", "LiteRed`"}},
+          ButtonNote->"LiteRed`"], 
+         ButtonBox["$LiteRedHomeDirectory",
+          BaseStyle->"InformationLink",
+          
+          ButtonData:>{
+           "Info1933830607465-8510001", {"$LiteRedHomeDirectory", "LiteRed`"}},
+          ButtonNote->"LiteRed`"]},
+        {
+         ButtonBox["Fromj",
+          BaseStyle->"InformationLink",
+          ButtonData:>{"Info1933830607465-8510001", {"Fromj", "LiteRed`"}},
+          ButtonNote->"LiteRed`"], 
+         ButtonBox["NewBasis",
+          BaseStyle->"InformationLink",
+          ButtonData:>{"Info1933830607465-8510001", {"NewBasis", "LiteRed`"}},
+          
+          ButtonNote->"LiteRed`"], 
+         ButtonBox["$LiteRedLog",
+          BaseStyle->"InformationLink",
+          
+          ButtonData:>{
+           "Info1933830607465-8510001", {"$LiteRedLog", "LiteRed`"}},
+          ButtonNote->"LiteRed`"]},
+        {
+         ButtonBox["FromTildeAB",
+          BaseStyle->"InformationLink",
+          
+          ButtonData:>{
+           "Info1933830607465-8510001", {"FromTildeAB", "LiteRed`"}},
+          ButtonNote->"LiteRed`"], 
+         ButtonBox["NewDsBases",
+          BaseStyle->"InformationLink",
+          
+          ButtonData:>{
+           "Info1933830607465-8510001", {"NewDsBases", "LiteRed`"}},
+          ButtonNote->"LiteRed`"], 
+         ButtonBox["$LiteRedMonitor",
+          BaseStyle->"InformationLink",
+          
+          ButtonData:>{
+           "Info1933830607465-8510001", {"$LiteRedMonitor", "LiteRed`"}},
+          ButtonNote->"LiteRed`"]},
+        {
+         ButtonBox["GenerateFeynParUF",
+          BaseStyle->"InformationLink",
+          
+          ButtonData:>{
+           "Info1933830607465-8510001", {"GenerateFeynParUF", "LiteRed`"}},
+          ButtonNote->"LiteRed`"], 
+         ButtonBox["NewDsBasis",
+          BaseStyle->"InformationLink",
+          
+          ButtonData:>{
+           "Info1933830607465-8510001", {"NewDsBasis", "LiteRed`"}},
+          ButtonNote->"LiteRed`"], 
+         ButtonBox["$LiteRedReleaseDate",
+          BaseStyle->"InformationLink",
+          
+          ButtonData:>{
+           "Info1933830607465-8510001", {"$LiteRedReleaseDate", "LiteRed`"}},
+          ButtonNote->"LiteRed`"]},
+        {
+         ButtonBox["GenerateFPIBP",
+          BaseStyle->"InformationLink",
+          
+          ButtonData:>{
+           "Info1933830607465-8510001", {"GenerateFPIBP", "LiteRed`"}},
+          ButtonNote->"LiteRed`"], 
+         ButtonBox["NewDsSet",
+          BaseStyle->"InformationLink",
+          ButtonData:>{"Info1933830607465-8510001", {"NewDsSet", "LiteRed`"}},
+          
+          ButtonNote->"LiteRed`"], 
+         ButtonBox["$LiteRedSyzygy",
+          BaseStyle->"InformationLink",
+          
+          ButtonData:>{
+           "Info1933830607465-8510001", {"$LiteRedSyzygy", "LiteRed`"}},
+          ButtonNote->"LiteRed`"]},
+        {
+         ButtonBox["GenerateIBP",
+          BaseStyle->"InformationLink",
+          
+          ButtonData:>{
+           "Info1933830607465-8510001", {"GenerateIBP", "LiteRed`"}},
+          ButtonNote->"LiteRed`"], 
+         ButtonBox["NMIs",
+          BaseStyle->"InformationLink",
+          ButtonData:>{"Info1933830607465-8510001", {"NMIs", "LiteRed`"}},
+          ButtonNote->"LiteRed`"], 
+         ButtonBox["$LiteRedVersion",
+          BaseStyle->"InformationLink",
+          
+          ButtonData:>{
+           "Info1933830607465-8510001", {"$LiteRedVersion", "LiteRed`"}},
+          ButtonNote->"LiteRed`"]},
+        {
+         ButtonBox["GeneratePFGB",
+          BaseStyle->"InformationLink",
+          
+          ButtonData:>{
+           "Info1933830607465-8510001", {"GeneratePFGB", "LiteRed`"}},
+          ButtonNote->"LiteRed`"], 
+         ButtonBox["NonZeroSectorQ",
+          BaseStyle->"InformationLink",
+          
+          ButtonData:>{
+           "Info1933830607465-8510001", {"NonZeroSectorQ", "LiteRed`"}},
+          ButtonNote->"LiteRed`"], 
+         ButtonBox["$NamingFunction",
+          BaseStyle->"InformationLink",
+          
+          ButtonData:>{
+           "Info1933830607465-8510001", {"$NamingFunction", "LiteRed`"}},
+          ButtonNote->"LiteRed`"]},
+        {
+         ButtonBox["GramM",
+          BaseStyle->"InformationLink",
+          ButtonData:>{"Info1933830607465-8510001", {"GramM", "LiteRed`"}},
+          ButtonNote->"LiteRed`"], 
+         ButtonBox["NonZeroSectors",
+          BaseStyle->"InformationLink",
+          
+          ButtonData:>{
+           "Info1933830607465-8510001", {"NonZeroSectors", "LiteRed`"}},
+          ButtonNote->"LiteRed`"], ""}
+       },
+       DefaultBaseStyle->"InfoGrid",
+       GridBoxItemSize->{"Columns" -> {{
+            Scaled[0.31666666666666665`]}}}]}
+    },
+    GridBoxAlignment->{"Columns" -> {{Left}}, "Rows" -> {{Baseline}}}]}, 
+   Dynamic[Typeset`open$$],
+   ImageSize->Automatic]]], "Print", "InfoCell",
+ CellChangeTimes->{
+  3.830603865138571*^9},ExpressionUUID->"73b4364f-60eb-4c09-be73-\
+f1b275815786"],
+
+Cell[BoxData["\<\"FeynParUF[\\!\\(\\*\\nStyleBox[\\\"basis\\\", \
+\\\"TI\\\"]\\)] gives a list {\\!\\(\\*\\nStyleBox[\\\"U\\\", \\\"TI\\\"]\\),\
+\\!\\(\\*\\nStyleBox[\\\"F\\\", \
+\\\"TI\\\"]\\),\\!\\(\\*\\nStyleBox[\\\"xs\\\", \\\"TI\\\"]\\)}, where \\!\\(\
+\\*\\nStyleBox[\\\"U\\\", \\\"TI\\\"]\\) and \\!\\(\\*\\nStyleBox[\\\"F\\\", \
+\\\"TI\\\"]\\) are the polynomials, entering the Feynman parametrization of \
+the integrals in the highest sector  of the basis, and \
+\\!\\(\\*\\nStyleBox[\\\"xs\\\", \\\"TI\\\"]\\) are the Feynman \
+parameters.\\nFeynParUF[js[\[Ellipsis]]] gives \
+\\!\\(\\*\\nStyleBox[\\\"U\\\", \\\"TI\\\"]\\) and \\!\\(\\*\\nStyleBox[\\\"F\
+\\\", \\\"TI\\\"]\\) polynomials, entering the Feynman parametrization of the \
+integrals in the given \
+sector.\\nFeynParUF[{\\!\\(\\*\\nStyleBox[\\\"dens\\\", \
+\\\"TI\\\"]\\)},{\\!\\(\\*\\nStyleBox[\\\"lms\\\", \\\"TI\\\"]\\)}] does the \
+same for the integrals with denominators {\\!\\(\\*\\nStyleBox[\\\"dens\\\", \
+\\\"TI\\\"]\\)} and loop momenta {\\!\\(\\*\\nStyleBox[\\\"lms\\\", \
+\\\"TI\\\"]\\)}.\"\>"], "Print", "PrintUsage",
+ CellTags->
+  "Info1933830607465-8510001",ExpressionUUID->"e01bf309-72f3-41c2-b87e-\
+7aa1945255df"]
+}, Open  ]]
+}, Closed]],
+
+Cell[CellGroupData[{
+
+Cell["Test", "Section",
+ CellChangeTimes->{{3.8836237468407288`*^9, 
+  3.883623749365285*^9}},ExpressionUUID->"b727ec00-d512-4e35-9b74-\
+9cd317f74a53"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"\n", 
+  RowBox[{
+   RowBox[{"SetDirectory", "[", 
+    RowBox[{"NotebookDirectory", "[", "]"}], "]"}], "\n", 
+   "\"\</Users/gangchen/Documents/GitHub/LightBending3PM\>\"", "\n", 
+   RowBox[{"ClearAll", "[", "repIBPVar", "]"}], "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"repIBPVar", "=", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"a_", "[", "i_", "]"}], ":>", " ", 
+       RowBox[{
+        RowBox[{"ToExpression", "[", 
+         RowBox[{"StringJoin", "[", 
+          RowBox[{
+           RowBox[{"ToString", "[", "a", "]"}], ",", 
+           RowBox[{"ToString", "[", "i", "]"}]}], "]"}], "]"}], "/;", 
+        RowBox[{"a", "=!=", "List"}]}]}], "}"}]}], ";"}], "\n", 
+   RowBox[{
+    RowBox[{"SetDim", "[", "d", "]"}], ";"}], "\[IndentingNewLine]", 
+   RowBox[{"Declare", "[", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{"l1", ",", "l2", ",", "q1", ",", "p4"}], "}"}], ",", "Vector", 
+     ",", 
+     RowBox[{"{", 
+      RowBox[{"qq", ",", "pv"}], "}"}], ",", "Number"}], "]"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{"ClearAll", "[", "genIBP", "]"}], "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"genIBP", "[", 
+     RowBox[{"name_", ",", "dotlist_", ",", "loops_", ",", "cutlist_"}], 
+     "]"}], ":=", 
+    RowBox[{"Module", "[", 
+     RowBox[{
+      RowBox[{"{", 
+       RowBox[{"ds1", ",", "lIBP", ",", "lvs", ",", "effsec"}], "}"}], ",", 
+      RowBox[{
+       RowBox[{"lIBP", "=", 
+        RowBox[{"loops", "/.", "repIBPVar"}]}], ";", "\[IndentingNewLine]", 
+       RowBox[{"SetConstraints", "[", 
+        RowBox[{
+         RowBox[{"{", 
+          RowBox[{"q1", ",", "p4"}], "}"}], ",", "\[IndentingNewLine]", 
+         RowBox[{
+          RowBox[{
+           RowBox[{"sp", "[", 
+            RowBox[{"q1", ",", "q1"}], "]"}], "=", "qq"}], ";", 
+          "\[IndentingNewLine]", 
+          RowBox[{
+           RowBox[{"sp", "[", 
+            RowBox[{"p4", ",", "q1"}], "]"}], "=", "0"}], ";", 
+          "\[IndentingNewLine]", 
+          RowBox[{
+           RowBox[{"sp", "[", 
+            RowBox[{"p4", ",", "p4"}], "]"}], "=", "pv"}], ";"}]}], "\n", 
+        "]"}], ";", "\[IndentingNewLine]", 
+       RowBox[{"SetOptions", "[", 
+        RowBox[{"SolvejSector", ",", 
+         RowBox[{"{", 
+          RowBox[{
+           RowBox[{"UseFermat", "\[Rule]", "False"}], ",", 
+           RowBox[{"NMIs", "\[Rule]", "Automatic"}]}], "}"}]}], "]"}], ";", 
+       "\[IndentingNewLine]", 
+       RowBox[{"ds1", "=", 
+        RowBox[{
+         RowBox[{"dotlist", "/.", 
+          RowBox[{"dot", "->", "sp"}]}], "/.", "repIBPVar"}]}], ";", 
+       "\[IndentingNewLine]", 
+       RowBox[{"Print", "[", "ds1", "]"}], ";", "\[IndentingNewLine]", 
+       RowBox[{"NewBasis", "[", 
+        RowBox[{"name", ",", "ds1", ",", "lIBP", ",", 
+         RowBox[{"Directory", "\[Rule]", "\"\<test\>\""}]}], "]"}], ";", 
+       "\[IndentingNewLine]", 
+       RowBox[{"GenerateIBP", "[", "name", "]"}], ";", "\[IndentingNewLine]", 
+       
+       RowBox[{"AnalyzeSectors", "[", 
+        RowBox[{"name", ",", 
+         RowBox[{"{", 
+          RowBox[{"__", ",", "0", ",", "0"}], "}"}], ",", 
+         RowBox[{"CutDs", "\[Rule]", "cutlist"}]}], "]"}], ";", 
+       "\[IndentingNewLine]", 
+       RowBox[{"(*", 
+        RowBox[{
+         RowBox[{"AnalyzeSectors", "[", 
+          RowBox[{"name", ",", 
+           RowBox[{"{", 
+            RowBox[{"_", ",", "_", ",", "_", ",", "0", ",", "_", ",", "0"}], 
+            "}"}], ",", 
+           RowBox[{"CutDs", "\[Rule]", 
+            RowBox[{"{", 
+             RowBox[{
+             "1", ",", "1", ",", "1", ",", "1", ",", "0", ",", "0", ",", "0", 
+              ",", "0", ",", "0", ",", "0", ",", "0", ",", "0", ",", "1", ",",
+               "1", ",", "1"}], "}"}]}]}], "]"}], ";"}], "*)"}], 
+       "\[IndentingNewLine]", 
+       RowBox[{"FindSymmetries", "[", "name", "]"}], ";", 
+       "\[IndentingNewLine]", 
+       RowBox[{"effsec", "=", 
+        RowBox[{"(", 
+         RowBox[{"UniqueSectors", "[", "name", "]"}], 
+         RowBox[{"(*", 
+          RowBox[{"//", 
+           RowBox[{
+            RowBox[{"Cases", "[", 
+             RowBox[{"#", ",", 
+              RowBox[{"js", "[", 
+               RowBox[{
+               "name", ",", "1", ",", "1", ",", "1", ",", "1", ",", "i1_", 
+                ",", "i2_", ",", "0", ",", "0", ",", "0", ",", "j__", ",", 
+                "1", ",", "1", ",", "1"}], "]"}]}], "]"}], "&"}]}], "*)"}], 
+         ")"}]}], ";", "\[IndentingNewLine]", 
+       RowBox[{"Print", "[", 
+        RowBox[{"Length", "@", "effsec"}], "]"}], ";", "\[IndentingNewLine]", 
+       
+       RowBox[{"Do", "[", 
+        RowBox[{
+         RowBox[{
+          RowBox[{"Print", "[", "ii", "]"}], ";", 
+          RowBox[{"SolvejSector", "[", 
+           RowBox[{
+            RowBox[{"effsec", "[", 
+             RowBox[{"[", "ii", "]"}], "]"}], ",", 
+            RowBox[{"NMIs", "\[Rule]", "Automatic"}]}], 
+           RowBox[{"(*", 
+            RowBox[{",", 
+             RowBox[{"Depth", "->", "1"}], ",", 
+             RowBox[{"MaxDepth", "->", "2"}]}], "*)"}], "]"}]}], ",", 
+         RowBox[{"{", 
+          RowBox[{"ii", ",", 
+           RowBox[{"Length", "@", "effsec"}]}], "}"}]}], "]"}], ";"}]}], 
+     "\[IndentingNewLine]", 
+     RowBox[{"(*", 
+      RowBox[{"Timing", "[", 
+       RowBox[{"NewDsBasis", "[", 
+        RowBox[{"name", ",", "ds1", ",", "lIBP", ",", 
+         RowBox[{"CutDs", "->", "cutlist"}], ",", 
+         RowBox[{"Directory", "\[Rule]", "\"\<Bases/gr20\>\""}], ",", 
+         RowBox[{"SolvejSector", "\[Rule]", "True"}]}], 
+        RowBox[{"(*", 
+         RowBox[{",", 
+          RowBox[{"jsOrder", "\[Rule]", 
+           RowBox[{"{", 
+            RowBox[{"\"\<np\>\"", ",", "\"\<-ds\>\"", ",", "\"\<-ns\>\""}], 
+            "}"}]}]}], "*)"}], "]"}], "]"}], "*)"}], "\[IndentingNewLine]", 
+     "]"}]}], "\n"}]}]], "Input",
+ CellChangeTimes->{
+  3.88362379534832*^9, {3.883623879733386*^9, 3.883623897053884*^9}, {
+   3.883624002904209*^9, 3.883624004985545*^9}, 3.883624115652866*^9, 
+   3.8836279866419697`*^9, {3.883628108227928*^9, 3.88362811718253*^9}, {
+   3.883628379746275*^9, 3.883628398067892*^9}, {3.8836284529219723`*^9, 
+   3.8836284533053827`*^9}, {3.883628582757655*^9, 3.88362859220179*^9}, {
+   3.88362913880129*^9, 3.883629138946046*^9}},
+ CellLabel->"In[11]:=",ExpressionUUID->"59a73aa9-34cd-4093-b834-293429f0b8b1"],
+
+Cell[BoxData["\<\"/Users/gangchen/Documents/GitHub/LightBending3PM\"\>"], \
+"Output",
+ CellChangeTimes->{{3.8836238850877647`*^9, 3.883623898544056*^9}, 
+   3.883624006389039*^9, 3.883624119265953*^9, 3.883628029639323*^9, 
+   3.883628121212069*^9, 3.883628208498157*^9, 3.8836284830270643`*^9, 
+   3.883628593106504*^9, {3.883629132301742*^9, 3.8836291396877737`*^9}},
+ CellLabel->"Out[11]=",ExpressionUUID->"784eb893-7b3d-493b-8acc-7cf4afe9b881"],
+
+Cell[BoxData["\<\"/Users/gangchen/Documents/GitHub/LightBending3PM\"\>"], \
+"Output",
+ CellChangeTimes->{{3.8836238850877647`*^9, 3.883623898544056*^9}, 
+   3.883624006389039*^9, 3.883624119265953*^9, 3.883628029639323*^9, 
+   3.883628121212069*^9, 3.883628208498157*^9, 3.8836284830270643`*^9, 
+   3.883628593106504*^9, {3.883629132301742*^9, 3.883629139690414*^9}},
+ CellLabel->"Out[12]=",ExpressionUUID->"39745064-1119-42f5-92ab-95342351394d"]
+}, Open  ]],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"dotIBPlistCut", "=", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"l1", "\[CenterDot]", "l1"}], ",", 
+     RowBox[{"l2", "\[CenterDot]", "l2"}], ",", 
+     RowBox[{"qq", "+", 
+      RowBox[{"l1", "\[CenterDot]", "l1"}], "+", 
+      RowBox[{"2", " ", 
+       RowBox[{"l1", "\[CenterDot]", "l2"}]}], "-", 
+      RowBox[{"2", " ", 
+       RowBox[{"l1", "\[CenterDot]", "q1"}]}], "+", 
+      RowBox[{"l2", "\[CenterDot]", "l2"}], "-", 
+      RowBox[{"2", " ", 
+       RowBox[{"l2", "\[CenterDot]", "q1"}]}]}], ",", 
+     RowBox[{"l1", "\[CenterDot]", "p4"}], ",", 
+     RowBox[{"l2", "\[CenterDot]", "p4"}], ",", 
+     RowBox[{"l1", "\[CenterDot]", "q1"}], ",", 
+     RowBox[{"l2", "\[CenterDot]", "q1"}]}], "}"}]}], ";"}]], "Input",
+ CellChangeTimes->{{3.8836239216924143`*^9, 3.883623934750877*^9}, 
+   3.8836282627927303`*^9},
+ CellLabel->"In[19]:=",ExpressionUUID->"7c9bea46-10dc-45f7-a1cf-33169c2e3abd"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"genIBP", "[", 
+  RowBox[{
+   RowBox[{"ToExpression", "[", "\"\<gr0\>\"", "]"}], ",", "dotIBPlistCut", 
+   ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"l", "[", "1", "]"}], ",", 
+     RowBox[{"l", "[", "2", "]"}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"0", ",", "0", ",", "0", ",", "0", ",", "0", ",", "0", ",", "0"}],
+     "}"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.8836239501050453`*^9, 3.883623989031494*^9}, {
+   3.8836246101827993`*^9, 3.8836246141372128`*^9}, 3.883628496853361*^9},
+ CellLabel->"In[20]:=",ExpressionUUID->"7f6cd4dc-cc3e-4722-ac14-91123ae79a7e"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"Executing\\n\"\>", "\[InvisibleSpace]", 
+   TagBox[
+    RowBox[{
+     RowBox[{
+      RowBox[{"p4", "\[CenterDot]", "p4"}], "=", "pv"}], ";", 
+     RowBox[{
+      RowBox[{"p4", "\[CenterDot]", "q1"}], "=", "0"}], ";", 
+     RowBox[{
+      RowBox[{"q1", "\[CenterDot]", "q1"}], "=", "qq"}], ";"}],
+    HoldForm]}],
+  SequenceForm["Executing\n", 
+   HoldForm[
+   Vectors`sp[$CellContext`p4, $CellContext`p4] = $CellContext`pv; 
+    Vectors`sp[$CellContext`p4, $CellContext`q1] = 0; 
+    Vectors`sp[$CellContext`q1, $CellContext`q1] = $CellContext`qq; Null]],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.883628128239318*^9, 3.88362822304732*^9, 
+  3.883628508778318*^9, 3.883628598859227*^9, 3.8836291462208233`*^9},
+ CellLabel->
+  "During evaluation of \
+In[20]:=",ExpressionUUID->"9bb93915-869e-494b-9bd6-41e86bb23078"],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{
+   RowBox[{"l1", "\[CenterDot]", "l1"}], ",", 
+   RowBox[{"l2", "\[CenterDot]", "l2"}], ",", 
+   RowBox[{"qq", "+", 
+    RowBox[{"l1", "\[CenterDot]", "l1"}], "+", 
+    RowBox[{"2", " ", 
+     RowBox[{"l1", "\[CenterDot]", "l2"}]}], "-", 
+    RowBox[{"2", " ", 
+     RowBox[{"l1", "\[CenterDot]", "q1"}]}], "+", 
+    RowBox[{"l2", "\[CenterDot]", "l2"}], "-", 
+    RowBox[{"2", " ", 
+     RowBox[{"l2", "\[CenterDot]", "q1"}]}]}], ",", 
+   RowBox[{"l1", "\[CenterDot]", "p4"}], ",", 
+   RowBox[{"l2", "\[CenterDot]", "p4"}], ",", 
+   RowBox[{"l1", "\[CenterDot]", "q1"}], ",", 
+   RowBox[{"l2", "\[CenterDot]", "q1"}]}], "}"}]], "Print",
+ CellChangeTimes->{3.883628128239318*^9, 3.88362822304732*^9, 
+  3.883628508778318*^9, 3.883628598859227*^9, 3.883629146223424*^9},
+ CellLabel->
+  "During evaluation of \
+In[20]:=",ExpressionUUID->"7e6a82a6-4d7a-4d87-a80c-6c06150b23bc"]
+}, Open  ]],
+
+Cell[BoxData[
+ TemplateBox[{
+  "LiteRed`Private`WarnSet", "warn", 
+   "\"Use \\!\\(\\*RowBox[{\\\"NewDsBasis\\\"}]\\) instead of \
+\\!\\(\\*RowBox[{\\\"NewDsBasis\\\"}]\\).\"", 2, 20, 2, 33358561166317127309, 
+   "IBP1", "LiteRed`Private`WarnSet"},
+  "MessageTemplate2"]], "Message", "MSG",
+ CellChangeTimes->{3.883624012675315*^9, 3.88362413412257*^9, 
+  3.883624616925956*^9, 3.883628068306362*^9, 3.883628128246311*^9, 
+  3.8836282230533047`*^9, 3.883628508785741*^9, 3.883628598864725*^9, 
+  3.883629146226144*^9},
+ CellLabel->
+  "During evaluation of \
+In[20]:=",ExpressionUUID->"189eec5d-40c5-4251-81df-88ddca2f6054"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData["\<\"gr0 is valid basis. The definitions of the basis will be \
+saved in \\\"test\\\" directory.\\n    Ds[gr0] \[LongDash] denominators,\\n   \
+ SPs[gr0] \[LongDash] scalar products involving loop momenta,\\n    LMs[gr0] \
+\[LongDash] loop momenta,\\n    EMs[gr0] \[LongDash] external momenta,\\n    \
+Parameters[gr0] \[LongDash] parameters (invariants, masses, dimension),\\n    \
+Toj[gr0] \[LongDash] rules to transform scalar products to denominators,\\n   \
+ CutDs[gr0] \[LongDash] flag vector of cut denominators.\"\>"], "Print",
+ CellChangeTimes->{3.883628128239318*^9, 3.88362822304732*^9, 
+  3.883628508778318*^9, 3.883628598859227*^9, 3.883629146232627*^9},
+ CellLabel->
+  "During evaluation of \
+In[20]:=",ExpressionUUID->"0a6169d6-940e-42c9-8f92-7c66d51f6ac5"],
+
+Cell[BoxData["\<\"Identities are generated.\\n    IBP[gr0] \[LongDash] \
+integration-by-part identities,\\n    LI[gr0] \[LongDash] Lorentz invariance \
+identities.\"\>"], "Print",
+ CellChangeTimes->{3.883628128239318*^9, 3.88362822304732*^9, 
+  3.883628508778318*^9, 3.883628598859227*^9, 3.883629146234618*^9},
+ CellLabel->
+  "During evaluation of \
+In[20]:=",ExpressionUUID->"4910ee02-db52-46e7-9137-781bef3ee8cb"],
+
+Cell[BoxData["\<\"Updated SectorsPattern[gr0] \[LongDash] pattern for all \
+relevant sectors of the basis gr0.\"\>"], "Print",
+ CellChangeTimes->{3.883628128239318*^9, 3.88362822304732*^9, 
+  3.883628508778318*^9, 3.883628598859227*^9, 3.883629146354134*^9},
+ CellLabel->
+  "During evaluation of \
+In[20]:=",ExpressionUUID->"1e41a938-7f07-4e45-8e10-4c87a4432098"],
+
+Cell[BoxData["\<\"Found 28(4) zero(nonzero) sectors out of 32.\\n    \
+ZeroSectors[gr0] \[LongDash] zero sectors,\\n    NonZeroSectors[gr0] \
+\[LongDash] nonzero sectors,\\n    SimpleSectors[gr0] \[LongDash] simple \
+sectors (no nonzero subsectors),\\n    BasisSectors[gr0] \[LongDash] basis \
+sectors (at least one immediate subsector is zero),\\n    ZerojRule[gr0] \
+\[LongDash] a rule to nullify all zero j[gr0\[Ellipsis]],\\n    CutDs[gr0] \
+\[LongDash] a flag list of cut denominators (1=cut).\"\>"], "Print",
+ CellChangeTimes->{3.883628128239318*^9, 3.88362822304732*^9, 
+  3.883628508778318*^9, 3.883628598859227*^9, 3.8836291463558807`*^9},
+ CellLabel->
+  "During evaluation of \
+In[20]:=",ExpressionUUID->"c936bfd1-d7c2-43e3-b413-7e0398f5b12f"],
+
+Cell[BoxData["\<\"Found 1 mapped sectors and 3 unique sectors.\\n    \
+UniqueSectors[gr0] \[LongDash] unique sectors.\\n    MappedSectors[gr0] \
+\[LongDash] mapped sectors.\\n    SR[gr0][\[Ellipsis]] \[LongDash] symmetry \
+relations for j[gr0,\[Ellipsis]] from UniqueSectors[gr0].\\n    \
+jSymmetries[gr0,\[Ellipsis]] \[LongDash] symmetry rules for the sector \
+js[gr0,\[Ellipsis]] in UniqueSectors[gr0].\\n    jRules[gr0,\[Ellipsis]] \
+\[LongDash] reduction rules for j[gr0,\[Ellipsis]] from \
+MappedSectors[gr0].\\n    SectorsMappings[gr0] gives the list of mappings of \
+all sectors from MappedSectors[gr0] to UniqueSectors[gr0].\"\>"], "Print",
+ CellChangeTimes->{3.883628128239318*^9, 3.88362822304732*^9, 
+  3.883628508778318*^9, 3.883628598859227*^9, 3.8836291468776617`*^9},
+ CellLabel->
+  "During evaluation of \
+In[20]:=",ExpressionUUID->"d159da79-14af-411d-93be-bb55168509d5"],
+
+Cell[BoxData["3"], "Print",
+ CellChangeTimes->{3.883628128239318*^9, 3.88362822304732*^9, 
+  3.883628508778318*^9, 3.883628598859227*^9, 3.883629146879586*^9},
+ CellLabel->
+  "During evaluation of \
+In[20]:=",ExpressionUUID->"7acdafd6-9073-4065-8a0c-e9c273215a5d"],
+
+Cell[BoxData["1"], "Print",
+ CellChangeTimes->{3.883628128239318*^9, 3.88362822304732*^9, 
+  3.883628508778318*^9, 3.883628598859227*^9, 3.883629146880886*^9},
+ CellLabel->
+  "During evaluation of \
+In[20]:=",ExpressionUUID->"1be18150-db0e-4ef0-9b15-dae846ae433e"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"Sector \"\>", "\[InvisibleSpace]", 
+   RowBox[{"js", "[", 
+    RowBox[{
+    "gr0", ",", "1", ",", "1", ",", "1", ",", "0", ",", "0", ",", "0", ",", 
+     "0"}], "]"}]}],
+  SequenceForm["Sector ", 
+   LiteRed`js[$CellContext`gr0, 1, 1, 1, 0, 0, 0, 0]],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.883628128239318*^9, 3.88362822304732*^9, 
+  3.883628508778318*^9, 3.883628598859227*^9, 3.883629146882218*^9},
+ CellLabel->
+  "During evaluation of \
+In[20]:=",ExpressionUUID->"4fd94421-a643-4ab6-a413-215b2e55ba6d"],
+
+Cell[BoxData["\<\"    jRules[gr0, 1, 1, 1, 0, 0, 0, 0] \[LongDash] reduction \
+rules for the sector.\\n    MIs[gr0] \[LongDash] list of master integrals \
+appended with 1 integrals (j[gr0, 1, 1, 1, 0, 0, 0, 0]).\"\>"], "Print",
+ CellChangeTimes->{3.883628128239318*^9, 3.88362822304732*^9, 
+  3.883628508778318*^9, 3.883628598859227*^9, 3.8836291488967543`*^9},
+ CellLabel->
+  "During evaluation of \
+In[20]:=",ExpressionUUID->"aa991f23-894f-4be6-ac63-a6e9b428de77"],
+
+Cell[BoxData["2"], "Print",
+ CellChangeTimes->{3.883628128239318*^9, 3.88362822304732*^9, 
+  3.883628508778318*^9, 3.883628598859227*^9, 3.8836291488987093`*^9},
+ CellLabel->
+  "During evaluation of \
+In[20]:=",ExpressionUUID->"12ca85e0-eb23-481d-9fb8-e156b1d36997"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"Sector \"\>", "\[InvisibleSpace]", 
+   RowBox[{"js", "[", 
+    RowBox[{
+    "gr0", ",", "1", ",", "1", ",", "1", ",", "0", ",", "1", ",", "0", ",", 
+     "0"}], "]"}]}],
+  SequenceForm["Sector ", 
+   LiteRed`js[$CellContext`gr0, 1, 1, 1, 0, 1, 0, 0]],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.883628128239318*^9, 3.88362822304732*^9, 
+  3.883628508778318*^9, 3.883628598859227*^9, 3.883629148903514*^9},
+ CellLabel->
+  "During evaluation of \
+In[20]:=",ExpressionUUID->"77f958c4-f77a-4cab-934f-30121fd60c50"],
+
+Cell[BoxData["\<\"    jRules[gr0, 1, 1, 1, 0, 1, 0, 0] \[LongDash] reduction \
+rules for the sector.\\n    MIs[gr0] \[LongDash] list of master integrals \
+appended with 1 integrals (j[gr0, 1, 1, 1, 0, 1, 0, 0]).\"\>"], "Print",
+ CellChangeTimes->{3.883628128239318*^9, 3.88362822304732*^9, 
+  3.883628508778318*^9, 3.883628598859227*^9, 3.883629150973915*^9},
+ CellLabel->
+  "During evaluation of \
+In[20]:=",ExpressionUUID->"d96ea931-d97d-4037-80ee-6faef41d7944"],
+
+Cell[BoxData["3"], "Print",
+ CellChangeTimes->{3.883628128239318*^9, 3.88362822304732*^9, 
+  3.883628508778318*^9, 3.883628598859227*^9, 3.883629150975953*^9},
+ CellLabel->
+  "During evaluation of \
+In[20]:=",ExpressionUUID->"aaf002bb-711b-40c4-a0be-591eae5d5dac"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"Sector \"\>", "\[InvisibleSpace]", 
+   RowBox[{"js", "[", 
+    RowBox[{
+    "gr0", ",", "1", ",", "1", ",", "1", ",", "1", ",", "1", ",", "0", ",", 
+     "0"}], "]"}]}],
+  SequenceForm["Sector ", 
+   LiteRed`js[$CellContext`gr0, 1, 1, 1, 1, 1, 0, 0]],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.883628128239318*^9, 3.88362822304732*^9, 
+  3.883628508778318*^9, 3.883628598859227*^9, 3.8836291509958572`*^9},
+ CellLabel->
+  "During evaluation of \
+In[20]:=",ExpressionUUID->"fd6dada2-91f2-4d76-b2a7-1825b03cadfd"],
+
+Cell[BoxData["\<\"    jRules[gr0, 1, 1, 1, 1, 1, 0, 0] \[LongDash] reduction \
+rules for the sector.\\n    MIs[gr0] \[LongDash] list of master integrals \
+appended with 1 integrals (j[gr0, 1, 1, 1, 1, 1, 0, 0]).\"\>"], "Print",
+ CellChangeTimes->{3.883628128239318*^9, 3.88362822304732*^9, 
+  3.883628508778318*^9, 3.883628598859227*^9, 3.883629152409231*^9},
+ CellLabel->
+  "During evaluation of \
+In[20]:=",ExpressionUUID->"351a7b4d-c3f8-4ea7-91d2-cb0fbf56198e"]
+}, Open  ]]
+}, Closed]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"MIs", "[", "gr0", "]"}]], "Input",
+ CellChangeTimes->{{3.8836240550602503`*^9, 3.883624060450077*^9}},
+ CellLabel->
+  "In[279]:=",ExpressionUUID->"4a882f95-eab2-47f4-b8d8-0a20f9e6a22d"],
+
+Cell[BoxData[
+ RowBox[{"{", "}"}]], "Output",
+ CellChangeTimes->{3.8836240612087507`*^9, 3.8836286206696653`*^9},
+ CellLabel->
+  "Out[279]=",ExpressionUUID->"340cf69a-6f6b-4566-a464-121d266c7927"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Ds", "[", "gr0", "]"}]], "Input",
+ CellChangeTimes->{{3.8836286619534407`*^9, 3.8836286643671627`*^9}},
+ CellLabel->
+  "In[280]:=",ExpressionUUID->"7d23ba14-84b2-4cc0-a557-dde6e72e4115"],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{
+   RowBox[{"l1", "\[CenterDot]", "l1"}], ",", 
+   RowBox[{"l2", "\[CenterDot]", "l2"}], ",", 
+   RowBox[{"qq", "+", 
+    RowBox[{"l1", "\[CenterDot]", "l1"}], "+", 
+    RowBox[{"2", " ", 
+     RowBox[{"l1", "\[CenterDot]", "l2"}]}], "-", 
+    RowBox[{"2", " ", 
+     RowBox[{"l1", "\[CenterDot]", "q1"}]}], "+", 
+    RowBox[{"l2", "\[CenterDot]", "l2"}], "-", 
+    RowBox[{"2", " ", 
+     RowBox[{"l2", "\[CenterDot]", "q1"}]}]}], ",", 
+   RowBox[{"l1", "\[CenterDot]", "p4"}], ",", 
+   RowBox[{"l2", "\[CenterDot]", "p4"}], ",", 
+   RowBox[{"l1", "\[CenterDot]", "q1"}], ",", 
+   RowBox[{"l2", "\[CenterDot]", "q1"}]}], "}"}]], "Output",
+ CellChangeTimes->{3.883628664892776*^9},
+ CellLabel->
+  "Out[280]=",ExpressionUUID->"95847498-11d8-413b-abc2-6901e366b83e"]
+}, Open  ]],
+
+Cell[BoxData[""], "Input",
+ CellChangeTimes->{{3.883628727872961*^9, 
+  3.8836287337974567`*^9}},ExpressionUUID->"5ac106f5-7302-49d3-869d-\
+ebd712182d9b"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{"msint", "=", 
+   RowBox[{"j", "[", 
+    RowBox[{
+    "gr0", ",", "1", ",", "1", ",", "1", ",", "1", ",", "0", ",", "0", ",", 
+     "0"}], "]"}]}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"feyVar", "=", 
+   RowBox[{"Table", "[", 
+    RowBox[{
+     RowBox[{"\[Alpha]", "[", "i", "]"}], ",", 
+     RowBox[{"{", 
+      RowBox[{"i", ",", "7"}], "}"}]}], "]"}]}], ";"}], "\n", 
+ RowBox[{"feyVar", "=", 
+  RowBox[{"Pick", "[", 
+   RowBox[{"feyVar", ",", 
+    RowBox[{
+     RowBox[{"msint", "/.", 
+      RowBox[{
+       RowBox[{"j", "[", 
+        RowBox[{"a_", ",", "f___"}], "]"}], "\[RuleDelayed]", " ", 
+       RowBox[{"{", "f", "}"}]}]}], "/.", 
+     RowBox[{"i_", "\[RuleDelayed]", " ", 
+      RowBox[{"1", "/;", 
+       RowBox[{"i", ">", "1"}]}]}]}], ",", "1"}], 
+   "]"}]}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"feyUF", "=", 
+   RowBox[{"FeynParUF", "[", "msint", "]"}]}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"tofeyVar", "=", 
+   RowBox[{"MapThread", "[", 
+    RowBox[{"Rule", ",", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"feyUF", "[", 
+        RowBox[{"[", "2", "]"}], "]"}], ",", "feyVar"}], "}"}]}], "]"}]}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{"intFey", "=", 
+  RowBox[{
+   RowBox[{
+    RowBox[{
+     RowBox[{
+      RowBox[{"feyUF", "[", 
+       RowBox[{"[", "1", "]"}], "]"}], 
+      RowBox[{"DiracDelta", "[", 
+       RowBox[{"1", "-", 
+        RowBox[{"Total", "[", "feyVar", "]"}]}], "]"}]}], "/.", "tofeyVar"}], 
+    "/.", 
+    RowBox[{"pv", "->", "x"}]}], "/.", 
+   RowBox[{"d", "->", "dm1"}]}]}]}], "Input",
+ CellChangeTimes->{{3.883628688510152*^9, 3.8836287078942423`*^9}, {
+  3.8836287582945023`*^9, 3.883628791730426*^9}},
+ CellLabel->"In[21]:=",ExpressionUUID->"134df2e8-d748-4a65-8246-5475d1a9e694"],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{
+   RowBox[{"\[Alpha]", "[", "1", "]"}], ",", 
+   RowBox[{"\[Alpha]", "[", "2", "]"}], ",", 
+   RowBox[{"\[Alpha]", "[", "3", "]"}], ",", 
+   RowBox[{"\[Alpha]", "[", "4", "]"}]}], "}"}]], "Output",
+ CellChangeTimes->{
+  3.883628709910763*^9, {3.883628758804875*^9, 3.883628792462407*^9}, 
+   3.8836291621284647`*^9},
+ CellLabel->"Out[23]=",ExpressionUUID->"c1c6a246-4c8c-4a1b-930c-85401ce875d8"],
+
+Cell[BoxData[
+ RowBox[{
+  SuperscriptBox["4", 
+   RowBox[{"4", "-", "dm1"}]], " ", 
+  RowBox[{"DiracDelta", "[", 
+   RowBox[{
+    RowBox[{"-", "1"}], "+", 
+    RowBox[{"\[Alpha]", "[", "1", "]"}], "+", 
+    RowBox[{"\[Alpha]", "[", "2", "]"}], "+", 
+    RowBox[{"\[Alpha]", "[", "3", "]"}], "+", 
+    RowBox[{"\[Alpha]", "[", "4", "]"}]}], "]"}], " ", 
+  RowBox[{"Gamma", "[", 
+   RowBox[{"4", "-", "dm1"}], "]"}], " ", 
+  SuperscriptBox[
+   RowBox[{"(", 
+    RowBox[{
+     RowBox[{
+      RowBox[{"\[Alpha]", "[", "1", "]"}], " ", 
+      RowBox[{"\[Alpha]", "[", "2", "]"}]}], "+", 
+     RowBox[{
+      RowBox[{"\[Alpha]", "[", "1", "]"}], " ", 
+      RowBox[{"\[Alpha]", "[", "3", "]"}]}], "+", 
+     RowBox[{
+      RowBox[{"\[Alpha]", "[", "2", "]"}], " ", 
+      RowBox[{"\[Alpha]", "[", "3", "]"}]}]}], ")"}], 
+   RowBox[{"4", "-", 
+    FractionBox[
+     RowBox[{"3", " ", "dm1"}], "2"]}]], " ", 
+  SuperscriptBox[
+   RowBox[{"(", 
+    RowBox[{
+     RowBox[{"4", " ", "qq", " ", 
+      RowBox[{"\[Alpha]", "[", "1", "]"}], " ", 
+      RowBox[{"\[Alpha]", "[", "2", "]"}], " ", 
+      RowBox[{"\[Alpha]", "[", "3", "]"}]}], "-", 
+     RowBox[{"x", " ", 
+      RowBox[{"\[Alpha]", "[", "2", "]"}], " ", 
+      SuperscriptBox[
+       RowBox[{"\[Alpha]", "[", "4", "]"}], "2"]}], "-", 
+     RowBox[{"x", " ", 
+      RowBox[{"\[Alpha]", "[", "3", "]"}], " ", 
+      SuperscriptBox[
+       RowBox[{"\[Alpha]", "[", "4", "]"}], "2"]}]}], ")"}], 
+   RowBox[{
+    RowBox[{"-", "4"}], "+", "dm1"}]]}]], "Output",
+ CellChangeTimes->{
+  3.883628709910763*^9, {3.883628758804875*^9, 3.883628792462407*^9}, 
+   3.8836291621476727`*^9},
+ CellLabel->"Out[26]=",ExpressionUUID->"1bab1772-5912-4bb0-9013-436c018cba3a"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Integrate", "[", 
+  RowBox[{
+   RowBox[{
+    RowBox[{
+     RowBox[{
+      RowBox[{"intFey", "/.", 
+       RowBox[{"x", "->", "1"}]}], "/.", 
+      RowBox[{"qq", "->", "1"}]}], "/.", " ", 
+     RowBox[{
+      RowBox[{"DiracDelta", "[", 
+       RowBox[{
+        RowBox[{"-", "1"}], "+", 
+        RowBox[{"\[Alpha]", "[", "1", "]"}], "+", 
+        RowBox[{"\[Alpha]", "[", "2", "]"}], "+", 
+        RowBox[{"\[Alpha]", "[", "3", "]"}], "+", 
+        RowBox[{"\[Alpha]", "[", "4", "]"}]}], "]"}], " ", "->", "1"}]}], "/.",
+     " ", 
+    RowBox[{
+     RowBox[{"\[Alpha]", "[", "2", "]"}], "->", "1"}]}], ",", " ", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"\[Alpha]", "[", "4", "]"}], ",", "0", ",", "\[Infinity]"}], 
+    "}"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.883629262147559*^9, 3.8836294030755167`*^9}, {
+  3.883629434005229*^9, 3.883629444774603*^9}, {3.8836294943170977`*^9, 
+  3.883629496851178*^9}, {3.8836295332198467`*^9, 3.883629533520466*^9}, {
+  3.8836296285035753`*^9, 3.883629632947217*^9}, {3.883629676679296*^9, 
+  3.883629680154748*^9}},
+ CellLabel->"In[36]:=",ExpressionUUID->"6e8c00e0-d48e-4f60-ada4-d614936a27ed"],
+
+Cell[BoxData[
+ TemplateBox[{
+   FractionBox[
+    RowBox[{
+      SqrtBox["\[Pi]"], " ", 
+      RowBox[{"Gamma", "[", 
+        RowBox[{
+          FractionBox["7", "2"], "-", "dm1"}], "]"}], " ", 
+      SuperscriptBox[
+       RowBox[{"(", 
+         RowBox[{
+           RowBox[{"\[Alpha]", "[", "1", "]"}], " ", 
+           RowBox[{"\[Alpha]", "[", "3", "]"}]}], ")"}], 
+       RowBox[{
+         RowBox[{"-", "4"}], "+", "dm1"}]], " ", 
+      SuperscriptBox[
+       RowBox[{"(", 
+         RowBox[{
+           RowBox[{"\[Alpha]", "[", "3", "]"}], "+", 
+           RowBox[{
+             RowBox[{"\[Alpha]", "[", "1", "]"}], " ", 
+             RowBox[{"(", 
+               RowBox[{"1", "+", 
+                 RowBox[{"\[Alpha]", "[", "3", "]"}]}], ")"}]}]}], ")"}], 
+       RowBox[{"4", "-", 
+         FractionBox[
+          RowBox[{"3", " ", "dm1"}], "2"]}]]}], 
+    SqrtBox[
+     RowBox[{"-", 
+       FractionBox[
+        RowBox[{"1", "+", 
+          RowBox[{"\[Alpha]", "[", "3", "]"}]}], 
+        RowBox[{
+          RowBox[{"\[Alpha]", "[", "1", "]"}], " ", 
+          RowBox[{"\[Alpha]", "[", "3", "]"}]}]]}]]], 
+   InterpretationBox[
+    DynamicModuleBox[{Typeset`open = False}, 
+     TemplateBox[{"Expression", 
+       StyleBox[
+        TagBox[
+         TooltipBox["\"condition\"", 
+          TagBox[
+           RowBox[{
+             RowBox[{
+               RowBox[{"2", " ", 
+                 RowBox[{"Re", "[", "dm1", "]"}]}], "<", "7"}], "&&", 
+             RowBox[{
+               RowBox[{"Re", "[", 
+                 RowBox[{
+                   RowBox[{"\[Alpha]", "[", "1", "]"}], " ", 
+                   RowBox[{"\[Alpha]", "[", "3", "]"}]}], "]"}], ">", "0"}], 
+             "&&", 
+             RowBox[{"(", 
+               RowBox[{
+                 RowBox[{
+                   RowBox[{"Re", "[", 
+                    FractionBox[
+                    RowBox[{
+                    RowBox[{"\[Alpha]", "[", "1", "]"}], " ", 
+                    RowBox[{"\[Alpha]", "[", "3", "]"}]}], 
+                    RowBox[{"1", "+", 
+                    RowBox[{"\[Alpha]", "[", "3", "]"}]}]], "]"}], 
+                   "\[LessEqual]", "0"}], "||", 
+                 RowBox[{
+                   FractionBox[
+                    RowBox[{
+                    RowBox[{"\[Alpha]", "[", "1", "]"}], " ", 
+                    RowBox[{"\[Alpha]", "[", "3", "]"}]}], 
+                    RowBox[{"1", "+", 
+                    RowBox[{"\[Alpha]", "[", "3", "]"}]}]], "\[NotElement]", 
+                   TemplateBox[{}, "Reals"]}]}], ")"}]}], Short[#, 7]& ]], 
+         Annotation[#, 
+          Short[
+           And[
+           2 Re[$CellContext`dm1] < 7, 
+            Re[$CellContext`\[Alpha][1] $CellContext`\[Alpha][3]] > 0, 
+            Or[
+            Re[$CellContext`\[Alpha][1] $CellContext`\[Alpha][3]/(
+               1 + $CellContext`\[Alpha][3])] <= 0, 
+             
+             NotElement[$CellContext`\[Alpha][1] $CellContext`\[Alpha][3]/(
+              1 + $CellContext`\[Alpha][3]), Reals]]], 7], "Tooltip"]& ], 
+        "IconizedCustomName", StripOnInput -> False], 
+       GridBox[{{
+          RowBox[{
+            TagBox["\"Head: \"", "IconizedLabel"], "\[InvisibleSpace]", 
+            TagBox["And", "IconizedItem"]}]}, {
+          RowBox[{
+            TagBox["\"Byte count: \"", "IconizedLabel"], "\[InvisibleSpace]", 
+            
+            TagBox["1592", "IconizedItem"]}]}}, 
+        GridBoxAlignment -> {"Columns" -> {{Left}}}, DefaultBaseStyle -> 
+        "Column", 
+        GridBoxItemSize -> {
+         "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}], 
+       Dynamic[Typeset`open]}, "IconizedObject"]], 
+    And[2 Re[$CellContext`dm1] < 7, 
+     Re[$CellContext`\[Alpha][1] $CellContext`\[Alpha][3]] > 0, 
+     Or[Re[$CellContext`\[Alpha][1] $CellContext`\[Alpha][3]/(
+        1 + $CellContext`\[Alpha][3])] <= 0, 
+      NotElement[$CellContext`\[Alpha][1] $CellContext`\[Alpha][3]/(
+       1 + $CellContext`\[Alpha][3]), Reals]]], SelectWithContents -> True, 
+    Selectable -> False]},
+  "ConditionalExpression"]], "Output",
+ CellChangeTimes->{
+  3.883629231713134*^9, 3.883629270019849*^9, {3.8836293335502462`*^9, 
+   3.883629354292736*^9}, 3.88362941477111*^9, 3.883629490711295*^9, 
+   3.883629530303632*^9, 3.883629625411924*^9, 3.8836296591281853`*^9, 
+   3.883629689761201*^9},
+ CellLabel->"Out[36]=",ExpressionUUID->"55b7aba7-fe12-4244-984c-3346c32b8c8c"]
+}, Open  ]],
+
+Cell[BoxData[
+ RowBox[{
+  FractionBox[
+   RowBox[{
+    SqrtBox["\[Pi]"], " ", 
+    RowBox[{"Gamma", "[", 
+     RowBox[{
+      FractionBox["7", "2"], "-", "dm1"}], "]"}], " ", 
+    SuperscriptBox[
+     RowBox[{"(", 
+      RowBox[{
+       RowBox[{"\[Alpha]", "[", "1", "]"}], " ", 
+       RowBox[{"\[Alpha]", "[", "3", "]"}]}], ")"}], 
+     RowBox[{
+      RowBox[{"-", "4"}], "+", "dm1"}]], " ", 
+    SuperscriptBox[
+     RowBox[{"(", 
+      RowBox[{
+       RowBox[{"\[Alpha]", "[", "3", "]"}], "+", 
+       RowBox[{
+        RowBox[{"\[Alpha]", "[", "1", "]"}], " ", 
+        RowBox[{"(", 
+         RowBox[{"1", "+", 
+          RowBox[{"\[Alpha]", "[", "3", "]"}]}], ")"}]}]}], ")"}], 
+     RowBox[{"4", "-", 
+      FractionBox[
+       RowBox[{"3", " ", "dm1"}], "2"]}]]}], 
+   SqrtBox[
+    RowBox[{"-", 
+     FractionBox[
+      RowBox[{"1", "+", 
+       RowBox[{"\[Alpha]", "[", "3", "]"}]}], 
+      RowBox[{
+       RowBox[{"\[Alpha]", "[", "1", "]"}], " ", 
+       RowBox[{"\[Alpha]", "[", "3", "]"}]}]]}]]], "//", 
+  "PowerExpand"}]], "Input",
+ CellChangeTimes->{{3.8836297399106894`*^9, 3.883629744457962*^9}},
+ CellLabel->"In[37]:=",ExpressionUUID->"05ab0a1f-453c-4a27-a4ff-5d5240edc1a2"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Integrate", "[", 
+  RowBox[{
+   RowBox[{"-", 
+    FractionBox[
+     RowBox[{"\[ImaginaryI]", " ", 
+      SqrtBox["\[Pi]"], " ", 
+      RowBox[{"Gamma", "[", 
+       RowBox[{
+        FractionBox["7", "2"], "-", "dm1"}], "]"}], " ", 
+      SuperscriptBox[
+       RowBox[{"\[Alpha]", "[", "1", "]"}], 
+       RowBox[{
+        RowBox[{"-", 
+         FractionBox["7", "2"]}], "+", "dm1"}]], " ", 
+      SuperscriptBox[
+       RowBox[{"\[Alpha]", "[", "3", "]"}], 
+       RowBox[{
+        RowBox[{"-", 
+         FractionBox["7", "2"]}], "+", "dm1"}]], " ", 
+      SuperscriptBox[
+       RowBox[{"(", 
+        RowBox[{
+         RowBox[{"\[Alpha]", "[", "3", "]"}], "+", 
+         RowBox[{
+          RowBox[{"\[Alpha]", "[", "1", "]"}], " ", 
+          RowBox[{"(", 
+           RowBox[{"1", "+", 
+            RowBox[{"\[Alpha]", "[", "3", "]"}]}], ")"}]}]}], ")"}], 
+       RowBox[{"4", "-", 
+        FractionBox[
+         RowBox[{"3", " ", "dm1"}], "2"]}]]}], 
+     SqrtBox[
+      RowBox[{"1", "+", 
+       RowBox[{"\[Alpha]", "[", "3", "]"}]}]]]}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"\[Alpha]", "[", "1", "]"}], ",", "0", ",", "\[Infinity]"}], 
+    "}"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.8836297593665752`*^9, 3.883629776553803*^9}},
+ CellLabel->"In[38]:=",ExpressionUUID->"788bc692-139e-4327-b958-93303d04ac5d"],
+
+Cell[BoxData[
+ TemplateBox[{
+   RowBox[{"-", 
+     FractionBox[
+      RowBox[{"\[ImaginaryI]", " ", 
+        SqrtBox["\[Pi]"], " ", 
+        RowBox[{"Gamma", "[", 
+          RowBox[{
+            FractionBox["7", "2"], "-", "dm1"}], "]"}], " ", 
+        RowBox[{"Gamma", "[", 
+          RowBox[{
+            FractionBox["1", "2"], " ", 
+            RowBox[{"(", 
+              RowBox[{
+                RowBox[{"-", "3"}], "+", "dm1"}], ")"}]}], "]"}], " ", 
+        RowBox[{"Gamma", "[", 
+          RowBox[{
+            RowBox[{"-", 
+              FractionBox["5", "2"]}], "+", "dm1"}], "]"}], " ", 
+        SuperscriptBox[
+         RowBox[{"(", 
+           RowBox[{"1", "+", 
+             FractionBox["1", 
+              RowBox[{"\[Alpha]", "[", "3", "]"}]]}], ")"}], 
+         RowBox[{
+           FractionBox["5", "2"], "-", "dm1"}]], " ", 
+        SuperscriptBox[
+         RowBox[{"\[Alpha]", "[", "3", "]"}], 
+         RowBox[{
+           FractionBox["1", "2"], "-", 
+           FractionBox["dm1", "2"]}]]}], 
+      RowBox[{
+        RowBox[{"Gamma", "[", 
+          RowBox[{
+            RowBox[{"-", "4"}], "+", 
+            FractionBox[
+             RowBox[{"3", " ", "dm1"}], "2"]}], "]"}], " ", 
+        SqrtBox[
+         RowBox[{"1", "+", 
+           RowBox[{"\[Alpha]", "[", "3", "]"}]}]]}]]}], 
+   InterpretationBox[
+    DynamicModuleBox[{Typeset`open = False}, 
+     TemplateBox[{"Expression", 
+       StyleBox[
+        TagBox[
+         TooltipBox["\"condition\"", 
+          TagBox[
+           RowBox[{
+             RowBox[{"(", 
+               RowBox[{
+                 RowBox[{
+                   RowBox[{"Re", "[", 
+                    FractionBox[
+                    RowBox[{"\[Alpha]", "[", "3", "]"}], 
+                    RowBox[{"1", "+", 
+                    RowBox[{"\[Alpha]", "[", "3", "]"}]}]], "]"}], 
+                   "\[GreaterEqual]", "0"}], "||", 
+                 RowBox[{
+                   FractionBox[
+                    RowBox[{"\[Alpha]", "[", "3", "]"}], 
+                    RowBox[{"1", "+", 
+                    RowBox[{"\[Alpha]", "[", "3", "]"}]}]], "\[NotElement]", 
+                   TemplateBox[{}, "Reals"]}]}], ")"}], "&&", 
+             RowBox[{
+               RowBox[{
+                 RowBox[{"(", 
+                   RowBox[{
+                    RowBox[{"-", "5"}], "+", 
+                    RowBox[{"2", " ", "dm1"}]}], ")"}], " ", 
+                 RowBox[{"Arg", "[", 
+                   RowBox[{"1", "+", 
+                    FractionBox["1", 
+                    RowBox[{"\[Alpha]", "[", "3", "]"}]]}], "]"}]}], 
+               "\[LessEqual]", 
+               RowBox[{"2", " ", "\[Pi]"}]}], "&&", 
+             RowBox[{
+               RowBox[{"Re", "[", "dm1", "]"}], ">", "3"}], "&&", 
+             RowBox[{
+               RowBox[{"Re", "[", 
+                 RowBox[{"\[Alpha]", "[", "3", "]"}], "]"}], ">", "0"}]}], 
+           Short[#, 7]& ]], Annotation[#, 
+          Short[
+           And[
+            Or[
+            Re[$CellContext`\[Alpha][3]/(1 + $CellContext`\[Alpha][3])] >= 0, 
+             
+             
+             NotElement[$CellContext`\[Alpha][3]/(
+              1 + $CellContext`\[Alpha][3]), Reals]], (-5 + 
+              2 $CellContext`dm1) Arg[1 + $CellContext`\[Alpha][3]^(-1)] <= 
+            2 Pi, Re[$CellContext`dm1] > 3, Re[
+              $CellContext`\[Alpha][3]] > 0], 7], "Tooltip"]& ], 
+        "IconizedCustomName", StripOnInput -> False], 
+       GridBox[{{
+          RowBox[{
+            TagBox["\"Head: \"", "IconizedLabel"], "\[InvisibleSpace]", 
+            TagBox["And", "IconizedItem"]}]}, {
+          RowBox[{
+            TagBox["\"Byte count: \"", "IconizedLabel"], "\[InvisibleSpace]", 
+            
+            TagBox["1848", "IconizedItem"]}]}}, 
+        GridBoxAlignment -> {"Columns" -> {{Left}}}, DefaultBaseStyle -> 
+        "Column", 
+        GridBoxItemSize -> {
+         "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}], 
+       Dynamic[Typeset`open]}, "IconizedObject"]], 
+    And[
+     Or[Re[$CellContext`\[Alpha][3]/(1 + $CellContext`\[Alpha][3])] >= 0, 
+      NotElement[$CellContext`\[Alpha][3]/(1 + $CellContext`\[Alpha][3]), 
+       Reals]], (-5 + 2 $CellContext`dm1) 
+      Arg[1 + $CellContext`\[Alpha][3]^(-1)] <= 2 Pi, Re[$CellContext`dm1] > 
+     3, Re[
+       $CellContext`\[Alpha][3]] > 0], SelectWithContents -> True, Selectable -> 
+    False]},
+  "ConditionalExpression"]], "Output",
+ CellChangeTimes->{3.883629787834826*^9},
+ CellLabel->"Out[38]=",ExpressionUUID->"c996d169-0590-4a79-935e-04e05ddf8e6f"]
+}, Open  ]],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"-", 
+   FractionBox[
+    RowBox[{"\[ImaginaryI]", " ", 
+     SqrtBox["\[Pi]"], " ", 
+     RowBox[{"Gamma", "[", 
+      RowBox[{
+       FractionBox["7", "2"], "-", "dm1"}], "]"}], " ", 
+     RowBox[{"Gamma", "[", 
+      RowBox[{
+       FractionBox["1", "2"], " ", 
+       RowBox[{"(", 
+        RowBox[{
+         RowBox[{"-", "3"}], "+", "dm1"}], ")"}]}], "]"}], " ", 
+     RowBox[{"Gamma", "[", 
+      RowBox[{
+       RowBox[{"-", 
+        FractionBox["5", "2"]}], "+", "dm1"}], "]"}], " ", 
+     SuperscriptBox[
+      RowBox[{"(", 
+       RowBox[{"1", "+", 
+        FractionBox["1", 
+         RowBox[{"\[Alpha]", "[", "3", "]"}]]}], ")"}], 
+      RowBox[{
+       FractionBox["5", "2"], "-", "dm1"}]], " ", 
+     SuperscriptBox[
+      RowBox[{"\[Alpha]", "[", "3", "]"}], 
+      RowBox[{
+       FractionBox["1", "2"], "-", 
+       FractionBox["dm1", "2"]}]]}], 
+    RowBox[{
+     RowBox[{"Gamma", "[", 
+      RowBox[{
+       RowBox[{"-", "4"}], "+", 
+       FractionBox[
+        RowBox[{"3", " ", "dm1"}], "2"]}], "]"}], " ", 
+     SqrtBox[
+      RowBox[{"1", "+", 
+       RowBox[{"\[Alpha]", "[", "3", "]"}]}]]}]]}], "//", 
+  "FullSimplify"}]], "Input",
+ CellChangeTimes->{{3.88362980234835*^9, 3.883629829397737*^9}},
+ CellLabel->"In[40]:=",ExpressionUUID->"631cf62c-d86f-4359-b683-37b38869f556"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Integrate", "[", 
+  RowBox[{
+   FractionBox[
+    RowBox[{"\[ImaginaryI]", " ", 
+     SuperscriptBox["\[Pi]", 
+      RowBox[{"3", "/", "2"}]], " ", 
+     RowBox[{"Gamma", "[", 
+      RowBox[{
+       FractionBox["1", "2"], " ", 
+       RowBox[{"(", 
+        RowBox[{
+         RowBox[{"-", "3"}], "+", "dm1"}], ")"}]}], "]"}], " ", 
+     RowBox[{"Sec", "[", 
+      RowBox[{"dm1", " ", "\[Pi]"}], "]"}], " ", 
+     SuperscriptBox[
+      RowBox[{"(", 
+       RowBox[{"1", "+", 
+        FractionBox["1", 
+         RowBox[{"\[Alpha]", "[", "3", "]"}]]}], ")"}], 
+      RowBox[{
+       FractionBox["5", "2"], "-", "dm1"}]], " ", 
+     SuperscriptBox[
+      RowBox[{"\[Alpha]", "[", "3", "]"}], 
+      RowBox[{
+       FractionBox["1", "2"], "-", 
+       FractionBox["dm1", "2"]}]]}], 
+    RowBox[{
+     RowBox[{"Gamma", "[", 
+      RowBox[{
+       RowBox[{"-", "4"}], "+", 
+       FractionBox[
+        RowBox[{"3", " ", "dm1"}], "2"]}], "]"}], " ", 
+     SqrtBox[
+      RowBox[{"1", "+", 
+       RowBox[{"\[Alpha]", "[", "3", "]"}]}]]}]], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"\[Alpha]", "[", "3", "]"}], ",", "0", ",", "\[Infinity]"}], 
+    "}"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.883629844128108*^9, 3.883629858991321*^9}},
+ CellLabel->"In[41]:=",ExpressionUUID->"0b5f83e4-7491-4819-bf50-2b1d90c6e6b5"],
+
+Cell[BoxData[
+ TemplateBox[{
+   FractionBox[
+    RowBox[{"\[ImaginaryI]", " ", 
+      SuperscriptBox["\[Pi]", 
+       RowBox[{"3", "/", "2"}]], " ", 
+      SuperscriptBox[
+       RowBox[{"Gamma", "[", 
+         RowBox[{
+           RowBox[{"-", "1"}], "+", 
+           FractionBox["dm1", "2"]}], "]"}], "2"], " ", 
+      RowBox[{"Gamma", "[", 
+        RowBox[{
+          FractionBox["1", "2"], " ", 
+          RowBox[{"(", 
+            RowBox[{
+              RowBox[{"-", "3"}], "+", "dm1"}], ")"}]}], "]"}], " ", 
+      RowBox[{"Sec", "[", 
+        RowBox[{"dm1", " ", "\[Pi]"}], "]"}]}], 
+    RowBox[{
+      RowBox[{"Gamma", "[", 
+        RowBox[{
+          RowBox[{"-", "2"}], "+", "dm1"}], "]"}], " ", 
+      RowBox[{"Gamma", "[", 
+        RowBox[{
+          RowBox[{"-", "4"}], "+", 
+          FractionBox[
+           RowBox[{"3", " ", "dm1"}], "2"]}], "]"}]}]], 
+   RowBox[{
+     RowBox[{"Re", "[", "dm1", "]"}], ">", "2"}]},
+  "ConditionalExpression"]], "Output",
+ CellChangeTimes->{3.883629864750682*^9},
+ CellLabel->"Out[41]=",ExpressionUUID->"587d6ca1-4331-4283-9238-60f35e5719d0"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Series", "[", 
+  RowBox[{
+   RowBox[{
+    FractionBox[
+     RowBox[{"\[ImaginaryI]", " ", 
+      SuperscriptBox["\[Pi]", 
+       RowBox[{"3", "/", "2"}]], " ", 
+      SuperscriptBox[
+       RowBox[{"Gamma", "[", 
+        RowBox[{
+         RowBox[{"-", "1"}], "+", 
+         FractionBox["dm1", "2"]}], "]"}], "2"], " ", 
+      RowBox[{"Gamma", "[", 
+       RowBox[{
+        FractionBox["1", "2"], " ", 
+        RowBox[{"(", 
+         RowBox[{
+          RowBox[{"-", "3"}], "+", "dm1"}], ")"}]}], "]"}], " ", 
+      RowBox[{"Sec", "[", 
+       RowBox[{"dm1", " ", "\[Pi]"}], "]"}]}], 
+     RowBox[{
+      RowBox[{"Gamma", "[", 
+       RowBox[{
+        RowBox[{"-", "2"}], "+", "dm1"}], "]"}], " ", 
+      RowBox[{"Gamma", "[", 
+       RowBox[{
+        RowBox[{"-", "4"}], "+", 
+        FractionBox[
+         RowBox[{"3", " ", "dm1"}], "2"]}], "]"}]}]], "/.", 
+    RowBox[{"dm1", "->", 
+     RowBox[{"4", "-", 
+      RowBox[{"2", "\[Epsilon]"}], "-", "1"}]}]}], ",", 
+   RowBox[{"{", 
+    RowBox[{"\[Epsilon]", ",", "0", ",", "1"}], "}"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.883629879124946*^9, 3.883629930889291*^9}},
+ CellLabel->"In[45]:=",ExpressionUUID->"4d1eb511-74ee-4b40-948b-fece2356a656"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{
+   FractionBox[
+    RowBox[{"\[ImaginaryI]", " ", 
+     SuperscriptBox["\[Pi]", "2"]}], "\[Epsilon]"], "+", 
+   RowBox[{"\[ImaginaryI]", " ", 
+    SuperscriptBox["\[Pi]", 
+     RowBox[{"3", "/", "2"}]], " ", 
+    RowBox[{"(", 
+     RowBox[{
+      RowBox[{
+       RowBox[{"-", "EulerGamma"}], " ", 
+       SqrtBox["\[Pi]"]}], "+", 
+      RowBox[{
+       SqrtBox["\[Pi]"], " ", 
+       RowBox[{"PolyGamma", "[", 
+        RowBox[{"0", ",", 
+         FractionBox["1", "2"]}], "]"}]}]}], ")"}]}], "+", 
+   RowBox[{
+    FractionBox["1", "2"], " ", "\[ImaginaryI]", " ", 
+    SuperscriptBox["\[Pi]", 
+     RowBox[{"3", "/", "2"}]], " ", 
+    RowBox[{"(", 
+     RowBox[{
+      RowBox[{
+       SuperscriptBox["EulerGamma", "2"], " ", 
+       SqrtBox["\[Pi]"]}], "-", 
+      RowBox[{"2", " ", "EulerGamma", " ", 
+       SqrtBox["\[Pi]"], " ", 
+       RowBox[{"PolyGamma", "[", 
+        RowBox[{"0", ",", 
+         FractionBox["1", "2"]}], "]"}]}], "+", 
+      RowBox[{
+       SqrtBox["\[Pi]"], " ", 
+       SuperscriptBox[
+        RowBox[{"PolyGamma", "[", 
+         RowBox[{"0", ",", 
+          FractionBox["1", "2"]}], "]"}], "2"]}]}], ")"}], " ", 
+    "\[Epsilon]"}], "+", 
+   InterpretationBox[
+    SuperscriptBox[
+     RowBox[{"O", "[", "\[Epsilon]", "]"}], "2"],
+    SeriesData[GurobiLink`\[Epsilon], 0, {}, -1, 2, 1],
+    Editable->False]}],
+  SeriesData[
+  GurobiLink`\[Epsilon], 0, {
+   Complex[0, 1] Pi^2, Complex[0, 1] 
+    Pi^Rational[3, 2] (-EulerGamma Pi^Rational[1, 2] + 
+     Pi^Rational[1, 2] PolyGamma[0, 
+        Rational[1, 2]]), Complex[0, 
+      Rational[1, 2]] 
+    Pi^Rational[3, 2] (EulerGamma^2 Pi^Rational[1, 2] - 2 EulerGamma 
+     Pi^Rational[1, 2] PolyGamma[0, 
+       Rational[1, 2]] + Pi^Rational[1, 2] PolyGamma[0, 
+         Rational[1, 2]]^2)}, -1, 2, 1],
+  Editable->False]], "Output",
+ CellChangeTimes->{{3.883629887953477*^9, 3.883629932407411*^9}},
+ CellLabel->"Out[45]=",ExpressionUUID->"b6e09b62-0a25-4f2c-9a97-8bb322a30556"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"sp", "[", 
+  RowBox[{"p4", ",", "p4"}], "]"}]], "Input",
+ CellChangeTimes->{{3.883628973739031*^9, 3.883628980563403*^9}},
+ CellLabel->
+  "In[305]:=",ExpressionUUID->"4dc9bea4-8fbc-4dbc-b18c-167a1b75509d"],
+
+Cell[BoxData["0"], "Output",
+ CellChangeTimes->{3.883628981235486*^9},
+ CellLabel->
+  "Out[305]=",ExpressionUUID->"27f39497-5da3-48ab-a8bb-3dd5dd451a47"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"j", "[", 
+   RowBox[{
+   "gr0", ",", "1", ",", "1", ",", "1", ",", "0", ",", "0", ",", "1", ",", 
+    "0", ",", "0", ",", "0"}], "]"}], "//", "IBPReduce"}]], "Input",
+ CellChangeTimes->{{3.883624082745386*^9, 3.883624090534157*^9}, {
+  3.883624324144705*^9, 3.883624328606695*^9}, {3.883624712060666*^9, 
+  3.8836247246300583`*^9}},
+ CellLabel->
+  "In[227]:=",ExpressionUUID->"9c0f66dd-571d-4728-961f-a387ed3492c0"],
+
+Cell[BoxData["0"], "Output",
+ CellChangeTimes->{
+  3.8836240912344227`*^9, 3.8836242064547253`*^9, 3.883624332120912*^9, {
+   3.8836247167987022`*^9, 3.88362472545977*^9}},
+ CellLabel->
+  "Out[227]=",ExpressionUUID->"c54f359e-baea-4910-b6de-ac3ba5c9f335"]
+}, Open  ]]
+}, Open  ]]
+},
+Evaluator->"IBP1",
+WindowSize->{1263, 785},
+WindowMargins->{{75, Automatic}, {Automatic, 0}},
+TaggingRules->Association["TryRealOnly" -> False],
+Magnification:>1.25 Inherited,
+FrontEndVersion->"12.3 for Mac OS X x86 (64-bit) (June 19, 2021)",
+StyleDefinitions->"Default.nb",
+ExpressionUUID->"d3b93189-99c0-454d-8c85-9779170d5166"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{
+ "Info1933830607465-8510001"->{
+  Cell[42448, 1144, 1203, 19, 142, "Print",ExpressionUUID->"e01bf309-72f3-41c2-b87e-7aa1945255df",
+   CellTags->"Info1933830607465-8510001"]}
+ }
+*)
+(*CellTagsIndex
+CellTagsIndex->{
+ {"Info1933830607465-8510001", 89689, 2418}
+ }
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 280, 5, 64, "Input",ExpressionUUID->"2b6699d2-cbac-492b-b904-18fb35640ea4"],
+Cell[863, 29, 1088, 16, 42, "Output",ExpressionUUID->"7afb7730-c909-4b85-98cc-2de95f7a01da"],
+Cell[1954, 47, 5028, 144, 270, "Print",ExpressionUUID->"a7cfd306-f641-40f9-9e37-3d7ddd2f2b29"],
+Cell[6985, 193, 494, 11, 35, "Message",ExpressionUUID->"758051e7-0429-46f5-953c-da7765b1d959"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[7516, 209, 135, 3, 37, "Input",ExpressionUUID->"3c249571-9c49-45db-988e-755c1f6348cb"],
+Cell[CellGroupData[{
+Cell[7676, 216, 34769, 926, 1635, "Print",ExpressionUUID->"73b4364f-60eb-4c09-be73-f1b275815786"],
+Cell[42448, 1144, 1203, 19, 142, "Print",ExpressionUUID->"e01bf309-72f3-41c2-b87e-7aa1945255df",
+ CellTags->"Info1933830607465-8510001"]
+}, Open  ]]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[43700, 1169, 151, 3, 65, "Section",ExpressionUUID->"b727ec00-d512-4e35-9b74-9cd317f74a53"],
+Cell[CellGroupData[{
+Cell[43876, 1176, 6350, 154, 792, "Input",ExpressionUUID->"59a73aa9-34cd-4093-b834-293429f0b8b1"],
+Cell[50229, 1332, 448, 6, 42, "Output",ExpressionUUID->"784eb893-7b3d-493b-8acc-7cf4afe9b881"],
+Cell[50680, 1340, 446, 6, 42, "Output",ExpressionUUID->"39745064-1119-42f5-92ab-95342351394d"]
+}, Open  ]],
+Cell[51141, 1349, 938, 22, 37, "Input",ExpressionUUID->"7c9bea46-10dc-45f7-a1cf-33169c2e3abd"],
+Cell[CellGroupData[{
+Cell[52104, 1375, 606, 14, 37, "Input",ExpressionUUID->"7f6cd4dc-cc3e-4722-ac14-91123ae79a7e"],
+Cell[CellGroupData[{
+Cell[52735, 1393, 873, 22, 54, "Print",ExpressionUUID->"9bb93915-869e-494b-9bd6-41e86bb23078"],
+Cell[53611, 1417, 914, 22, 29, "Print",ExpressionUUID->"7e6a82a6-4d7a-4d87-a80c-6c06150b23bc"]
+}, Open  ]],
+Cell[54540, 1442, 623, 13, 35, "Message",ExpressionUUID->"189eec5d-40c5-4251-81df-88ddca2f6054"],
+Cell[CellGroupData[{
+Cell[55188, 1459, 784, 11, 198, "Print",ExpressionUUID->"0a6169d6-940e-42c9-8f92-7c66d51f6ac5"],
+Cell[55975, 1472, 416, 7, 78, "Print",ExpressionUUID->"4910ee02-db52-46e7-9137-781bef3ee8cb"],
+Cell[56394, 1481, 363, 6, 29, "Print",ExpressionUUID->"1e41a938-7f07-4e45-8e10-4c87a4432098"],
+Cell[56760, 1489, 753, 11, 174, "Print",ExpressionUUID->"c936bfd1-d7c2-43e3-b413-7e0398f5b12f"],
+Cell[57516, 1502, 887, 13, 174, "Print",ExpressionUUID->"d159da79-14af-411d-93be-bb55168509d5"],
+Cell[58406, 1517, 264, 5, 29, "Print",ExpressionUUID->"7acdafd6-9073-4065-8a0c-e9c273215a5d"],
+Cell[58673, 1524, 264, 5, 29, "Print",ExpressionUUID->"1be18150-db0e-4ef0-9b15-dae846ae433e"],
+Cell[58940, 1531, 567, 14, 29, "Print",ExpressionUUID->"4fd94421-a643-4ab6-a413-215b2e55ba6d"],
+Cell[59510, 1547, 466, 7, 54, "Print",ExpressionUUID->"aa991f23-894f-4be6-ac63-a6e9b428de77"],
+Cell[59979, 1556, 266, 5, 29, "Print",ExpressionUUID->"12ca85e0-eb23-481d-9fb8-e156b1d36997"],
+Cell[60248, 1563, 567, 14, 29, "Print",ExpressionUUID->"77f958c4-f77a-4cab-934f-30121fd60c50"],
+Cell[60818, 1579, 464, 7, 54, "Print",ExpressionUUID->"d96ea931-d97d-4037-80ee-6faef41d7944"],
+Cell[61285, 1588, 264, 5, 29, "Print",ExpressionUUID->"aaf002bb-711b-40c4-a0be-591eae5d5dac"],
+Cell[61552, 1595, 569, 14, 29, "Print",ExpressionUUID->"fd6dada2-91f2-4d76-b2a7-1825b03cadfd"],
+Cell[62124, 1611, 464, 7, 54, "Print",ExpressionUUID->"351a7b4d-c3f8-4ea7-91d2-cb0fbf56198e"]
+}, Open  ]]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[62637, 1624, 209, 4, 31, "Input",ExpressionUUID->"4a882f95-eab2-47f4-b8d8-0a20f9e6a22d"],
+Cell[62849, 1630, 196, 4, 42, "Output",ExpressionUUID->"340cf69a-6f6b-4566-a464-121d266c7927"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[63082, 1639, 210, 4, 37, "Input",ExpressionUUID->"7d23ba14-84b2-4cc0-a557-dde6e72e4115"],
+Cell[63295, 1645, 803, 20, 42, "Output",ExpressionUUID->"95847498-11d8-413b-abc2-6901e366b83e"]
+}, Open  ]],
+Cell[64113, 1668, 154, 3, 37, "Input",ExpressionUUID->"5ac106f5-7302-49d3-869d-ebd712182d9b"],
+Cell[CellGroupData[{
+Cell[64292, 1675, 1802, 54, 168, "Input",ExpressionUUID->"134df2e8-d748-4a65-8246-5475d1a9e694"],
+Cell[66097, 1731, 435, 10, 42, "Output",ExpressionUUID->"c1c6a246-4c8c-4a1b-930c-85401ce875d8"],
+Cell[66535, 1743, 1704, 48, 81, "Output",ExpressionUUID->"1bab1772-5912-4bb0-9013-436c018cba3a"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[68276, 1796, 1164, 29, 37, "Input",ExpressionUUID->"6e8c00e0-d48e-4f60-ada4-d614936a27ed"],
+Cell[69443, 1827, 4394, 109, 106, "Output",ExpressionUUID->"55b7aba7-fe12-4244-984c-3346c32b8c8c"]
+}, Open  ]],
+Cell[73852, 1939, 1191, 37, 97, "Input",ExpressionUUID->"05ab0a1f-453c-4a27-a4ff-5d5240edc1a2"],
+Cell[CellGroupData[{
+Cell[75068, 1980, 1354, 40, 84, InheritFromParent,ExpressionUUID->"788bc692-139e-4327-b958-93303d04ac5d"],
+Cell[76425, 2022, 4540, 116, 104, "Output",ExpressionUUID->"c996d169-0590-4a79-935e-04e05ddf8e6f"]
+}, Open  ]],
+Cell[80980, 2141, 1332, 42, 92, "Input",ExpressionUUID->"631cf62c-d86f-4359-b683-37b38869f556"],
+Cell[CellGroupData[{
+Cell[82337, 2187, 1339, 41, 92, InheritFromParent,ExpressionUUID->"0b5f83e4-7491-4819-bf50-2b1d90c6e6b5"],
+Cell[83679, 2230, 1090, 32, 93, "Output",ExpressionUUID->"587d6ca1-4331-4283-9238-60f35e5719d0"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[84806, 2267, 1224, 36, 80, "Input",ExpressionUUID->"4d1eb511-74ee-4b40-948b-fece2356a656"],
+Cell[86033, 2305, 2000, 58, 111, "Output",ExpressionUUID->"b6e09b62-0a25-4f2c-9a97-8bb322a30556"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[88070, 2368, 229, 5, 37, "Input",ExpressionUUID->"4dc9bea4-8fbc-4dbc-b18c-167a1b75509d"],
+Cell[88302, 2375, 153, 3, 42, "Output",ExpressionUUID->"27f39497-5da3-48ab-a8bb-3dd5dd451a47"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[88492, 2383, 450, 10, 37, "Input",ExpressionUUID->"9c0f66dd-571d-4728-961f-a387ed3492c0"],
+Cell[88945, 2395, 255, 5, 42, "Output",ExpressionUUID->"c54f359e-baea-4910-b6de-ac3ba5c9f335"]
+}, Open  ]]
+}, Open  ]]
+}
+]
+*)
+

@@ -1,0 +1,194 @@
+Last[{{{1, 1, 1, 1, 1, 1, 1, -1, -1}, {0, 0, 0, 0, 0, 0, 0, -1, -1}, 
+   {-1, 0, 0, 0, 0, 0, 0, 0, 0}, {0, -1, 0, 0, 0, 0, 0, 0, 0}, 
+   {0, 0, -1, 0, 0, 0, 0, 0, 0}, {0, 0, 0, -1, 0, 0, 0, 0, 0}, 
+   {0, 0, 0, 0, -1, 0, 0, 0, 0}, {0, 0, 0, 0, 0, -1, 0, 0, 0}, 
+   {0, 0, 0, 0, 0, 0, 0, 1, 0}}, 
+  {j[gr0, (n1_)?Positive, (n2_)?Positive, (n3_)?Positive, (n4_)?Positive, 
+      (n5_)?Positive, (n6_)?Positive, (n7_)?Positive, (n8_)?NonPositive, 
+      (n9_)?NonPositive] /; n4 != 1 :> 
+    (2*n2*j[gr0, n1, 1 + n2, n3, -1 + n4, n5, n6, -1 + n7, n8, n9])/
+      ((-1 + n4)*pv) - (2*n1*j[gr0, 1 + n1, n2, n3, -1 + n4, n5, -1 + n6, n7, 
+        n8, n9])/((-1 + n4)*pv), 
+   j[gr0, (n1_)?Positive, (n2_)?Positive, (n3_)?Positive, (n4_)?Positive, 
+      (n5_)?Positive, (n6_)?Positive, (n7_)?Positive, (n8_)?NonPositive, 
+      (n9_)?NonPositive] /; n4 == 1 && n5 != -1 + n6 + n7 :> 
+    (n5*j[gr0, n1, n2, n3, 1, 1 + n5, -1 + n6, n7, n8, n9])/
+      ((1 + n5 - n6 - n7)*pv) + (n5*j[gr0, n1, n2, n3, 1, 1 + n5, n6, 
+        -1 + n7, n8, n9])/((1 + n5 - n6 - n7)*pv) + 
+     j[gr0, n1, n2, n3, 2, n5, -1 + n6, n7, n8, n9]/((1 + n5 - n6 - n7)*pv), 
+   j[gr0, (n1_)?Positive, (n2_)?Positive, (n3_)?Positive, (n4_)?Positive, 
+      (n5_)?Positive, (n6_)?Positive, (n7_)?Positive, (n8_)?NonPositive, 
+      (n9_)?NonPositive] /; n4 == 1 && n5 == -1 + n6 + n7 && 
+       !(n1 == 1 || n8 == 0) :> 
+    ((-1 - 2*d + 2*n1 + 2*n2 + 2*n3 + 2*n6 + 2*n7 + n8 + n9)*
+       j[gr0, -1 + n1, n2, n3, 1, -1 + n6 + n7, n6, n7, 1 + n8, n9])/
+      (2*(-1 + n1)) - ((1 + n8)*qq*j[gr0, -1 + n1, n2, n3, 1, -1 + n6 + n7, 
+        n6, n7, 2 + n8, n9])/(2*(-1 + n1)), 
+   j[gr0, (n1_)?Positive, (n2_)?Positive, (n3_)?Positive, (n4_)?Positive, 
+      (n5_)?Positive, (n6_)?Positive, (n7_)?Positive, (n8_)?NonPositive, 
+      (n9_)?NonPositive] /; n4 == 1 && n5 == -1 + n6 + n7 && n8 == 0 && 
+       !(n1 == 1 || n9 == 0) :> 
+    ((2 + d - n1 - 2*n3 - 2*n6 - n7)*j[gr0, -1 + n1, n2, n3, 1, -1 + n6 + n7, 
+        n6, n7, 0, 1 + n9])/(2*(-1 + n1)) - 
+     (n6*j[gr0, -1 + n1, n2, n3, 1, -1 + n6 + n7, 1 + n6, -1 + n7, 0, 
+        1 + n9])/(2*(-1 + n1)) - j[gr0, -1 + n1, n2, n3, 2, -2 + n6 + n7, n6, 
+       n7, 0, 1 + n9]/(2*(-1 + n1)) + j[gr0, n1, -1 + n2, n3, 1, 
+       -1 + n6 + n7, n6, n7, 0, 1 + n9]/2 - 
+     j[gr0, n1, n2, -1 + n3, 1, -1 + n6 + n7, n6, n7, 0, 1 + n9]/2 + 
+     (qq*j[gr0, n1, n2, n3, 1, -1 + n6 + n7, n6, n7, 0, 1 + n9])/2, 
+   j[gr0, (n1_)?Positive, (n2_)?Positive, (n3_)?Positive, (n4_)?Positive, 
+      (n5_)?Positive, (n6_)?Positive, (n7_)?Positive, (n8_)?NonPositive, 
+      (n9_)?NonPositive] /; n1 == 1 && n4 == 1 && n5 == -1 + n6 + n7 && 
+       !(n2 == 1 || n8 == 0) :> j[gr0, 0, n2, n3, 1, -1 + n6 + n7, n6, n7, 
+       1 + n8, n9]/2 - (n7*j[gr0, 1, -1 + n2, n3, 1, -1 + n6 + n7, -1 + n6, 
+        1 + n7, 1 + n8, n9])/(2*(-1 + n2)) - 
+     (n9*j[gr0, 1, -1 + n2, n3, 1, -1 + n6 + n7, n6, n7, n8, 1 + n9])/
+      (2*(-1 + n2)) + ((2 + d - n2 - 2*n3 - n6 - 2*n7 - n9)*
+       j[gr0, 1, -1 + n2, n3, 1, -1 + n6 + n7, n6, n7, 1 + n8, n9])/
+      (2*(-1 + n2)) + (n9*qq*j[gr0, 1, -1 + n2, n3, 1, -1 + n6 + n7, n6, n7, 
+        1 + n8, 1 + n9])/(2*(-1 + n2)) - 
+     j[gr0, 1, n2, -1 + n3, 1, -1 + n6 + n7, n6, n7, 1 + n8, n9]/2 + 
+     (qq*j[gr0, 1, n2, n3, 1, -1 + n6 + n7, n6, n7, 1 + n8, n9])/2, 
+   j[gr0, (n1_)?Positive, (n2_)?Positive, (n3_)?Positive, (n4_)?Positive, 
+      (n5_)?Positive, (n6_)?Positive, (n7_)?Positive, (n8_)?NonPositive, 
+      (n9_)?NonPositive] /; n4 == 1 && n5 == -1 + n6 + n7 && n8 == 0 && 
+      n9 == 0 && n6 != 1 :> 
+    (-2*n3*j[gr0, n1, n2, 1 + n3, 1, -2 + n6 + n7, -1 + n6, n7, 0, 0])/
+      ((-1 + n6)*pv) + (2*n3*j[gr0, n1, n2, 1 + n3, 1, -1 + n6 + n7, -2 + n6, 
+        n7, 0, 0])/((-1 + n6)*pv^2) + 
+     (2*n3*j[gr0, n1, n2, 1 + n3, 1, -1 + n6 + n7, -1 + n6, -1 + n7, 0, 0])/
+      ((-1 + n6)*pv^2) - (2*n1*j[gr0, 1 + n1, n2, n3, 0, -1 + n6 + n7, 
+        -1 + n6, n7, 0, 0])/((-1 + n6)*pv) + 
+     (2*n1*j[gr0, 1 + n1, n2, n3, 1, -1 + n6 + n7, -2 + n6, n7, 0, 0])/
+      ((-1 + n6)*pv^2), j[gr0, (n1_)?Positive, (n2_)?Positive, 
+      (n3_)?Positive, (n4_)?Positive, (n5_)?Positive, (n6_)?Positive, 
+      (n7_)?Positive, (n8_)?NonPositive, (n9_)?NonPositive] /; 
+     n1 == 1 && n4 == 1 && n5 == -1 + n6 + n7 && n8 == 0 && 
+       !(n2 == 1 || n9 == 0) :> ((1 - 2*d + 2*n2 + 2*n3 + 2*n6 + 2*n7 + n9)*
+       j[gr0, 1, -1 + n2, n3, 1, -1 + n6 + n7, n6, n7, 0, 1 + n9])/
+      (2*(-1 + n2)) - ((1 + n9)*qq*j[gr0, 1, -1 + n2, n3, 1, -1 + n6 + n7, 
+        n6, n7, 0, 2 + n9])/(2*(-1 + n2)), 
+   j[gr0, (n1_)?Positive, (n2_)?Positive, (n3_)?Positive, (n4_)?Positive, 
+      (n5_)?Positive, (n6_)?Positive, (n7_)?Positive, (n8_)?NonPositive, 
+      (n9_)?NonPositive] /; n1 == 1 && n2 == 1 && n4 == 1 && 
+      n5 == -1 + n6 + n7 &&  !(n3 == 1 || n8 == 0) :> 
+    j[gr0, 0, 1, n3, 1, -1 + n6 + n7, n6, n7, 1 + n8, n9]/2 - 
+     j[gr0, 1, 0, n3, 1, -1 + n6 + n7, n6, n7, 1 + n8, n9]/2 + 
+     ((-1 + n6 + n7)*j[gr0, 1, 1, -1 + n3, 0, n6 + n7, n6, n7, 1 + n8, n9])/
+      (2*(-1 + n3)) + ((d - n3 - n6 - 2*n7 - n9)*j[gr0, 1, 1, -1 + n3, 1, 
+        -1 + n6 + n7, n6, n7, 1 + n8, n9])/(2*(-1 + n3)) + 
+     (qq*j[gr0, 1, 1, n3, 1, -1 + n6 + n7, n6, n7, 1 + n8, n9])/2, 
+   j[gr0, (n1_)?Positive, (n2_)?Positive, (n3_)?Positive, (n4_)?Positive, 
+      (n5_)?Positive, (n6_)?Positive, (n7_)?Positive, (n8_)?NonPositive, 
+      (n9_)?NonPositive] /; n4 == 1 && n5 == n7 && n6 == 1 && n8 == 0 && 
+      n9 == 0 && n7 != 1 :> 
+    (-2*n3*j[gr0, n1, n2, 1 + n3, 1, -1 + n7, 1, -1 + n7, 0, 0])/
+      ((-1 + n7)*pv) + (2*n3*j[gr0, n1, n2, 1 + n3, 1, n7, 0, -1 + n7, 0, 0])/
+      ((-1 + n7)*pv^2) + (2*n3*j[gr0, n1, n2, 1 + n3, 1, n7, 1, -2 + n7, 0, 
+        0])/((-1 + n7)*pv^2) + (2*n2*j[gr0, n1, 1 + n2, n3, 0, n7, 1, 
+        -1 + n7, 0, 0])/((-1 + n7)*pv) - 
+     (2*n2*j[gr0, n1, 1 + n2, n3, 1, -1 + n7, 1, -1 + n7, 0, 0])/
+      ((-1 + n7)*pv) + (2*n2*j[gr0, n1, 1 + n2, n3, 1, n7, 1, -2 + n7, 0, 0])/
+      ((-1 + n7)*pv^2), j[gr0, (n1_)?Positive, (n2_)?Positive, 
+      (n3_)?Positive, (n4_)?Positive, (n5_)?Positive, (n6_)?Positive, 
+      (n7_)?Positive, (n8_)?NonPositive, (n9_)?NonPositive] /; 
+     n1 == 1 && n2 == 1 && n4 == 1 && n5 == -1 + n6 + n7 && n8 == 0 && 
+       !(n3 == 1 || n9 == 0) :> -1/2*j[gr0, 0, 1, n3, 1, -1 + n6 + n7, n6, 
+       n7, 0, 1 + n9] + j[gr0, 1, 0, n3, 1, -1 + n6 + n7, n6, n7, 0, 1 + n9]/
+      2 + ((1 - n6 - n7)*j[gr0, 1, 1, -1 + n3, 0, n6 + n7, n6, n7, 0, 
+        1 + n9])/(2*(-1 + n3)) + ((-2 + d - n3 - n6)*j[gr0, 1, 1, -1 + n3, 1, 
+        -1 + n6 + n7, n6, n7, 0, 1 + n9])/(2*(-1 + n3)) + 
+     (qq*j[gr0, 1, 1, n3, 1, -1 + n6 + n7, n6, n7, 0, 1 + n9])/2, 
+   j[gr0, (n1_)?Positive, (n2_)?Positive, (n3_)?Positive, (n4_)?Positive, 
+      (n5_)?Positive, (n6_)?Positive, (n7_)?Positive, (n8_)?NonPositive, 
+      (n9_)?NonPositive] /; n1 == 1 && n2 == 1 && n3 == 1 && n4 == 1 && 
+      n5 == -1 + n6 + n7 && n6 != 1 :> 
+    (-2*j[gr0, 1, 1, 2, 1, -2 + n6 + n7, -1 + n6, n7, n8, n9])/
+      ((-1 + n6)*pv) + (2*j[gr0, 1, 1, 2, 1, -1 + n6 + n7, -2 + n6, n7, n8, 
+        n9])/((-1 + n6)*pv^2) + (2*j[gr0, 1, 1, 2, 1, -1 + n6 + n7, -1 + n6, 
+        -1 + n7, n8, n9])/((-1 + n6)*pv^2) - 
+     (2*j[gr0, 2, 1, 1, 0, -1 + n6 + n7, -1 + n6, n7, n8, n9])/
+      ((-1 + n6)*pv) + (2*j[gr0, 2, 1, 1, 1, -1 + n6 + n7, -2 + n6, n7, n8, 
+        n9])/((-1 + n6)*pv^2), 
+   j[gr0, (n1_)?Positive, (n2_)?Positive, (n3_)?Positive, (n4_)?Positive, 
+      (n5_)?Positive, (n6_)?Positive, (n7_)?Positive, (n8_)?NonPositive, 
+      (n9_)?NonPositive] /; n1 == 1 && n2 == 1 && n3 == 1 && n4 == 1 && 
+      n5 == n7 && n6 == 1 && n7 != 1 :> 
+    (-2*j[gr0, 1, 1, 2, 1, -1 + n7, 1, -1 + n7, n8, n9])/((-1 + n7)*pv) + 
+     (2*j[gr0, 1, 1, 2, 1, n7, 0, -1 + n7, n8, n9])/((-1 + n7)*pv^2) + 
+     (2*j[gr0, 1, 1, 2, 1, n7, 1, -2 + n7, n8, n9])/((-1 + n7)*pv^2) + 
+     (2*j[gr0, 1, 2, 1, 0, n7, 1, -1 + n7, n8, n9])/((-1 + n7)*pv) - 
+     (2*j[gr0, 1, 2, 1, 1, -1 + n7, 1, -1 + n7, n8, n9])/((-1 + n7)*pv) + 
+     (2*j[gr0, 1, 2, 1, 1, n7, 1, -2 + n7, n8, n9])/((-1 + n7)*pv^2), 
+   j[gr0, (n1_)?Positive, (n2_)?Positive, (n3_)?Positive, (n4_)?Positive, 
+      (n5_)?Positive, (n6_)?Positive, (n7_)?Positive, (n8_)?NonPositive, 
+      (n9_)?NonPositive] /; n4 == 1 && n5 == 1 && n6 == 1 && n7 == 1 && 
+      n8 == 0 && n9 == 0 && n3 != 1 :> j[gr0, n1, n2, n3, 1, 1, 0, 2, 0, 0]/
+      (-2 + d - 2*n3) - (n2*j[gr0, n1, 1 + n2, -1 + n3, 0, 2, 1, 1, 0, 0])/
+      ((-1 + n3)*(2 - d + 2*n3)) - 
+     (n2*(4 - d + 2*n2)*j[gr0, n1, 1 + n2, -1 + n3, 1, 1, 1, 1, 0, 0])/
+      ((-2 + d - 2*n3)*(-1 + n3)), 
+   j[gr0, (n1_)?Positive, (n2_)?Positive, (n3_)?Positive, (n4_)?Positive, 
+      (n5_)?Positive, (n6_)?Positive, (n7_)?Positive, (n8_)?NonPositive, 
+      (n9_)?NonPositive] /; n3 == 1 && n4 == 1 && n5 == 1 && n6 == 1 && 
+      n7 == 1 && n8 == 0 && n9 == 0 &&  !(n1 == 1 || n2 == 1) :> 
+    ((5 - 2*d + n1 + 2*n2)*j[gr0, -1 + n1, n2, 1, 1, 1, 1, 1, 0, 0])/
+      ((-1 + n1)*qq) + j[gr0, n1, -1 + n2, 1, 1, 1, 0, 2, 0, 0]/
+      ((-1 + n2)*qq) + ((3 - d + n2)*j[gr0, n1, -1 + n2, 1, 1, 1, 1, 1, 0, 
+        0])/((-1 + n2)*qq) + j[gr0, n1, n2, 0, 1, 1, 1, 1, 0, 0]/qq, 
+   j[gr0, (n1_)?Positive, (n2_)?Positive, (n3_)?Positive, (n4_)?Positive, 
+      (n5_)?Positive, (n6_)?Positive, (n7_)?Positive, (n8_)?NonPositive, 
+      (n9_)?NonPositive] /; n1 == 1 && n2 == 1 && n3 == 1 && n4 == 1 && 
+      n5 == 1 && n6 == 1 && n7 == 1 && n9 != 0 :> 
+    ((-6 + d - 2*n9)*j[gr0, 1, 1, 1, 1, 1, 1, 1, -1 + n8, 1 + n9])/
+      (-4 + d - 2*n8) + ((-6 + d - n9)*(1 + n9)*qq*j[gr0, 1, 1, 1, 1, 1, 1, 
+        1, -1 + n8, 2 + n9])/((-4 + d - 2*n8)*(-10 + 2*d - n8 - n9)) - 
+     ((-5 + d - n8)*n8*qq*j[gr0, 1, 1, 1, 1, 1, 1, 1, 1 + n8, n9])/
+      ((-4 + d - 2*n8)*(-10 + 2*d - n8 - n9)) - 
+     (2*j[gr0, 1, 2, 1, 1, 1, 2, 0, -1 + n8, n9])/((-4 + d - 2*n8)*
+       (-10 + 2*d - n8 - n9)) - (2*j[gr0, 1, 2, 1, 2, 0, 1, 1, -1 + n8, n9])/
+      ((-4 + d - 2*n8)*(-10 + 2*d - n8 - n9)) + 
+     (2*j[gr0, 2, 1, 1, 1, 1, 0, 2, -1 + n8, n9])/((-4 + d - 2*n8)*
+       (-10 + 2*d - n8 - n9)), 
+   j[gr0, (n1_)?Positive, (n2_)?Positive, (n3_)?Positive, (n4_)?Positive, 
+      (n5_)?Positive, (n6_)?Positive, (n7_)?Positive, (n8_)?NonPositive, 
+      (n9_)?NonPositive] /; n2 == 1 && n3 == 1 && n4 == 1 && n5 == 1 && 
+      n6 == 1 && n7 == 1 && n8 == 0 && n9 == 0 && n1 != 1 :> 
+    -(((-10 + 3*d - 2*n1)*(-3 + d - n1)*j[gr0, -1 + n1, 1, 1, 1, 1, 1, 1, 0, 
+         0])/((-2 + d - 2*n1)*(-1 + n1)*qq)) + 
+     ((4 - d)*j[gr0, -1 + n1, 1, 1, 1, 1, 2, 0, 0, 0])/
+      ((-2 + d - 2*n1)*(-1 + n1)*qq) + 
+     ((4 - d)*j[gr0, -1 + n1, 1, 1, 2, 0, 1, 1, 0, 0])/
+      ((-2 + d - 2*n1)*(-1 + n1)*qq) + 
+     ((-4 + d)*j[gr0, n1, 0, 1, 1, 1, 1, 1, 0, 0])/((-2 + d - 2*n1)*qq) + 
+     ((4 - d)*j[gr0, n1, 1, 0, 1, 1, 1, 1, 0, 0])/((-2 + d - 2*n1)*qq) - 
+     (2*j[gr0, n1, 1, 1, 1, 1, 0, 2, 0, -1])/((-2 + d - 2*n1)*qq) - 
+     (2*j[gr0, n1, 2, 0, 1, 1, 1, 1, 0, -1])/((-2 + d - 2*n1)*qq), 
+   j[gr0, (n1_)?Positive, (n2_)?Positive, (n3_)?Positive, (n4_)?Positive, 
+      (n5_)?Positive, (n6_)?Positive, (n7_)?Positive, (n8_)?NonPositive, 
+      (n9_)?NonPositive] /; n1 == 1 && n3 == 1 && n4 == 1 && n5 == 1 && 
+      n6 == 1 && n7 == 1 && n8 == 0 && n9 == 0 && n2 != 1 :> 
+    j[gr0, 1, n2, 1, 1, 1, 2, 0, 0, 0]/(2 - d + 2*n2) + 
+     j[gr0, 1, n2, 1, 2, 0, 1, 1, 0, 0]/(2 - d + 2*n2) + 
+     j[gr0, 2, -1 + n2, 1, 1, 1, 0, 2, 0, 0]/((-2 + d - 2*n2)*(-1 + n2)) + 
+     ((-6 + d)*j[gr0, 2, -1 + n2, 1, 1, 1, 1, 1, 0, 0])/
+      ((-2 + d - 2*n2)*(-1 + n2)), 
+   j[gr0, (n1_)?Positive, (n2_)?Positive, (n3_)?Positive, (n4_)?Positive, 
+      (n5_)?Positive, (n6_)?Positive, (n7_)?Positive, (n8_)?NonPositive, 
+      (n9_)?NonPositive] /; n1 == 1 && n2 == 1 && n3 == 1 && n4 == 1 && 
+      n5 == 1 && n6 == 1 && n7 == 1 && n9 == 0 && n8 != 0 :> 
+    (-2*j[gr0, 0, 2, 1, 1, 1, 1, 1, 1 + n8, -1])/(-14 + 3*d - 2*n8) + 
+     (2*j[gr0, 1, 1, 1, 1, 1, 0, 2, 1 + n8, -1])/(-14 + 3*d - 2*n8) + 
+     ((46*qq - 19*d*qq + 2*d^2*qq + 16*n8*qq - 3*d*n8*qq + 2*n8^2*qq)*
+       j[gr0, 1, 1, 1, 1, 1, 1, 1, 1 + n8, 0])/(2*(-14 + 3*d - 2*n8)*
+       (-5 + d - n8)) + ((-4 + d)*(1 + n8)*qq*j[gr0, 1, 1, 1, 1, 1, 1, 1, 
+        2 + n8, -1])/((-14 + 3*d - 2*n8)*(-5 + d - n8)) - 
+     ((-4 + d)*(1 + n8)*qq^2*j[gr0, 1, 1, 1, 1, 1, 1, 1, 2 + n8, 0])/
+      (2*(-14 + 3*d - 2*n8)*(-5 + d - n8)) + 
+     ((4 - d)*j[gr0, 1, 1, 1, 1, 1, 2, 0, n8, 0])/((-14 + 3*d - 2*n8)*
+       (-5 + d - n8)) + ((4 - d)*j[gr0, 1, 1, 1, 2, 0, 1, 1, n8, 0])/
+      ((-14 + 3*d - 2*n8)*(-5 + d - n8)) + 
+     (2*j[gr0, 1, 2, 0, 1, 1, 1, 1, 1 + n8, -1])/(-14 + 3*d - 2*n8) + 
+     ((-4 + d)*j[gr0, 2, 0, 1, 1, 1, 1, 1, n8, 0])/((-14 + 3*d - 2*n8)*
+       (-5 + d - n8)) + ((4 - d)*j[gr0, 2, 1, 0, 1, 1, 1, 1, n8, 0])/
+      ((-14 + 3*d - 2*n8)*(-5 + d - n8))}}]
